@@ -79,6 +79,9 @@ Note:
   * Define child components ("What am I composed of?") and pass props to child components.
 
 
+![](resources/2015-05-13/images/ReRender.jpg)
+
+
 ## How does this differ from Traditional View Layers (e.g. Backbone)?
 * Imagine a 'Form' View
 * We've submitted the form and received a response from the server.
