@@ -1,0 +1,25 @@
+{
+  "name": "notes",
+  "version": "0.0.0",
+  "description": "I got some thoughts. I do some research. I learn some things. I write them down",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/nmielnik/notes"
+  },
+  "author": "Nate Mielnik",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^5.0.0",
+    "ejs": "^2.0.0",
+    "express": "^4.0.0",
+    "reveal.js": "^3.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/nmielnik/notes/issues"
+  },
+  "homepage": "http://github.com/nmielnik/notes"
+}
