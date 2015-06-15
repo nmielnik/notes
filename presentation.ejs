@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Notes</title>
+    <title><%= presentationTitle %></title>
     <link rel="stylesheet" href="./node_modules/reveal.js/css/reveal.css">
     <% if (printable) { %>
       <link rel="stylesheet" href="./node_modules/reveal.js/css/print/pdf.css">
@@ -13,12 +13,11 @@
   <body>
     <div class="reveal">
       <div class="slides">
-        <section
-          data-markdown="<%= presentationFile %>"
-          data-separator="^\n\n\n"
-          data-separator-vertical="^\n\n"
-          data-separator-notes="^Note:"
-        >
+        <section data-markdown="<%= presentationFile %>"
+                 data-separator="^(\r\n\r\n\r\n|\n\n\n)"
+                 data-separator-vertical="^(\r\n\r\n|\n\n)"
+                 data-separator-notes="^Note:"
+                 data-charset="iso-8859-15">
         </section>
       </div>
     </div>

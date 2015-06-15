@@ -21,6 +21,10 @@ var presentationFile = invokeArgs.match(/(?:presentationFile=)(.[^\s]+)\s?/) &&
   invokeArgs.match(/(?:presentationFile=)(.[^\s]+)\s?/)[1] ||
   '';
 
+var presentationTitle = invokeArgs.match(/(?:presentationTitle=)(.[^\s]+)\s?/) &&
+  invokeArgs.match(/(?:presentationTitle=)(.[^\s]+)\s?/)[1] ||
+  'Notes';
+
 var presentationDir = path.dirname(path.resolve(process.cwd() + '/' + presentationFile));
 
 var theme = invokeArgs.match(/(?:theme=)(.[^\s]+)\s?/) &&
@@ -52,6 +56,7 @@ app.get('/', function(req, res){
     }, JSON.parse(revealOptions))),
     presentationFile: presentationFile,
     theme: theme,
+    presentationTitle: presentationTitle,
     printable: (typeof req.query['print-pdf'] !== "undefined")
   });
 });
