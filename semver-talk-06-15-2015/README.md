@@ -224,13 +224,19 @@ METAFONT, Version $e$
 
 
 ## What's Good
-[Talk about Good Things]
+* Comparing your current version to another version
+* Can raise confidence about taking latest versions
+* Part of the contract of having npm modules
+* Well established and fairly agreed upon
+* Forces you to think through everything about your release
+  * Will this break people?
+  * How can I change this but not require a major release?
 
 
 
 ## What's Bad
-[Talk about Bad Thigns]
-[Humans choose releases, so it's not gonna be perfect]
+* Can create a false sense of security
+  * People are ultimately making the call, and people make mistakes
 
 
 ## Jeremy Ashkenas is not a fan
@@ -243,6 +249,7 @@ METAFONT, Version $e$
 
 
 ## Interesting Cases
+* Gray area between the "dots"
 * Changes to extendable objects
   * What if Backbone Models had a new built-in method named 'render'?
   * What if React exposed a new life-cycle method?
@@ -254,11 +261,16 @@ METAFONT, Version $e$
 
 
 ## Medium-Editor
-[Talk about deprecated methods]
-[Talk about reducing API surface area]
-[Talk about utility methods]
-[Talk about base classes]
-[Talk about bulding up to a major release]
+* <!-- .element class="fragment" -->All versions before 4.0 were not following SemVer
+* <!-- .element class="fragment" -->Had to greatly reduce API surface area
+  * Found not awesome ways to make things be 'private'
+* <!-- .element class="fragment" -->4.0.0 was actual beginning of our SemVer practice
+* <!-- .element class="fragment" -->Deprecated methods are annoying and lots of baggage
+* <!-- .element class="fragment" -->Exposing Utility methods can be good and bad
+* <!-- .element class="fragment" -->Base classes
+  * Lifecycle methods
+  * Methods the editor expects to be there (or not be there)
+* <!-- .element class="fragment" -->Prepping for a major release with lots of changes is really hard
 
 
 
