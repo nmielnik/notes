@@ -34,7 +34,12 @@ var theme = invokeArgs.match(/(?:theme=)(.[^\s]+)\s?/) &&
 try {
   fs.openSync(process.cwd() + '/' + theme, 'r');
 } catch (error) {
-  theme = './node_modules/reveal.js/css/theme/black.css';
+  theme = './node_modules/reveal.js/css/theme/' + theme + '.css';
+  try {
+    fs.openSync(theme, 'r');
+  } catch (err) {
+    theme = './node_modules/reveal.js/css/theme/black.css';
+  }
 }
 
 app.engine('html', require('ejs').renderFile);
