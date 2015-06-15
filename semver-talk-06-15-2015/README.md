@@ -1,5 +1,5 @@
 ### Version 0.1.0 of my Semantic Versioning Knowledge
-Semantic Versioning has a website: [Semantic Version](http://semver.org/)
+Semantic Versioning has a website/spec: [Semantic Version](http://semver.org/)
 
 
 
@@ -12,13 +12,16 @@ Semantic Versioning has a website: [Semantic Version](http://semver.org/)
 
 
 
-## Software Versioning
-* [What it is goes here]
+## Why Have Version Numbers?
+* Give a bunch of code a name or unique identifier
+* Used for keeping track of incrementally different versions of electronic information, whether or not this information is computer software.
+* Used by consumer, or client, to compare their copy of the software product against another copy.
+* Used by support to ascertain exactly what code a user is running.
 
 
 
-## Example: Increasing Numbers/Letters
-* Every build, generate an increasing number
+## Example: Increasing Number
+* Every build, generate an increasing number (ie Build Number)
 * Easy to implement
 * Can't tell much about features or compatability looking at the version number
 
@@ -87,8 +90,23 @@ METAFONT, Version $e$
   * X = major
   * Y = minor
   * Z = patch/revisioning
-* npm packages use this (well, they're supposed to anyway) 
-* There is an established standard
+* npm uses this (well, they're supposed to anyway)
+* Major.Minor.Patch is a pretty common syntax
+
+
+
+## Define Your API
+* What are the public facing pieces of your application?
+* Definitely API:
+  * Endpoints used to initialize or interact with your code
+  * Public methods on your core application
+
+
+
+## Major Version
+* Any change to API methods which are not backward compatible require a major version increase
+* 
+
 
 
 
