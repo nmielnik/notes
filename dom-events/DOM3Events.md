@@ -143,8 +143,12 @@
     * Time (milliseconds since epoch) when event was created
   * `type` (DOMString)
 * DOM 4 Attributes
-  * `defaultPrevented`
-  * `isTrusted`
+  * `defaultPrevented` (boolean)
+    * IE9 | Chrome 18 | Firefox 6 | Safari 5 | Opera 11
+  * `isTrusted` (boolean)
+    * Firefox: TRUE = invoked by user | FALSE = invoked by script
+    * IE: All are trusted except those created with `createEvent()`
+    * Chrome: NOT SUPPORTED
 
 #### Event Methods
 * DOM 2 Methods (no return values)
@@ -156,13 +160,17 @@
 * DOM 4 Methods
   * `stopImmediatePropagation()`
     * Stop event from reaching any other event listeners
+    * IE9 | Chrome | Firefox | Safari | Opera
   
 
+#### Event Constants
 * Constants (for eventPhase)
-  * `NONE`
+* DOM 2 Constants
   * `CAPTURING_PHASE`
   * `AT_TARGET`
   * `BUBBLING_PHASE`
+* DOM 4 Constants
+  * `NONE`
 
 
 ### CustomEvent (inherits from Event)
