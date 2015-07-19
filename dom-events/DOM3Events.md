@@ -3,6 +3,27 @@
 
 
 
+## Conformance
+* A browser conforms if it supports:
+  * The DOM3 Core Spec
+  * The 3 Event Phases
+  * All interfaces and events in this spec
+  * Complete set of [key](http://www.w3.org/TR/DOM-Level-3-Events-key/) and [code](http://www.w3.org/TR/DOM-Level-3-Events-code/) values
+* Conforming browser must dispatch events of the right type for the right target
+* A browser conforms if it implements interfaces and event types specified in [Event Types](http://www.w3.org/TR/DOM-Level-3-Events/#event-types)
+* Conforming browser must support scripting, declarative interactivity, or some other means of detecting and dispatching events
+
+
+
+## Dispatch Events
+* `EventTarget.dispatchEvent()` dispatches events
+* Propagation path determined before starting phases, it CANNOT change
+* Event listeners are not copied over when Nodes are copied (`Node.cloneNode()` or `Range.cloneContents()`)
+* Exceptions thrown inside listeners don't affect propagation or path.
+* Exceptions thrown inside listeners should not propagate outside scope of handler
+
+
+
 ## 3 Event Phases:
 
 1. Capture Phase (window -> target parent)
@@ -14,6 +35,10 @@
 * All events must support Capture + Target phase
   * Some event types may not have a bubble phase
 * Events are synchronous, so if during the event phase, the event fires another event, it must way for that events entire event phase to complete before it resumes its own event phase
+
+
+### Diagram
+![DOM Event Flow](http://www.w3.org/TR/DOM-Level-3-Events/eventflow.svg)
 
 
 
@@ -39,6 +64,9 @@
   * Preventing default action means none of these can happen
 * Except for a few exceptional cases, default action should not happen until the event dispatch completes
   * Interesting counter-example: Clicks on checkboxes toggle 'checked' before the event is processed.  If default action is prevented, the value is restored to its original state
+* **NOTE:** Many implementation look at event listener return value for cancelling default action (return `false` -> cancel default action)
+  * `window.onerror` are cancelled by returning `true`!?
+* **NOTE:** Some cancelable events not have any observable default action (`mousemove`)
 
 
 
@@ -117,6 +145,7 @@
 ## Event Interfaces
 [!Interface Diagram](http://www.w3.org/TR/DOM-Level-3-Events/event-inheritance.svg)
 
+
 ### EventTarget + EventListener + Document
 * EventTarget
   * `addEventListener()`
@@ -126,6 +155,8 @@
   * `handleEvent()`
 * Document
   * `createEvent()`
+    * Has been deprecated in favor of Event Constructors
+      * Chrome 15 | Firefox 11 | Opera 11.6 | Safari Nightly
 
 
 ### Event (base interface)
@@ -175,8 +206,59 @@
 
 ### CustomEvent (inherits from Event)
 * `initCustomEvent()` (method)
+  * IE9 | Chrome | Firefox 6 | Safari 5.1 | Opera 11
+  * Deprecated -> `CustomEvent` constructor
 * `detail` (attribute)
 
 
 
+## Event Types - Event
+* abort
+* error
+* load
+* select
+* unload
 
+
+## Event Types - UIEvent
+* resize
+* scroll
+
+
+## Event Types - InputEvent
+* beforeinput
+* input
+
+
+## Event Types - FocusEvent
+* blur
+* focus
+* focusin
+* focusout
+
+
+## Event Types - MouseEvent
+* click
+* dblclick
+* mousedown
+* mouseenter
+* mouseleave
+* mousemove
+* mouseout
+* mouseover
+* mouseup
+
+
+## Event Types - KeyboardEvent
+* keydown
+* keyup
+
+
+## Event Types - WheelEvent
+* wheel
+
+
+## Event Types - CompositionEvent
+* compositionstart
+* compositionupdate
+* compositionend

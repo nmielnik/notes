@@ -4,6 +4,13 @@
 
 
 ## Overview
+### Browsers
+* IE9+
+* Firefox 2+
+* Chrome
+* Safari
+* Opera 9+
+
 
 ### Basic Event Flow
 * All events have `EventTarget` (`target` attribute)
@@ -125,7 +132,8 @@
 * `detail` (`long`)
   * Specifies some detail information about the Event
 * `view` (`AbstractView`) readonly
-  * Describes the `AbstractView` from which the event was generated
+  * Describes the `AbstractView` from which the event was generated (window)
+  * Chrome | Firefox | Opera
 
 
 ### Methods
