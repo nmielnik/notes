@@ -48,7 +48,10 @@
 
 
 
-### Interesting Facts #1
+### Interesting Thoughts / Notes #1
+* <!-- .element class="fragment" -->`click` is a mousedown and mouseup over same element
+* <!-- .element class="fragment" -->Double click on a text passage and press delete (highlight and erase a word)
+  * mousedown -> mouseup -> click -> mousedown -> mouseup -> click -> dblclick -> select -> keydown -> beforeinput -> input -> keyup
 
 
 
@@ -57,6 +60,7 @@
   * These objects implement `EventTarget` interface
   * Observe events on these objects via `addEventListener()`
   * Removed event listeners via `removeEventListener()`
+  * Events can be triggered via `dispatchEvent()`
 
 
 ### Introduction to "DOM Events" (WHATWG)
@@ -90,6 +94,16 @@
 * Exceptions thrown inside listeners should not propagate outside scope of handler
 
 
+### Event Phases - Dispatching Events
+* OLD
+  * `document.createEvent(type)`
+    * 'UIEvents' | 'MouseEvents' | 'MutationEvents'
+  * `Event.initEvent(eventType, canBubble, cancelable)`
+    * `initUIEvent()` | `initMouseEvent()` | `initMutationEvent()`
+* NEW
+  * `Constructor(type, [, eventInitDict])`
+
+
 ### Event Phases
 <!-- .element style="height: 600px" -->![DOM Event Flow](http://www.w3.org/TR/DOM-Level-3-Events/eventflow.svg)
 
@@ -112,8 +126,40 @@
 
 
 
-### Interesting Facts #2
+### Interesting Thoughts / Notes #2
+* DOM2 -> Order of listeners not guaranteed
+  * DOM3 -> Order they were attached
+* DOM 0 / HTML 4 style of attaching events:
+```html
+  <input type="button" onclick="alert('oh my god!')" />
+```
 
+  * Treated as calling attachEventListener with capture = false
+  * Changing the attribute is treated as removeEventListener + attachEventListener
+
+
+### Default Actions
+
+
+
+### Interesting Thoughts / Notes #3
+* <!-- .element class="fragment" -->Default action should not happen until the event dispatch completes
+  * `click` on checkboxes toggle 'checked' before the event is processed.
+  * If default action is prevented, the value is restored to its original state
+* <!-- .element class="fragment" -->Many implementation look at event listener return value for cancelling default action (return `false` -> cancel default action)
+  * `window.onerror` are cancelled by returning `true`!?
+
+
+### Event Types
+
+
+
+### Interesting Thoughts / Notes #4
+* For any activation trigger is not caused by a `click` event, the implementation MUST dispatch a `click` event as part of its default actions.
+  * Example: Highlighting a link and pressing `Enter` or `Space` actually dispatches a `click` event
+    * `keydown` -> if `Enter` or `Space`, default action = `click` event (with isTrusted='true')
+    * `click` -> All default actions including activation behavior
+  * This includes all events (touch, voice, etc.)
 
 
 
