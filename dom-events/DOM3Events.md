@@ -47,7 +47,7 @@
 * Current target must be calculated during event phase
 * Current target is the element currently being evaluated for listeners during the event phase
 * The even listeners on current target are evaluated in the order they were attached assuming:
-  * The listener has been registered for this even type
+  * The listener has been registered for this event type
   * The listener corresponds to this event phase (capture vs bubble)
   * The event object's immediate propagation has not been stopped
 
