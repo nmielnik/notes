@@ -56,6 +56,13 @@
 
 
 ### Introduction to "DOM Events" (WHATWG)
+* 3 Main objects defined
+  * `Event`
+  * `EventTarget`
+  * `EventListener`
+
+
+### Introduction to "DOM Events" (WHATWG)
 * Events dispatched to objects to signal an occurrence (ie network activity, user interaction).
   * These objects implement `EventTarget` interface
   * Observe events on these objects via `addEventListener()`
@@ -74,7 +81,6 @@
   1. All object's ancestor event listeners whose capture variable is `true` are invoked, in tree order
   2. Object's own event listeners are invoked
   3. If event's `bubbles` attribute is true, object's ancestor listeners are invoked agin, but in reverse tree order
-
 
 
 ### Event Phases
@@ -206,6 +212,15 @@
 
 
 
+### Event Listener Interface
+* `EventListener`
+  * `type`
+  * `callback`
+  * `capture`
+  * `handleEvent(event)`
+
+
+
 ### Event Interface - Attributes (DOM2)
 * All Attributes are READONLY
   * `bubbles` (boolean)
@@ -251,7 +266,84 @@
   * `NONE`
 
 
-### Event Types
 
+### Event Types
+![Interface Diagram](http://www.w3.org/TR/DOM-Level-3-Events/event-inheritance.svg)
+
+
+### Event Types - Event
+* abort
+* error
+* load
+* select
+* unload
+
+
+### CustomEvent : Event
+* `initCustomEvent()` (method)
+  * IE9 | Chrome | Firefox 6 | Safari 5.1 | Opera 11
+  * Deprecated -> `CustomEvent` constructor
+* `detail` (attribute)
+
+
+### UIEvent : Event
+* resize
+* scroll
+* change (removed from spec)
+* submit (removed from spec)
+* reset (removed from spec)
+* DOMActivate (deprecated)
+
+
+## InputEvent : UIEvent
+* beforeinput
+* input
+
+
+## FocusEvent : UIEvent
+* blur
+* focus
+* focusin
+* focusout
+* DOMFocusIn (deprecated)
+* DOMFocusOut (deprecated)
+
+
+## MouseEvent : UIEvent
+* click
+* dblclick
+* mousedown
+* mouseenter
+* mouseleave
+* mousemove
+* mouseout
+* mouseover
+* mouseup
+
+
+## KeyboardEvent : UIEvent
+* keydown
+* keyup
+* keypress (deprecated)
+
+
+## WheelEvent : MouseEvent
+* wheel
+
+
+## CompositionEvent : UIEvent
+* compositionstart
+* compositionupdate
+* compositionend
+
+
+## MutationEvent : Event
+* DOMSubtreeModified (deprecated)
+* DOMNodeInserted (deprecated)
+* DOMNodeRemoved (deprecated)
+* DOMNodeRemovedFromDocument (deprecated)
+* DOMNodeInsertedIntoDocument (deprecated)
+* DOMAttrModified (deprecated)
+* DOMCharacterDataModified (deprecated)
 
 
