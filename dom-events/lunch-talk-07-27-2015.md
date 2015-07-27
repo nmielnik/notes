@@ -295,12 +295,12 @@
 * DOMActivate (deprecated)
 
 
-## InputEvent : UIEvent
+### InputEvent : UIEvent
 * beforeinput
 * input
 
 
-## FocusEvent : UIEvent
+### FocusEvent : UIEvent
 * blur
 * focus
 * focusin
@@ -309,7 +309,7 @@
 * DOMFocusOut (deprecated)
 
 
-## MouseEvent : UIEvent
+### MouseEvent : UIEvent
 * click
 * dblclick
 * mousedown
@@ -321,23 +321,23 @@
 * mouseup
 
 
-## KeyboardEvent : UIEvent
+### KeyboardEvent : UIEvent
 * keydown
 * keyup
 * keypress (deprecated)
 
 
-## WheelEvent : MouseEvent
+### WheelEvent : MouseEvent
 * wheel
 
 
-## CompositionEvent : UIEvent
+### CompositionEvent : UIEvent
 * compositionstart
 * compositionupdate
 * compositionend
 
 
-## MutationEvent : Event
+### MutationEvent : Event
 * DOMSubtreeModified (deprecated)
 * DOMNodeInserted (deprecated)
 * DOMNodeRemoved (deprecated)
@@ -347,3 +347,52 @@
 * DOMCharacterDataModified (deprecated)
 
 
+
+### Mouse & Keyboard Event Info
+* `altKey` (boolean)
+* `button` (unsigned short)
+  * Start from 0 for left most button
+  * On a left handed mouse, they are instead right to left!
+* `clientX` (long)
+  * relative to DOM implementation's client area
+* `clientY` (long)
+  * relative to DOM implementation's client area
+
+
+### Mouse & Keyboard Event Info
+* `ctrlKey` (boolean)
+* `metaKey` (boolean)
+* `relatedTarget` (EventTarget)
+  * Secondary `EventTarget` related to a UI Event. Used with `mouseover` and `mouseout`
+* `screenX` (long)
+  * relative to the origin of the screen coordinate system
+* `screenY` (long)
+  * relative to the origin of the screen coordinate system
+* `shiftKey` (boolean)
+
+
+### Mouse & Keyboard Event Info
+* Normal Modifiers for mouse & keyboard events:
+  * Alt
+  * Control
+  * Meta (Not Supported in Windows)
+  * Shift
+
+
+### Mouse & Keyboard Event Info
+* [Modifier names supported for mouse & keyboard events](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/getModifierState):
+  * AltGraph
+  * CapsLock
+  * Fn
+  * FnLock
+  * Hyper
+  * NumLock
+  * OS
+  * ScrollLock
+  * Super
+  * Symbol
+  * SymbolLock
+
+
+
+# DONE
