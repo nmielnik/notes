@@ -58,7 +58,7 @@
   * type (`DOMString`)
   * listener (`EventListener`)
   * useCapture (`boolean`)
-  * `EventListener` removed while processing an `EventTarget` wont' be processed
+  * `EventListener` removed while processing an `EventTarget` won't be processed
 * `dispatchEvent(evt)`
   * evt (`Event`)
   * *RETURNS:* `boolean` (`false` if `preventDefault()` was called)

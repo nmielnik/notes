@@ -23,13 +23,6 @@
 * Exceptions thrown inside listeners should not propagate outside scope of handler
 
 
-## Event Dispatch + DOM Event Flow
-
-* Propagation Path is determined before executing phases, this will NOT change even if the DOM hierachy does
-* Event listeners are NOT copied over by calls to `Node.cloneNode` or `Range.cloneContents`
-* Exceptions thrown in event handlers should NOT stop propagation and MUST NOT propagate outside the scope of the event handler
-
-
 
 ## 3 Event Phases:
 
