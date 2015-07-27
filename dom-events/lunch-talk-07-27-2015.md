@@ -86,24 +86,6 @@
   * Dispatching event while one is being processed halts the current event processing
 
 
-### Event Phases - Dispatching Events
-* `EventTarget.dispatchEvent()` dispatches events
-* Propagation path determined before starting phases, it CANNOT change
-* Event listeners are not copied over when Nodes are copied (`Node.cloneNode()` or `Range.cloneContents()`)
-* Exceptions thrown inside listeners don't affect propagation or path.
-* Exceptions thrown inside listeners should not propagate outside scope of handler
-
-
-### Event Phases - Dispatching Events
-* OLD
-  * `document.createEvent(type)`
-    * 'UIEvents' | 'MouseEvents' | 'MutationEvents'
-  * `Event.initEvent(eventType, canBubble, cancelable)`
-    * `initUIEvent()` | `initMouseEvent()` | `initMutationEvent()`
-* NEW
-  * `Constructor(type, [, eventInitDict])`
-
-
 ### Event Phases
 <!-- .element style="height: 600px" -->![DOM Event Flow](http://www.w3.org/TR/DOM-Level-3-Events/eventflow.svg)
 
@@ -125,6 +107,34 @@
 * <!-- .element class="fragment" -->`Event.stopImmediatePropagation()` stops current target event listeners too
 
 
+## Event Phases - Current Target
+* Current target must be calculated during event phase
+* Current target is the element currently being evaluated for listeners during the event phase
+* The even listeners on current target are evaluated in the order they were attached assuming:
+  * The listener has been registered for this event type
+  * The listener corresponds to this event phase (capture vs bubble)
+  * The event object's immediate propagation has not been stopped
+
+
+
+### Dispatching Events
+* `EventTarget.dispatchEvent()` dispatches events
+* Propagation path determined before starting phases, it CANNOT change
+* Event listeners are not copied over when Nodes are copied (`Node.cloneNode()` or `Range.cloneContents()`)
+* Exceptions thrown inside listeners don't affect propagation or path.
+* Exceptions thrown inside listeners should not propagate outside scope of handler
+
+
+### Dispatching Events
+* OLD
+  * `document.createEvent(type)`
+    * 'UIEvents' | 'MouseEvents' | 'MutationEvents'
+  * `Event.initEvent(eventType, canBubble, cancelable)`
+    * `initUIEvent()` | `initMouseEvent()` | `initMutationEvent()`
+* NEW
+  * `Constructor(type, [, eventInitDict])`
+
+
 
 ### Interesting Thoughts / Notes #2
 * DOM2 -> Order of listeners not guaranteed
@@ -138,7 +148,43 @@
   * Changing the attribute is treated as removeEventListener + attachEventListener
 
 
+
+## Default Actions
+* Activation Triggers + Behavior
+  * Certain targets (ie link, button) may have behavior that results from some events (click a link -> navigate to url)
+  * For `<a>` tags, when focused, a `keydown` event with a key `Enter`
+
+
+### Default Actions - Activation Trigger
+* A user action or event that indicates that an 'activation behavior' should happen
+* User-initiated activation triggers:
+  * Click mouse button on an activatable element
+  * Pressing 'Enter' key when an activatable element has focus
+
+
 ### Default Actions
+* Events are 'cancelable' if their default action can be prevented
+* <!-- .element class="fragment" -->Example:
+  * Mousedown is dispatched when user presses down a button a mouse.
+    * One possible default action -> Dragging an element
+    * Another default action -> Start text selection
+    * Another default action -> Click
+* <!-- .element class="fragment" -->Preventing default action means none of these can happen
+  * `Event.preventDefault()`
+
+
+### Default Actions
+* Except for a few exceptional cases, default action should not happen until the event dispatch completes
+* <!-- .element class="fragment" -->**NOTE:** Many implementation look at event listener return value for cancelling default action (return `false` -> cancel default action)
+* <!-- .element class="fragment" -->**NOTE:** Some cancelable events not have any observable default action (`mousemove`)
+
+
+## Trusted Events
+* Events that are actually triggered by user action and handled by the browser are called 'Trusted'
+* This is opposed to events triggered manually
+  * DocumentEvent.createEvent("Event") | Event.initEvent() | EventTarget.dispatchEvent().
+* Event should have a `isTrusted` attribute that reflects this
+  * Only IE9+ and Firefox support this
 
 
 
@@ -150,16 +196,62 @@
   * `window.onerror` are cancelled by returning `true`!?
 
 
-### Event Types
-
-
 
 ### Interesting Thoughts / Notes #4
-* For any activation trigger is not caused by a `click` event, the implementation MUST dispatch a `click` event as part of its default actions.
-  * Example: Highlighting a link and pressing `Enter` or `Space` actually dispatches a `click` event
-    * `keydown` -> if `Enter` or `Space`, default action = `click` event (with isTrusted='true')
-    * `click` -> All default actions including activation behavior
-  * This includes all events (touch, voice, etc.)
+* <!-- .element class="fragment" -->For any activation trigger is not caused by a `click` event, the implementation MUST dispatch a `click` event as part of its default actions.
+* <!-- .element class="fragment" -->Example: Highlighting a link and pressing `Enter` or `Space` actually dispatches a `click` event
+  * `keydown` -> if `Enter` or `Space`, default action = `click` event (with isTrusted='true')
+  * `click` -> All default actions including activation behavior
+* <!-- .element class="fragment" -->This includes all events (touch, voice, etc.)
+
+
+
+### Event Interface - Attributes (DOM2)
+* All Attributes are READONLY
+  * `bubbles` (boolean)
+  * `cancelable` (boolean)
+  * `currentTarget` (EventTarget)
+  * `eventPhase` (short)
+  * `target` (EventTarget)
+  * `timeStamp` (DOMTimeStamp)
+  * `type` (DOMString)
+
+
+### Event Interface - Attributes (DOM3)
+* `defaultPrevented` (boolean)
+  * IE9 | Chrome 18 | Firefox 6 | Safari 5 | Opera 11
+* `isTrusted` (boolean)
+  * Firefox: TRUE = invoked by user | FALSE = invoked by script
+  * IE: All are trusted except those created with `createEvent()`
+  * Chrome: NOT SUPPORTED
+
+
+### Event Interface - Methods (DOM2)
+* No Return Values
+* `initEvent(eventType, canBubble, cancelable)`
+  * Can only be called before dispatchEvent is called
+  * Can be called multiple times, last one takes precedence
+* `preventDefault()`
+* `stopPropagation()`
+
+
+### Event Interface - Methods (DOM3)
+* `stopImmediatePropagation()`
+  * Stop event from reaching any other event listeners
+  * IE9 | Chrome | Firefox | Safari | Opera
+
+
+### Event Interface - Constants
+* Constants (for eventPhase)
+* DOM 2 Constants
+  * `CAPTURING_PHASE`
+  * `AT_TARGET`
+  * `BUBBLING_PHASE`
+* DOM 4 Constants
+  * `NONE`
+
+
+### Event Types
 
 
 
