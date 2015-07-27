@@ -1,5 +1,5 @@
 # Event Spec Notes
-[W3 Spec](http://www.w3.org/TR/DOM-Level-3-Events/#dom-event-architecture)
+[W3 Spec](http://www.w3.org/TR/DOM-Level-3-Events/)
 
 
 
