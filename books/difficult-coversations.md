@@ -210,6 +210,77 @@ Who said what, who did what, who's right, who meant what, who's to blame.
 
 
 
+### Abandon Blame: _Map the Contribution System_
+* You are doing a presentation but the assistant packed the wrong slides
+  * You can blame explicitly "I don't know how you could have done this"
+  * You can blame implicity "Let's do better next time"
+* Focusing on blame is bad because it hinders our ability to learn what's really causing the problem, and thus we can't do anything meaningful to correct it
+* "Don't Blame Others" is not right either, there's an aspect of blame that's important, **contribution**
+
+#### Distinguishing Blame From Contribution
+* Blame is about _judging_, Contribution is about _understanding_
+
+##### Blame is About Judging and Looks Backwards
+* "Who is to blame" is really asking 3 questions
+  * Did this person cause the problem?
+  * If so, how should their actions be judged against some standard of conduct?
+  * If the judgement is negative, how should they be punished?
+* By saying "This is your fault", you're giving condeming answers to all 3 questions.
+  * We're saying not only did you cause this, but you did something bad and should be punished
+* This clearly leads to defensiveness
+
+##### Contribution is About Understanding and Looks Forward
+* Related but different set of questions
+  * How did we each contribute to this situation (What did we each do or not do to get into this mess?)
+  * Having identified the contribution system, how can we change it?
+
+#### Contribution is Joint and Interactive
+* By rule, when bad things happen in a relationship, everyone has contributed in some important way
+
+##### Blame is the Root of Legal System and Laws
+* There is cost when clear assignment of blame is at stake
+* People are less forthcoming about things, and the real causation is likely never found or understood
+
+##### Blame Prevents Problem Solving
+* Wasting time on who is to blame takes time away from fixing the result or preventing it going forward
+  * Dog runs away, we're arguing over who's fault it is instead of finding the dog
+
+##### Blame Can Leave a Bad System Uncovered
+* A VP makes a bad decision, gets fired
+* Other people who saw it coming didn't speak up, removing the VP didn't fix the problem
+
+##### Contribution is Easier to Raise & Encourages Change
+* When people feel blamed, they question the blame instead of raising real concerns that will fix the problem moving forward
+* It's just better
+
+#### Misconceptions About Contribution
+* I should only focus on my contributions
+* Putting aside blame means putting aside my feelings
+  * Sharing feelings is the critical part of this
+* Exploring contribution means "blaming the victim"
+
+#### 4 Hard To Spot Contributions
+1. Avoiding Until Now
+  * Not communicating a problem which leads to a bigger one
+2. Being Unapproachable
+  * Being intimidating to bring feedback to
+3. Intersections
+  * People have two deeply rooted ways of doing things that come off as negative to the other
+  * Married couple:
+    * Husband speaks up to tackle problems due to issues with alcohol and his mom
+    * Wife has learned to not overreact to everything due to handicapped brother
+    * Wife feels smothered, husband feels like she doesn't deal with emotions
+4. Problematic Role Assumptions
+  * Leaders set strategy - subordiantes implement it
+
+#### Tools For Spotting Contribution
+1. Role reversal
+  * Pretend to be the other person (using I, me, myself)
+2. Observer's insights
+  * Pretend to view the issue from a neutral 3rd party, what does it look like?
+
+
+
 
 
 
