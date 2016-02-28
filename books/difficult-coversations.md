@@ -52,6 +52,8 @@ Who said what, who did what, who's right, who meant what, who's to blame.
   4. Work together to find a way to manage the problem going forward
 * There is always some piece of information the other person has that you don't
 
+
+
 # Shift to a Learning Stance: _The "What Happened?" Conversation_
 
 ### Stop Arguing Over Who's Right: _Explore Each Other's Stories_
@@ -124,6 +126,93 @@ Who said what, who did what, who's right, who meant what, who's to blame.
 * We usually either accept or reject the other person's stance since we think it means we have to abandon our own
 * Instead, we should embrace both stories/stances
 * Use "and" instead of "but" and string together both of your perceptions as correct
+  * I don't want to be a jerk and I want to be honest and I know this is hurtful and I am I unhappy about this too
+
+
+### Don't Assume They Meant It: _Separate Intent From Impact_
+* Intentions influence our judgement of others - Doing it on purpose is different than doing by accident
+
+#### First Mistake: Assumptions About Intentions Are Usually Wrong
+* We care deeply about the intentions of others but don't actually know what they are
+* Intentions are complicated
+
+##### We Assume Intentions Based on Their Impact on Us
+* If we are hurt, we assume they intended to hurt us
+* Someone shows up late, we assume they're a jerk that doesn't care
+
+##### We Treat Ourselves Much More Forgiving
+* Husband forgets to pick up dry cleaning - he's irresponsbile
+* I forget to book airline tickets - I'm overworked and stressed
+* We're often unaware of the impact our actions have on others
+
+##### We Assume Bad Intentions Mean Bad Character
+* We settle into judgements on their character based off assumption of their intentions
+* We then look at things they do from this perspective and it becomes easier to not care about them and not challenge self-view
+
+##### Accusing of Bad Intentions Makes People Defensive
+* Our assumptions about their intentions affects our behavior, which causes other to make assumptions about our behavior
+* We might think we're sharing our feelings, but we're making others defensive:
+  * Why do you ignore me like this? 
+  * What have I done to make you feel it's ok to step all over me?
+
+##### Attributions Can Be Self-Fulfilling
+* When we think there are bad intentions towards us, it affects our behavior
+* This affects how others treat us
+* Eventually, this can CAUSE people to have the intentions we assumed they had from the beginning
+
+#### Second Mistake: Good Intentions Don't Justify Bad Impact
+* You said I meant to hurt you. I have no clarified that I didn't. So you should now feel fine. If you don't, that's your problem.
+
+##### We Don't Hear What They're Really Trying to Say
+* Someone says "Why were you trying to hurt me?" they're saying 2 things
+  1. I know what you intended
+  2. I got hurt
+* We react to the first because we feel the need to defend ourselves, and don't pay attention to the second
+* When we say "You intended to hurt me" what we mean is "You don't care about me enough"
+* **Example:**
+  * Father misses his son's basketball game for work
+  * Father doesn't intend to hurt his son, but he did
+  * His desire to not hurt is son is not as strong as his desire/need to work
+  * From the son's perspective, there's no difference between "He wanted to hurt me" and "He didn't want to hurt me, but he didn't make it a priority"
+
+##### We Ignore Complexity of Human Motivations
+* People are complicated, intentions are more complicated
+* We often don't even fully understand our own intentions
+* When people think hard about their intentions, it send a strong positive message to the other about the importance of the relationship
+* If someone feels hurt, clarifying intent doesn't make them feel unhurt, it has to recognized and dealth with to be resolved
+
+#### Avoiding First Mistake: _Separate Intent From Impact_
+* Ask yourself 3 questions
+  1. **Actions** What did they actually say or do?
+  2. **Impact** How did this affect me?
+  3. **Assumptions** What am I assuming they intended?
+
+##### Hold Your View As Hypothesis
+* You don't have enough information to know what they intended, recognize that you're guessing and need more context
+
+##### Share Impact On You; Ask About Their Intentions
+* Say what they did, it's impact on you, and your assumption of their intent
+* Important to label assumption as a guess, you're checking with them not telling them
+* Don't disregard hypothesis, that's not genuine. Just explain what you're feeling and thinking about their intent
+
+##### Some Defensiveness is Inevitable
+* The more you relive the person of the need to defend themselves, the more they can actually listen to what you're saying
+
+#### Avoiding Second Mistake: _Listen For Feelings, Reflect on Your Itentions_
+* When someone is accusing you of bad intentions, it's really 2 things:
+  * An assumption about intentions
+  * A feeling resulting from the negative impact
+* Start with the feeling, go back to the assumption (but don't ignore either, it's not fair to you)
+
+##### Be Open To Reflect on Your Own Intentions
+* Wow, it sounds like what I said really hurt.
+* Well, I was thinking about your diet and that I could help you stick to it, but I see how saying it in front of others could be embarassing, I wonder why I didn't see that?
+
+
+
+
+
+
 
 
 
