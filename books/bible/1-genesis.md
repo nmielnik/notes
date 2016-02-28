@@ -59,118 +59,121 @@
           * Serug (1719 - 1949) [230]
             * Nahor (1749 - 1897) [148]
               * Terah (1778 - 1983) [205]
-                * Abram (1848 - 2023) [175] & Sarai (1858 - 1985) [127] [F]
-                  * Abram left town of Haran in 1923
-                  * Abram becomes Abraham and Sarai becomes Sarah in 1947
-                  * Isaac (1948 - 2138) & Rebekah [Wife] [F] (Nahor -> Bethuel -> Rebekah)
-                    * Esau / Edom (2048) & Judith [Wife] [F]
-                    * Esau / Edom (2048) & Bashemath [Wife] [F] (Ishmael -> Bashemath)
-                      * Reuel
-                        * Nahath [Duke]
-                        * Zerah [Duke]
-                        * Shammah [Duke]
-                        * Mizzah [Duke]
-                    * Esau / Edom (2048) & Mahalath [Wife] [F] (Ishmael -> Mahalath)
-                    * Esau / Edom (2048) & Adah [Wife] [F] (Ham -> Canaan -> Heth -> Elon -> Adah)
-                      * Eliphaz & ?
-                        * Teman [Duke]
-                        * Omar [Duke]
-                        * Zepho [Duke]
-                        * Gatam [Duke]`
-                        * Kenaz [Duke]
-                      * Eliphaz & Timna [Concubine] [F]
-                        * Amalek [Duke]
-                    * Esau / Edom (2048) & Aholibamah [Wife] [F] (Seir -> Zibeon -> Anah -> Aholibamah)
-                      * Jeush [Duke]
-                      * Jaalam [Duke]
-                      * Korah [Duke]
-                    * Jacob / Israel (2048) & Leah [Wife] [F] (Nahor -> Bethuel -> Laban -> Leah)
-                      * Reuben
-                      * Simeon
-                      * Levi
-                      * Judah & Shua [F]
-                        * Er & Tamar [Wife] [F]
-                          * Evil, God slew him
-                        * Onan & Tamar [F]
-                          * Didn't inpregnate Tamar, God slew him too
-                        * Shelah
-                      * Judah & Tamar [Whoredom] [F]
-                        * Pharez (Twin)
-                        * Zerah (Twin)
-                      * Issachar
-                      * Zebulun
-                      * Dinah [F]
-                    * Jacob / Israel (2048) & Rachel [Wife] [F] (Nahor -> Bethuel -> Laban -> Rachel)
-                      * Joseph
-                      * Benjamin
-                    * Jacob / Israel (2048) & Bilhah [Rachel's Maid] [F] (Nahor -> Bethuel -> Laban -> Bilhah)
-                      * Dan
-                      * Naphtali
-                    * Jacob / Israel (2048) & Zilpah [Leah's Maid] [F]
-                      * Gad
-                      * Asher
-                * Abram (1848 - 2023) [175] & Hagar [F] [Sarai's Maid]
-                  * Ishmael (1934 - 2071) [137]
-                    * Nebaioth
-                    * Kedar
-                    * Adbeel
-                    * Mibsam
-                    * Mishma
-                    * Dumah
-                    * Massa
-                    * Hadar
-                    * Tema
-                    * Jetur
-                    * Naphish
-                    * Kedemah
-                    * Mahalath [F]
-                    * Bashemath [F]
-                * Abraham (1848 - 2023) [175] & Keturah [F] [Wife]
-                  * Zimran
-                  * Jokshan
-                    * Sheba
-                    * Dedan
-                      * Asshurim
-                      * Letushim
-                      * Leummim
-                  * Medan
-                  * Midian & Keturah [F]
-                    * Ephah
-                    * Epher
-                    * Hanoch
-                    * Abida
-                    * Eldaah
-                  * Ishbak
-                  * Shuah
-                * Nahor (1848) & Milcah [F]
-                  * Huz
-                  * Buz
-                  * Kemuel
-                    * Aram
-                  * Chesed
-                  * Hazo
-                  * Pildash
-                  * Jidlaph
-                  * Bethuel
-                    * Rebekah [F]
-                    * Laban
-                      * Leah [F]
-                      * Rachel [F]
-                      * Bilhah [F]
-                * Nahor (1848) & Reumah [F]
-                  * Tebah
-                  * Gaham
-                  * Thahash
-                  * Maachah
-                * Haran (1848)
-                  * Lot
-                    * Left w/ Abram in 1923
-                  * Milcah [F] (Wife of Nahor)
-                  * Iscah
-                  * Lot and oldest daughter
-                    * Moab
-                  * Lot and youngest daughter
-                    * Ben-ammi
+                * Abram (1848 - 2023) [175]
+ 
+###### Abram (aka Abraham) (1848 - 2023) [175]
+* Abraham & Sarai (aka Sarah) (1858 - 1985) [127] [F]
+ * Abram left town of Haran in 1923
+ * Abram becomes Abraham and Sarai becomes Sarah in 1947
+ * Isaac (1948 - 2138) & Rebekah [Wife] [F]
+   * Esau / Edom (2048) & Judith [Wife] [F]
+   * Esau / Edom (2048) & Bashemath [Wife] [F] (Ishmael -> Bashemath)
+     * Reuel
+       * Nahath [Duke]
+       * Zerah [Duke]
+       * Shammah [Duke]
+       * Mizzah [Duke]
+   * Esau / Edom (2048) & Mahalath [Wife] [F] (Ishmael -> Mahalath)
+   * Esau / Edom (2048) & Adah [Wife] [F] (Ham -> Canaan -> Heth -> Elon -> Adah)
+     * Eliphaz & ?
+       * Teman [Duke]
+       * Omar [Duke]
+       * Zepho [Duke]
+       * Gatam [Duke]`
+       * Kenaz [Duke]
+     * Eliphaz & Timna [Concubine] [F]
+       * Amalek [Duke]
+   * Esau / Edom (2048) & Aholibamah [Wife] [F] (Seir -> Zibeon -> Anah -> Aholibamah)
+     * Jeush [Duke]
+     * Jaalam [Duke]
+     * Korah [Duke]
+   * Jacob / Israel (2048) & Leah [Wife] [F] (Nahor -> Bethuel -> Laban -> Leah)
+     * Reuben
+     * Simeon
+     * Levi
+     * Judah & Shua [F]
+       * Er & Tamar [Wife] [F]
+         * Evil, God slew him
+       * Onan & Tamar [F]
+         * Didn't inpregnate Tamar, God slew him too
+       * Shelah
+     * Judah & Tamar [Whoredom] [F]
+       * Pharez (Twin)
+       * Zerah (Twin)
+     * Issachar
+     * Zebulun
+     * Dinah [F]
+   * Jacob / Israel (2048) & Rachel [Wife] [F] (Nahor -> Bethuel -> Laban -> Rachel)
+     * Joseph
+     * Benjamin
+   * Jacob / Israel (2048) & Bilhah [Rachel's Maid] [F] (Nahor -> Bethuel -> Laban -> Bilhah)
+     * Dan
+     * Naphtali
+   * Jacob / Israel (2048) & Zilpah [Leah's Maid] [F]
+     * Gad
+     * Asher
+ * Abraham & Hagar [F] [Sarai's Maid]
+   * Ishmael (1934 - 2071) [137]
+     * Nebaioth
+     * Kedar
+     * Adbeel
+     * Mibsam
+     * Mishma
+     * Dumah
+     * Massa
+     * Hadar
+     * Tema
+     * Jetur
+     * Naphish
+     * Kedemah
+     * Mahalath [F]
+     * Bashemath [F]
+* Abraham & Keturah [F] [Wife]
+  * Zimran
+  * Jokshan
+    * Sheba
+    * Dedan
+      * Asshurim
+      * Letushim
+      * Leummim
+  * Medan
+  * Midian & Keturah [F]
+    * Ephah
+    * Epher
+    * Hanoch
+    * Abida
+    * Eldaah
+  * Ishbak
+  * Shuah
+* Nahor (1848) & Milcah [F]
+  * Huz
+  * Buz
+  * Kemuel
+    * Aram
+  * Chesed
+  * Hazo
+  * Pildash
+  * Jidlaph
+  * Bethuel
+    * Rebekah [F]
+    * Laban
+      * Leah [F]
+      * Rachel [F]
+      * Bilhah [F]
+* Nahor (1848) & Reumah [F]
+  * Tebah
+  * Gaham
+  * Thahash
+  * Maachah
+* Haran (1848)
+  * Lot
+    * Left w/ Abram in 1923
+  * Milcah [F] (Wife of Nahor)
+  * Iscah
+  * Lot and oldest daughter
+    * Moab
+  * Lot and youngest daughter
+    * Ben-ammi
 
 ##### Ham (1456)
   * Canaan
