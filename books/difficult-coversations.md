@@ -280,7 +280,75 @@ Who said what, who did what, who's right, who meant what, who's to blame.
   * Pretend to view the issue from a neutral 3rd party, what does it look like?
 
 
+# The Feelings Conversation
 
+### Have Your Feelings _(Or They Will Have You)_
+
+#### Feelings Matter
+* Managing feelings is hard, and not addressing them derails a lot of difficult conversations
+* **Example:** Dad & Daughter planning wedding
+* Keeping feelings out damages relationship
+
+##### We Look At the Problem With Feelings Removed
+* Solving problems seems easier than talking about emotions, so we exclude them
+* Sharing feelings is risky
+  * We can hurt others or ruin relationships
+  * We put ourselves in a position to get hurt
+
+##### Unshared Feelings Leak Into the Conversation
+* When not dealt with, feelings have a way of working their way into the conversation anyhow, usually in a bad way
+* Unspoken feelings color conversations
+  * Alter tone of voice
+  * Come out in body language or facial expressions
+  * Sarcasm, agression, impatience, unpredictability, defensiveness
+* "When clocked, your emotional pipes will leak"
+* This can lead to being completely disengaged, refusing to work with or talk to people
+* We don't overreact because we overshare, it's because we don't express them enough (like shaking up a can of soda)
+
+##### Not Sharing Feelings Makes it Hard to Listen
+* When people have a hard time listening, it's often because they have a hard time expressing themself
+  * Buried emotions prevent us from listening
+
+#### Learn Where Feelings Hide
+* Feelings are complicated, and we wrongly assume we know how we feel
+* For uncomfortable feelings, we often recognize them as feelings we can better cope with
+
+##### Emotional Footprint
+* How did your family deal with emotions?  Which feelings were allowed and which were off-limits?
+* Your feelings also differ depending on who you're with (mother vs friend vs stranger)
+
+##### Things To Do
+* Accept that feelings are normal. Some families don't allow for any feelings, which results in shame when you have them
+* Good people can have bad feelings.  We expect ourselves to have specific reactions, and when we don't it affects our self-image.
+* Your feeling are as important as theirs.  We often think about other's feelings before ours, which results in us not sharing or communicating well.
+  * You might not raise something so you don't jeopardize the relationship, but by not raising it your resentment will erode the relationship
+* Don't let hidden feelings block other emotions
+* Don't make attributions about the other person
+  * "You are self-absorbed" is not a feeling, it's an attribution that is hiding the feeling you're having
+  * Judgements feel like feelings (fueled by a real emotion), but they aren't communicated as feelings and are confusing and disruptive
+  * "You are thoughtless and self-absorbed" vs "I feel hurt, confused, and embarassed"
+* Use the urge to blame as a cue that there's a hidden emotion
+  * Discussing contribution can feel empty because you still want to blame, this usually means you haven't shared an important feeling
+* Negotiate your feelings before sharing
+  * Think about the "What Happened Conversation"
+  * What is the other person's story?
+  * What assumptions am I making?
+  * What were contributions from both side?
+
+#### Describe Feeling Carefully (Don't Vent)
+1. Frame Feelings Back into the Problem
+  * Feelings are important, so get them out and decide what to do with them later
+2. Express Full Spectrum of Feelings
+  * Things are complicated, so dig deep and find the hidden feelings, not the easiest one to share
+  * "It's hard for me to talk with you about this..." vs "Stop bugging me"
+3. Share - Don't Evaluate
+  * Share pure feelings without judgement, attributions, or blame
+  * Save problem solving for later
+  * Don't monopolize
+
+#### Acknowledgement is Important
+* Make sure the other person feels like their feelings are acknowledged
+* It's tempting to skip feelings and solve problems, but that prevents feeling acknowledged
 
 
 
