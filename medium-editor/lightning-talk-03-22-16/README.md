@@ -1,5 +1,6 @@
-# MEDIUM-EDITOR <!-- .element: class="presentationHeading" -->
-### The #1 WYSIWYG editor on github!
+# MEDIUM-EDITOR
+### The #1 WYSIWYG Editor on Github
+<iframe src="https://yabwe.github.io/medium-editor/" style="width: 800px; height: 400px;" ></iframe>
 
 
 
@@ -7,7 +8,8 @@
 
 * [`medium-editor`](https://github.com/yabwe/medium-editor) is a WYSIWYG editor for the browser.
 * Used as the core text editor for new sitebuilder (code named 'Tower') being built by Digital team.
-* Rich Text editing is challenging. medium-editor is fairly good as far as rich-text on the web is concerned.
+* WYSIWYG editing in browsers sucks
+  * medium-editor makes it suck a lot less.
 
 
 
@@ -33,7 +35,7 @@
 
 
 # Taking Over
-* 01/27/2015: Nate & Noah added as [collaborators](https://github.com/daviferreira/medium-editor/commit/07641a41b8bd9499b8fa5f52d516979a249e5781)
+* 01/27/2015: Myself and Noah Chase became [collaborators](https://github.com/daviferreira/medium-editor/commit/07641a41b8bd9499b8fa5f52d516979a249e5781)
 * Now we can do whatever we want including:
   * Cut releases (not maintaining fork)<!-- .element: class="fragment" -->
   * Control features and code quality<!-- .element: class="fragment" -->
@@ -43,9 +45,9 @@
 
 # Quality
 !["Browser Support and Code Coverage"](medium-editor/lightning-talk-03-22-16/images/quality.png)
-* 527 tests (an growing) which run in all 13 OS + Browser combinations before getting to master (Saucelabs)
+* 527 tests (and growing)
+* Tests run against 13 OS + Browser combinations on each code change (SauceLabs)
 * 94% Code Coverage in our tests
-* Following semantic versioning for our npm package. Now up to version 5.14.4
 
 
 
@@ -64,7 +66,7 @@
 * <!-- .element: class="fragment" -->Featured on the front page of [ProductHunt](https://www.producthunt.com/tech/medium-editor) (437+ upvotes)
 * <!-- .element: class="fragment" -->Smashing Magazine (nearly 1M followers) [Tweeted about Medium-Editor](https://twitter.com/smashingmag/status/697057132324073472)
   * Endless Tweets if you search for medium-editor in twitter
-* <!-- .element: class="fragment" -->Creators of Medium.com [asked us to change the name](https://github.com/yabwe/medium-editor/issues/949)
+* <!-- .element: class="fragment" -->Creators of Medium.com [asked us to change the name!](https://github.com/yabwe/medium-editor/issues/949)
 
 
 
@@ -83,5 +85,6 @@
 # Interested?
 * We have called out [Easy First Bugs](https://github.com/yabwe/medium-editor/issues?q=is%3Aopen+is%3Aissue+label%3A%22easy+first+bug%22)
 * Use it in your next project, we can let you be maintainers and cut releases whenever you need.
+* Demo: https://github.com/yabwe/medium-editor | Repo: https://github.com/yabwe/medium-editor
 * Contact me (Nate Mielnik) if you have questions or want to get involved nate@webs.com | http://github.com/nmielnik
 * Notes Posted [here](https://github.com/nmielnik/notes/tree/medium-editor-talk/medium-editor/lightning-talk-03-22-16)
