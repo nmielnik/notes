@@ -1,4 +1,5 @@
-### The <span>#1 WYSIWYG Editor</span> on Github
+## The <span>#1 WYSIWYG Editor</span> on Github
+###### Nate Mielnik - Vistaprint Digital (Webs)
 <iframe src="https://yabwe.github.io/medium-editor/" ></iframe>
 
 
