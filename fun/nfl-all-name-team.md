@@ -1,8 +1,7 @@
 # QBs
 1. Peter Tom Willis
 2. Stoney Case
-3. Tom Tupa
-4. Dick Flowers
+3. Dick Flowers
 
 # RBs
 1. Ickey Woods
@@ -75,3 +74,4 @@
 # P
 1. Ralf Mojsiejenko
 2. Zoltan Mesko
+3. Tom Tupa
