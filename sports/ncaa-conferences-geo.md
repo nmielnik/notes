@@ -1,5 +1,8 @@
-# Power Conferences
-## ACC (12 teams)
+# Geography-Based NCAA Division 1 Conferences
+* https://upload.wikimedia.org/wikipedia/commons/a/ae/2015_NCAA_FBS_Football_Programs.png
+
+## Power Conferences
+### ACC (12 teams)
 * Virginia
 * Virginia Tech
 * Maryland
@@ -13,7 +16,7 @@
 * Army
 * Buffalo
 
-## Mid-American Conference (14 teams)
+### Mid-American Conference (14 teams)
 * Vanderbilt
 * Tennessee
 * West Virginia
@@ -29,7 +32,7 @@
 * Purdue
 * Indiana
 
-## SEC (12 teams)
+### SEC (12 teams)
 * Miami
 * Florida
 * Florida St
@@ -43,7 +46,7 @@
 * Wake Forest
 * North Carolina St
 
-## Big 12 (12 teams)
+### Big 12 (12 teams)
 * Texas Tech
 * TCU
 * Baylor
@@ -57,7 +60,7 @@
 * Mississippi St
 * Ole Miss
 
-## Big 10 (12 teams)
+### Big 10 (12 teams)
 * Wisconsin
 * Northwestern
 * Northern Illinois
@@ -71,7 +74,7 @@
 * Kansas St
 * Colorado
 
-## PAC-12 (12 teams)
+### PAC-12 (12 teams)
 * BYU
 * Utah
 * Arizona
@@ -87,8 +90,8 @@
 
 ---
 
-# Group of 4 Conferences
-## Ohio Valley (12 teams)
+## Group of 4 Conferences
+### Ohio Valley (12 teams)
 * Middle Tennesse
 * Western Kentucky
 * Miami, OH
@@ -102,7 +105,7 @@
 * Western Michigan
 * Ball St.
 
-## Southern Conference (14 teams)
+### Southern Conference (14 teams)
 * North Texas
 * Texas State
 * UTSA
@@ -118,7 +121,7 @@
 * Southern Miss
 * Memphis
 
-## Sun Belt Conference (14 teams)
+### Sun Belt Conference (14 teams)
 * FIU
 * Florida Atlantic
 * Central Florida
@@ -134,7 +137,7 @@
 * Old Domininon
 * Navy
 
-## Western Athletic Conference (14 teams)
+### Western Athletic Conference (14 teams)
 * Wyoming
 * Colorado St
 * Air Force
