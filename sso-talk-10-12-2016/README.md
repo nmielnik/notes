@@ -15,6 +15,7 @@
 * <!-- .element class="fragment" -->"JWT" usually pronounced like "Jot"
 * <!-- .element class="fragment" -->JWT is a standard with an [RFC](https://tools.ietf.org/html/rfc7519)
 * <!-- .element class="fragment" -->[jwt.io](https://jwt.io/introduction/) great website with videos, documentation, etc.
+* <!-- .element class="fragment" -->JWTs are encoded and contain a signature. THEY ARE NOT ENCRYPTED AND CAN BE DECODED BY ANYONE.
 * <!-- .element class="fragment" -->Contains 3 main parts: Header, Payload, and Signature
 
 
@@ -49,8 +50,7 @@
   "aud": "digital-sso-examples",
   "iss": "digital-sso",
   "sub": "695560"
-}
-</code></pre>
+}</code></pre>
 
 
 ## JWT Signature
@@ -174,13 +174,78 @@ cQIDAQAB
 4. <!-- .element class="fragment" -->Once all signout endpoints respond, or the timeout is hit, redirect to `redirect_uri` from QS
 
 
-## Signout Demo
+## User SSO DEMO (Signin + Signout)
 * SpringBoot example app
   * <pre>http://webs-qa-digital-sso-example-springboot.us-east-1.elasticbeanstalk.com/</pre>
 * Express example app
   * <pre>http://webs-qa-digital-sso-example-express.us-east-1.elasticbeanstalk.com/</pre>
 * digital-sso signout
   * <pre>http://qa.oidc.digital.vistaprint.com/signout?redirect_uri=http://www.vptest.com</pre>
+
+
+
+# Third-Party Cookies
+## Fun! Fun! Fun! Fun! Fun! Fun!
+<!-- .element class="fragment" --><img src="https://s3-us-west-2.amazonaws.com/nate-cdn/presentations/sso/MemeThirdPartyCookies.jpg" height="400" />
+
+
+## What are Third-Party Cookies (Besides Fun)?
+* <!-- .element class="fragment" -->Cookies read/written within a domain different than the current site domain (ie a image or iframe points to a different domain, and that service wants to access the cookies within that domain).
+* <!-- .element class="fragment" -->Problem: Safari disables third-party cookies by default. Other browsers have various states of support.
+  * We can't redirect to digital-sso within the iframe
+* <!-- .element class="fragment" -->Workaround: If a user has visited the domain directly in the browser, that service can read/write cookies to that domain within an image/iframe asychronous request.
+
+
+
+# IFrame SSO
+## Goals
+* <!-- .element class="fragment" -->Dealing with third-party cookies since 2016!
+* <!-- .element class="fragment" -->Be able to sign in and use third-party cookies to maintain session within an iframe (all of our dashboards)
+* <!-- .element class="fragment" -->Have this abstracted away into the digital-sso-client and be just as easy as UserSSO to use
+
+
+## 0. User visits Vistaprint.com dashboard with app1.com iframe
+1. <!-- .element class="fragment" -->Does user have a cookie in app1.com domain?
+2. <!-- .element class="fragment" -->If not, render a UI containing only javascript which will redirect the outer-frame to `/ssoredirect` endpoint within app1.com
+3. <!-- .element class="fragment" -->Pass outer-frame url as `redirectUri`
+
+
+## 1. User hits app1.com /ssoredirect
+1. <!-- .element class="fragment" -->Does user have a cookie in app1.com domain?
+2. <!-- .element class="fragment" -->If not, redirect to digital-sso like normal UserSSO flow, but store value of incoming `redirect_uri` separately.
+
+
+## 2. User hits digital-sso /authorize
+1. <!-- .element class="fragment" -->Redirect to VP Login
+
+
+## 3. VP Login
+1. <!-- .element class="fragment" -->Authenticate user and redirect back to `/successLogin`
+
+
+## 4. Back at digital-sso service
+1. <!-- .element class="fragment" -->Generate the JWT and go back to app1.com `/cb` endpoint passing the JWT in the query string (`code`)
+
+
+## 5. Back at app1.com
+1. <!-- .element class="fragment" -->Validate the JWT, drop a cookie in app2.vistaprint.com
+2. <!-- .element class="fragment" -->If there was a specific original url stored as part of the IFrameSSO flow, redirect there
+
+
+## 6. Back at Vistaprint.com dashboard with app1.com iframe
+1. <!-- .element class="fragment" -->Does user have a cookie within app1.com domain?
+2. <!-- .element class="fragment" -->YES! We're good to go, no redirecting necessary.
+
+
+
+# IFrame SSO
+<img src="https://s3-us-west-2.amazonaws.com/nate-cdn/presentations/sso/IFrameSSOFlow.png" height="550" />
+
+
+## Key Points
+* Any UI that can be displayed within an iframe should use this policy/filter
+* If not rendered within an IFrame, everything will work but there will be 2 extra unneccesary redirects
+* <!-- .element class="fragment" -->Questions?
 
 
 
@@ -246,9 +311,40 @@ cQIDAQAB
 
 # Service Auth
 ## Goals
-* <!-- .element class="fragment" -->Have a way to secure server-side calls from one microservice to another
+* <!-- .element class="fragment" -->Have a way to secure server-to-server calls from one microservice to another
 * <!-- .element class="fragment" -->Avoid having to share secrets between each pair of application that calls eachother
-* <!-- .element class="fragment" -->Leverage what we've done with User SSO and the clients as much as possible
+* <!-- .element class="fragment" -->Leverage what we've done with digital-sso-clients as much as possible, so this can be abstracted away from the services
+
+
+## 0. Service A wants to make request to Service B
+* <!-- .element class="fragment" -->Do I have a valid JWT?
+* <!-- .element class="fragment" -->If not, make request to digital-services-authentication to get a ServiceAuth JWT
+* <!-- .element class="fragment" -->Generate a temporary JWT and sign it with Service A's private key
+
+
+## 1. Service A requests a JWT
+* <!-- .element class="fragment" -->digital-services-auth sees an incoming request, and verifies the signature on the incoming JWT to ensure its a valid request.
+* <!-- .element class="fragment" -->Once incoming JWT is verified, generate a ServiceAuth JWT for Service A and return it in the response
+
+
+## 2. Service A receives ServiceAuth JWT
+* <!-- .element class="fragment" -->Verify returned JWT is valid, and cache it since it's good for 2 hours
+* <!-- .element class="fragment" -->Generate a request to Service B, passing Service A's JWT in the Authorization Header
+
+
+## 3. Service B receives request
+* <!-- .element class="fragment" -->Service B receives the incoming request from Service A
+* <!-- .element class="fragment" -->Check the authorization header, and verify the JWT
+
+
+## 4. Service B verifies JWT
+* <!-- .element class="fragment" -->Verify JWT is valid, hasn't expired, was issued for Service A, etc.
+* <!-- .element class="fragment" -->Verify the signature is valid and was generated by the digital-services-auth service
+* <!-- .element class="fragment" -->JWT is valid, so return response.
+
+
+## 5. Service A receives response
+* <!-- .element class="fragment" -->DONE!
 
 
 
@@ -259,9 +355,9 @@ cQIDAQAB
 ## Key Points
 * Application keeps its own private key, and stores its client-id + public key with central auth service
 * No storing of secrets, the only thing shared across the system is the central service's public key
-* Client has filter/policy for verifying incoming request + helpers for making outgoing requests
-* We've setup the ability to roll keys
-* External partners can use this to authenticate with us.  We've started looking into introducing scopes to restrict access to only what they need.
+* Client has filter/policy for verifying incoming request + helpers for making outgoing requests + support for rolling keys
+* Services can cache JWT and only request a new one when it expires
+* External partners can use this, so we've started thinking about scoped JWTs, to restrict 3rd parties
 * <!-- .element class="fragment" -->Questions?
 
 
