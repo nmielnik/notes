@@ -185,7 +185,7 @@ cQIDAQAB
 
 
 # Third-Party Cookies
-## Fun! Fun! Fun! Fun! Fun! Fun!
+### Fun! Fun! Fun! Now that Safari took our third-party cookies away!
 <!-- .element class="fragment" --><img src="https://s3-us-west-2.amazonaws.com/nate-cdn/presentations/sso/MemeThirdPartyCookies.jpg" height="400" />
 
 
@@ -245,6 +245,66 @@ cQIDAQAB
 ## Key Points
 * Any UI that can be displayed within an iframe should use this policy/filter
 * If not rendered within an IFrame, everything will work but there will be 2 extra unneccesary redirects
+* <!-- .element class="fragment" -->Questions?
+
+
+
+# SSO and user locale
+## Problem:
+* Vistaprint has several CCTLDs which allow us to track the user's locale
+  * ie: vistprint.ca, vistaprint.fr, etc.
+* <!-- .element class="fragment" -->We don't have alternate TLDs for our microservices, everything is .com
+* <!-- .element class="fragment" -->When we want to redirect back to Vistaprint, we don't know their locale, so we can't pick the right CCTLD :(
+
+
+## Solution: 
+* Geoff, Tom, and others devised a plan to use SSO as a way to track this
+* We'll track the referrer for the first time the user gets directed into a digital app (referring_host), send that to SSO, and store it in the user JWT.
+
+
+## 1. Non-US Vistaprint user redirected to app1.com
+#### (ie Purchase tower from vistaprint.ca)
+1. <!-- .element class="fragment" -->Does user have a cookie in app1.com domain?
+2. <!-- .element class="fragment" -->If not, redirect to digital-sso to get user JWT
+3. <!-- .element class="fragment" -->NEW! Extract the incoming referrer and pass that as a `referring_host` query param
+
+
+## 2. + 3. User hits digital-sso /authorize
+1. <!-- .element class="fragment" -->If `referring_host` is present in QS, and there isn't a `referring_host` cookie set in digital-sso, write it there.
+2. <!-- .element class="fragment" -->Redirect to VP Login
+
+
+## 4. User hits VPLogin
+1. <!-- .element class="fragment" -->Authenticate user
+2. <!-- .element class="fragment" -->Redirect back to digital-sso `/successLogin`
+
+
+## 5. User is back at digital-sso `/successLogin`
+1. <!-- .element class="fragment" -->Verify the user authenticated with VP
+2. <!-- .element class="fragment" -->Generate user JWT for app1.com
+3. <!-- .element class="fragment" -->Add `referring_host` into the JWT
+4. <!-- .element class="fragment" -->Redirect user back to app1.com w/ JWT
+
+
+## 6. User is back at app1.com
+1. <!-- .element class="fragment" -->Verify JWT is valid, create user session cookie in app1.com domain
+2. <!-- .element class="fragment" -->User session contains `referring_host`, so we can use this when creating links to VP pages
+3. <!-- .element class="fragment" -->User clicks a link that redirects them to VP
+
+
+## 7. User is back at VP w/ original CCTLD!
+<!-- .element class="fragment" --><img src="https://s3-us-west-2.amazonaws.com/nate-cdn/presentations/sso/Applause.gif" />
+
+
+
+# SSO w/ referring_host
+<img src="https://s3-us-west-2.amazonaws.com/nate-cdn/presentations/sso/SSOWithReferringHost.png" height="550" />
+
+
+## Key Points
+* Assuming we can access the original referrer the first time the user hits a digital-service, we can add this to every JWT that's generated for that user's session
+* When using digital-dashboard as the main redirect hub, it's using this JWT property
+* In the future, we may want to just store the locale to avoid some of the trickiness around parsing the referring_host
 * <!-- .element class="fragment" -->Questions?
 
 
