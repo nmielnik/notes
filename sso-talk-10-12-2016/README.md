@@ -1,5 +1,6 @@
 # Digital Authentication
 ##### featuring the light-hearted and meandering nonsense of Nate Mielnik!
+[Digital Auth Confluence Page](https://confluence.freewebs.com/pages/viewpage.action?spaceKey=DA&title=Digital+SSO+and+Authentication)
 
 
 
@@ -372,8 +373,15 @@ cQIDAQAB
 # Service Auth
 ## Goals
 * <!-- .element class="fragment" -->Have a way to secure server-to-server calls from one microservice to another
-* <!-- .element class="fragment" -->Avoid having to share secrets between each pair of application that calls eachother
+* <!-- .element class="fragment" -->Avoid having to share secrets between each pair of applications that call eachother
 * <!-- .element class="fragment" -->Leverage what we've done with digital-sso-clients as much as possible, so this can be abstracted away from the services
+
+
+# digital services authentication
+* https://github.com/websdev/digital-services-authentication
+* <!-- .element class="fragment" -->Central service that has a public/private key relationship with each application in the FIELD
+* <!-- .element class="fragment" -->Only one location that generates JWTs for apps to use when calling other apps
+
 
 
 ## 0. Service A wants to make request to Service B
@@ -383,7 +391,8 @@ cQIDAQAB
 
 
 ## 1. Service A requests a JWT
-* <!-- .element class="fragment" -->digital-services-auth sees an incoming request, and verifies the signature on the incoming JWT to ensure its a valid request.
+* <!-- .element class="fragment" -->digital-services-auth sees an incoming request for a client: Service A
+* <!-- .element class="fragment" -->Retrieve public key for Service A and verifies the signature on the incoming JWT
 * <!-- .element class="fragment" -->Once incoming JWT is verified, generate a ServiceAuth JWT for Service A and return it in the response
 
 
@@ -394,7 +403,7 @@ cQIDAQAB
 
 ## 3. Service B receives request
 * <!-- .element class="fragment" -->Service B receives the incoming request from Service A
-* <!-- .element class="fragment" -->Check the authorization header, and verify the JWT
+* <!-- .element class="fragment" -->Check the authorization header, and verify the JWT contained within it
 
 
 ## 4. Service B verifies JWT
@@ -413,9 +422,10 @@ cQIDAQAB
 
 
 ## Key Points
-* Application keeps its own private key, and stores its client-id + public key with central auth service
-* No storing of secrets, the only thing shared across the system is the central service's public key
-* Client has filter/policy for verifying incoming request + helpers for making outgoing requests + support for rolling keys
+* Applications keep their own private key, no sharing!
+* Applications store their `client_id` and public key in DSA config (microservice toolkit)
+* Only thing shared across the system is the DSA public key (no secrets)
+* Client has filter/policy for verifying incoming request + helpers for making outgoing requests + rolling keys
 * Services can cache JWT and only request a new one when it expires
 * External partners can use this, so we've started thinking about scoped JWTs, to restrict 3rd parties
 * <!-- .element class="fragment" -->Questions?
@@ -423,7 +433,7 @@ cQIDAQAB
 
 
 # Client
-* We've built a bunch of clients to allow new applications to just take an additional dependency and be able to secure endpoints quickly
+* We've built a few clients to allow new applications to just take an additional dependency and be able to secure endpoints quickly
 * [digital-sso-client](https://github.com/websdev/digital-sso-client)
   * node/express npm module
   * sailsjs npm module
@@ -442,8 +452,20 @@ cQIDAQAB
 
 
 
+# Q + A
+* JWTs?
+* User SSO? Signout?
+* IFrame SSO? AJAX SSO?
+* Care SSO?
+* User Locale/Referring Host?
+* Service Auth?
+* Why/How did we do this?
+
+
+
 # Thanks!
 * digital-sso: Caleb, Harbhajan, Nate, Matt Fowle, Tom Whitner, Andrew B
 * digital-sso-client: Nate, Harbhajan, Thomas Gideon, Matt Halbe, Noah, Matt Fowle, Tom Whitner, Brad
 * care sso: Andrew Bondarenko
+* sso w/ locales: Geoff, Tom Whitner
 * service-auth: Harbhajan, Nate
