@@ -70,8 +70,7 @@
 
 
 ## March 30th 2017
-* I woke up the next morning and Litecoin went from 4.5 to 9!
-  * Litecoin had spent 2 full years hovering between 3 and 4.5 before that<!-- .element class="fragment" -->
+* I woke up the next morning and Litecoin went from $4.5 to $9.00 (it had spent 2 full years hovering between 3 and 4.5 before that)
 !["BitcoinPriceChart"](cryptos-talk-05-10-2017/images/Litecoin-PriceHistory.png)<!-- .element class="fragment" -->
 
 
@@ -87,9 +86,17 @@
 
 
 # <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/128x128/ethereum.png" /> Ethereum
+* Ethereum is a public virtual machine running script on a network
+* Allows for creation of smart contracts stored in the public blockchain
+  * Arbitrary code that can execute some task in the future that can't be reversed
+* <!-- .element class="fragment" -->Ether - Used as to pay transaction fees and computation fees with the blockchain
 
 
 # <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/128x128/ethereum-classic.png" /> Ethereum Classic
+* June 2016 a vulnerability in the code was found and the DAO (Decentralized Autonomous Organization) was hacked and 1/3 of the DAO's Ether was moved somewhere
+* <!-- .element class="fragment" -->No central authority so handling this was hard
+* <!-- .element class="fragment" -->Consensus to make a code change to allow for undoing something like this in the future
+* <!-- .element class="fragment" -->Core group disagreed with this, and rejected the fork.  That group is still going and their Ether is now known and traded as Ethereum Classic
 
 
 # <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/128x128/ripple.png" /> Ripple
@@ -98,12 +105,58 @@
 # <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/128x128/litecoin.png" /> Litecoin
 
 
-
 # <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/128x128/dogecoin.png" /> DogeCoin
 
 
 
 ## I've owned quite a few:
 <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/ethereum.png" /> Ethereum - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/litecoin.png" /> Litecoin - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/ripple.png" /> Ripple - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/nem.png" /> NEM - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/dash.png" /> Dash - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/ethereum-classic.png" /> Ethereum Classic - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/monero.png" /> Monero - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/stellar.png" /> Stellar - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/steem.png" /> Steem - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/dogecoin.png" /> DogeCoin - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/stratis.png" /> Stratis - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/zcash.png" /> Zcash - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/bitshares.png" /> BitShares - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/bytecoin.png" /> Bytecoin - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/factom.png" /> Factom - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/decred.png" /> Decred - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/gamecredits.png" /> GameCredits - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/siacoin.png" /> Siacoin - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/lisk.png" /> Lisk - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/peercoin.png" /> Peercoin - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/nxt.png" /> Nxt - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/syscoin.png" /> Syscoin - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/namecoin.png" /> Namecoin - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/counterparty.png" /> XCP - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/nav-coin.png" /> NAV Coin - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/bitcoindark.png" /> BitcoinDark - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/digibyte.png" /> DigiByte - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/bitcrystals.png" /> Bitcrystals - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/potcoin.png" /> PotCoin - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/clams.png" /> Clams - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/library-credit.png" /> LBRY Credit - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/vertcoin.png" /> Vertcoin - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/novacoin.png" /> Novacoin - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/expanse.png" /> Expanse - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/primecoin.png" /> PrimeCoin - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/burst.png" /> Burst - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/bitcoin-plus.png" /> BitCoin Plus - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/pascal-coin.png" /> Pascal Coin - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/omni.png" /> Omni - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/viacoin.png" /> Viacoin - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/belacoin.png" /> BelaCoin - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/nautiluscoin.png" /> NautilusCoin - <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/32x32/vericoin.png" /> VeriCoin
+
+
+
+# What I Use - Basics
+* <a target="_blank" href="https://www.cryptocompare.com/">CryptoCompare.com</a> - Data, News, Research
+  * Info on coins, exchanges, mining rigs, wallets, etc.
+  * Awesome centralized data source
+* <a target="_blank" href="https://www.coinbase.com">Coinbase.com</a> (San Francisco) - Exchanging USD for BTC/ETH/LTC
+  * Have been around for a while (I used them with Idris originally)
+  * Lots of fees, and they are very trick/shady with how their fees grow in size as you move through the UI
+* <a target="_blank" href="https://www.bitstamp.net/">Bitstamp.net</a> (London) - An alternative for exchanging USD for BTC/XRP
+  * Have much lower fees, planning to try to use them in the future
+
+
+
+# What I Use - Exchanges
+* <a target="_blank" href="https://www.bitfinex.com">Bitfinex.com</a> (Hong Kong) - Exchanging BTC and ~7 top coins
+  * My favorite exchange, awesome trading tools, stable
+  * They were hacked in the past, stole a lot of BTC.  Eventually paid everyone back though and they're still going strong
+  * Don't have many coins
+* <a target="_blank" href="https://www.poloniex.com">Poloniex.com</a> (Delaware) - Exchanging BTC for ~70 coins
+  * King of the volume for exchanges
+  * Crappy trading tools
+  * Company seems a little shady/unreliable
+    * Have seen the site crash 3 times
+    * DDos just last week, which resulted in some shady trade behavior
+    * 2 separate times I had trouble withdrawing funds (it took a while, confirmation emails didn't arrive for many hours)
+
+
+
+# Other Exchanges
+* <a target="_blank" href="https://www.kraken.com">Kraken.com</a> (Canada, EU, Japan, US)
+  * Somehow related to MtGox fallout
+  * Good amount of traffic, couldn't figure out how to use their site effectively
+* <a target="_blank" href="https://www.bitrex.com">Bitrex.com</a> (Seattle)
+  * Tons of coins, trading tools seems suspect
+* <a target="_blank" href="https://www.cryptopia.co.nz/Exchange">Cryptopia.co.nx</a> (New Zealand)
+  * 400+ alt-coins, avoiding the major coins
+  * Where I bought things like HoboNickel, Fuzzballs, SwagBucks, and KushCoin
+
+
+
+# Things To Keep In Mind
+* Past performance does not guarantee future results!
+  * I feel like I needed to spread the word, but I'm not encouraging anyone to invest in any of this!
+  * Would love to have people to talk to about it, cuz it's a 24/7 mad world of money
+* Setting up and verifying accounts takes time (multiple days)
 
 
