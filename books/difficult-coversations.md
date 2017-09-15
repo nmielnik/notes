@@ -1,6 +1,6 @@
-# The Problem
+# 1. The Problem
 
-### Each Difficult Coversation is really 3 conversations
+### Chapter 1: Each Difficult Coversation is really 3 conversations
 
 #### The "What Happened" Coversation: _What's the story here?_
 Who said what, who did what, who's right, who meant what, who's to blame.
@@ -54,9 +54,9 @@ Who said what, who did what, who's right, who meant what, who's to blame.
 
 
 
-# Shift to a Learning Stance: _The "What Happened?" Conversation_
+# 2. Shift to a Learning Stance: _The "What Happened?" Conversation_
 
-### Stop Arguing Over Who's Right: _Explore Each Other's Stories_
+### Chapter 2: Stop Arguing Over Who's Right: _Explore Each Other's Stories_
 
 #### We Think They're The Problem
 * **They're Selfish**: 
@@ -129,7 +129,7 @@ Who said what, who did what, who's right, who meant what, who's to blame.
   * I don't want to be a jerk and I want to be honest and I know this is hurtful and I am I unhappy about this too
 
 
-### Don't Assume They Meant It: _Separate Intent From Impact_
+### Chapter 3: Don't Assume They Meant It: _Separate Intent From Impact_
 * Intentions influence our judgement of others - Doing it on purpose is different than doing by accident
 
 #### First Mistake: Assumptions About Intentions Are Usually Wrong
@@ -210,7 +210,7 @@ Who said what, who did what, who's right, who meant what, who's to blame.
 
 
 
-### Abandon Blame: _Map the Contribution System_
+### Chapter 4: Abandon Blame: _Map the Contribution System_
 * You are doing a presentation but the assistant packed the wrong slides
   * You can blame explicitly "I don't know how you could have done this"
   * You can blame implicity "Let's do better next time"
@@ -280,9 +280,9 @@ Who said what, who did what, who's right, who meant what, who's to blame.
   * Pretend to view the issue from a neutral 3rd party, what does it look like?
 
 
-# The Feelings Conversation
+# 3. The Feelings Conversation
 
-### Have Your Feelings _(Or They Will Have You)_
+### Chapter 5: Have Your Feelings _(Or They Will Have You)_
 
 #### Feelings Matter
 * Managing feelings is hard, and not addressing them derails a lot of difficult conversations
@@ -351,8 +351,56 @@ Who said what, who did what, who's right, who meant what, who's to blame.
 * It's tempting to skip feelings and solve problems, but that prevents feeling acknowledged
 
 
+# 4. The Identity Conversation
+
+### Chapter 6: Ground Your Identity: _Ask Yourself What’s at Stake_
 
 
+#### Difficult Conversations Threaten Our Diversities
+
+##### Three Core Identities
+
+##### An Identity Quake Can Knock Us Off Balance
+
+##### There's No Quick Fix
 
 
+#### Vulnerable Identities: The All-Or-Nothing Syndrome
 
+##### Denial
+
+##### Exaggeration
+
+
+#### Ground Your Identity
+
+##### Step One: Become Aware of Your Identity Issues
+
+##### Step Two: Complexify Your Identity (Adopt the "And" Stance)
+
+
+#### Three Things To Accept About Yourself
+
+##### 1. You Will Make Mistakes
+
+##### 2. Your Intentions Are Complex
+
+##### 3. You Have Contributed to the Problem
+
+
+#### During the Conversation: Learn to Regain Your Balance
+
+##### Let Go of Trying to Control Their Reaction
+
+##### Prepare for Their Response
+
+##### Imagine That It's Three Months Or Ten Years From Now
+
+##### Take a Break
+
+
+#### Their Identity Is Also Implicated
+
+##### Raising Identity Issues Explicitly
+
+##### Find the Courage to Ask for Help
