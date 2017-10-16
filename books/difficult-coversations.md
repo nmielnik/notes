@@ -404,3 +404,77 @@ Who said what, who did what, who's right, who meant what, who's to blame.
 ##### Raising Identity Issues Explicitly
 
 ##### Find the Courage to Ask for Help
+
+
+
+# 5. Creating a Learning Conversation
+
+### Chapter 7: What's Your Purpose? _When to Raise It and When to Let Go_
+
+
+
+### Chapter 8: Getting Started: _Begin from the Third Story_
+* Beginning of a difficult conversation
+  * Often the most stressful but also most important
+  * Opportunity to set tone and direction of entire conversation
+
+#### Why Our Typical Openings Don't Help
+
+##### We Begin Inside Our Own Story
+* We start talking about the story from our viewpoint, which will retrigger the reaction the other person had to begin with
+* Leaves out their viewpoint and issues from the get-go and can easily trigger defensiveness
+
+##### We Trigger Their Identity Conversation from the Start
+* Our story passes judgement since in our version of the story the other person is the issue
+
+#### Step One: Begin from the Third Story
+* Third Story being how an outsider with no stake in interest in the situation would view the events
+
+##### Think Like a Mediator
+* Mediator works to identify the third story and isn't impact by the consensus
+* Mediator works to come up with a description of the story that both sides agree to, not the story one side agrees to as that's what each person has already done which lead to the conflict
+
+##### Not Right or Wrong, Not Better or Worse - Just Different
+* The key to the third story is understanding and describing the gap between the stories between people
+* Example: Jason upset with Jill leaving dishes in the sink, Jill upset with Jason's habits and cleaning while she's still eating
+  * Third Story: There is a disagreeemnt between Jason and Jill about how dishes are handled
+* Acknowledge there's a difference, which both can agree to since it includes both of them
+
+##### If They Start the Conversation, You Can Still Step to the Third Story
+* If someone else initiates the conversation, instead of defending yourself or telling your story, trying to jump into the Third Story is possible and can allow the conversation to be productive
+  * Jill comes to Jason complaining, Jason might say "Sounds like you have trouble, I'm also unhappy, seems like it would be a good thing to talk about?"
+
+#### Step Two: Extend an Invitation
+* After describing the problem, proposing mutual understanding and problem solving can help drive the conversation to a positive outcome
+
+##### Describe Your Purposes
+* Let them know you want to discuss and understand their perspective, they need to know what they're agreeing to
+
+##### Invite, Don't Impose
+* Let them know that even describing the problem is open for debate if they're resistant or hesitant
+
+##### Make Them Your Partner in Figuring It Out
+* Avoid paiting them as the problem that will be solved, and be genuine and open to discussing more
+* Ensure they don't feel like you've already decided it's their fault and that you're open to wherever the discussion goes...involving them is necessary and you're not doing it just to go through the motions
+
+##### Be Persistent
+
+
+#### Some Specific Kinds Conversations
+
+##### Delivering Bad News
+
+##### Making Requests
+
+##### Revisiting Conversations Gone Wrong
+
+#### A Map for Going Forward - Third Story, Their Story, Your Story
+
+##### What to Talk About - The Three Conversations
+
+##### How to Talk About It - Listening, Expression, and Problem-Solving
+
+
+
+
+
