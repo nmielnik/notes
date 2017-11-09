@@ -477,4 +477,135 @@ Who said what, who did what, who's right, who meant what, who's to blame.
 
 
 
+### Chapter 9: Learning: _Listen from the Inside Out_
 
+#### Listening Transforms the Conversation
+
+##### Listening to Them Helps Them Listen to You
+
+#### The Stance of Curiosity: How to Listen from the Inside Out
+
+##### Forget the Words, Focus on Authenticity
+
+##### The Commentator in Your Head: Become More Aware of Your Internal Voice
+
+##### Don't Turn It Iff, Turn It Up
+
+##### Managing Your Internal Voice
+
+###### Negotiate Your Way to Curiosity
+
+###### Don't Listen: Talk
+
+#### Three Skills: Inquiry, Paraphrasing, and Acknowledgement
+
+#### Inquire To Learn
+
+##### Don't Make Statements Disguised as Questions
+
+##### Don't Use Questions to Cross-Examine
+
+##### Ask Open-Ended Questions
+
+##### Ask for More Concrete Information
+
+##### Ask Questions About the Three Conversations
+
+##### Make It Safe for Them Not To Answer
+
+#### Paraphrase for Clarity
+
+##### Check Your Understanding
+
+##### Show That You've Heard
+
+#### Acknowledge Their Feelings
+
+##### Answer the Invisible Questions
+
+##### How to Acknowledge
+
+##### Order Matters: Acknowledge Before Problem-Solving
+
+##### Acknowledging Is Not Agreeing
+
+#### A Final Thought: Empathy Is a Journey, Not a Destination
+
+
+
+### Chapter 10: _Speak for Yourself with Clarity and Power_
+* Starting with Third Story and listening with a desire to learn are crucial first steps, but the other person also needs to hear your story.
+
+#### Orators Need Not Apply
+* Being a great speaker doesn't help here.  It's not about persuading or getting someone on your side.
+* 1) Believe what you have to say is important.
+* 2) Figure out what you want to express and how you want to express it.
+
+#### You're Entitled (Yes, You)
+
+##### No More, But No Less
+* We're all equal in conversations and deserved to be treated with respect and dignity
+* Silence is costly and hurts us in the end 
+  * (Audre Lorde's breast cancer example)
+
+##### Beware Self-Sabotage
+* We can struggle between feeling like we should stand-up for ourselves and feeling like we don't deserve to be heard
+  * One way is to speak up in a way that we are doomed to fail, so we can feel like we tried but not actually be heard
+    * Forget points, bring up stuff too late in a meeting, forget materials, etc.
+
+##### Failure to Express Yourself Keeps You Out of the Relationship
+* Angela broke off her engagement because fiance was too nice
+  * He didn't get mad, was always agreeable, and so the conversation was missing him
+* Callie didn't feel close to her coworkers since they were white and seemed insensitive
+  * She took a chance and told them stories of her past, and her coworkers shared their own stories of feeling left out
+  * Ultimately helped her connect
+
+##### Feel Entitled, Feel Encouraged, But Don't Feel Obligated
+
+#### Speak the Heart of the Matter
+* First be entitled, then figure out what to say
+
+##### Start with What Matters Most
+* Start with the main issue
+  * "For me, what this is really about is..."
+  * "What I'm feeling is..."
+  * "What is important to me is..."
+* Charlie & Gage Convo (brothers)
+  * Charlie has suggestions where Gage could do things better but doesn't bring them up because he thinks Gage will feel criticized again, so they become distant
+  * When he instead says he admires Gage's work ethic, feels bad about how he treated him as a brother, and his need to feel like a good brother, everything goes differently
+* We often say the least important things first and repeat them, never getting to the heart of the matter
+* In difficult conversations ask if you've said the important thing, and if you haven't, try to understand why
+
+##### Say What You Mean: Don't Make Them Guess
+* Sometimes we embed the important things into subtext rather than saying them outright
+
+###### Don't Rely on Subtext
+* When we're not sure whether to bring up a convo or avoid it we do the inbetween and bring it up in other contexts
+  * This feels like doing both, but it's really do both things badly
+* Example: couple spends saturdays together doing insignificant things, but now husband is golfing
+  * "Honey there's a lot to do around the house this weekend"
+  * "Is golf so important that you need to play it this often?"
+  * "Honey, you are simply playing too much golf!"
+* People find themselves wishing the other person already knew there was a problem and would do something about it
+  * but it's a fantasy and those people don't exist
+
+###### Avoid Easing In
+* Things like "How do _you_ think you're doing?" or "I have the same problem but it would have been better to...wouldn't you agree?" are indirect
+  * Makes both sides uncomfortable and relays a message that you don't want to actually talk about the real issue
+  * Allow people to make up the real message in their head which is usually far worse than the actual message
+
+##### Don't Make Your Story Simplistic: Use the "Me-Me" And
+
+#### Telling Your Story with Clarity: Three Guidelines
+
+##### 1. Don't Present Your Conclusions as The Truth
+
+##### 2. Share Where Your Conclusions Come From
+
+##### 3. Don't Exaggerate with "Always" and "Never": Give Them Room to Change
+
+#### Help Them Understand You
+
+##### Ask Them to Paraphrase Back
+
+##### Ask How They See It Differently - and Why
