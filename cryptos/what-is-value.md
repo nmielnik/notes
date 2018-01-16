@@ -1,16 +1,24 @@
 # What is the value of cryptocurrencies and blockchain?
 
-## Questions that could be very similar in their answers
-* What is the value of colleges/universities?
+Answering this question is very difficult, and it's currently impossible to really understand the value of something like bitcoin, let alone have most of the world population even begin to understand the value of this kind of technology.
+
+## Similar Questions
+
+Here are some questions where most people can quickly understand the basic gist of why these things are desirable or important, and can form a thoughtful opinion about them.  We'll be in the best shape when the same people can think about blockchain in the same way.
+
+* What is the value of a college?
 * What is the value of NASA?
 * What is the value of the SIMs universe?
 * What is the value of baseball card collecting?
 * What is the value of the American Constitution?
-* What is the value of elections?
+* What is the value of an election?
 * What is the value of a free market in capitalism?
 * What is the value of home ownership?
 
-## Examples of perception-alterting adoption
+## Perception Changing Events
+
+Examples of different types of events that could change the world's understanding of blockchain, and thus give us a direct way to think about the value of the technology and something like Bitcoin. (These correspond to the different high-level categories from [What Are the Possibilities of Blockchain?](/cryptos/possibilites.md))
+
 * The curing of critical disease (ie Alzheimers) or solving of a incredibly valuable problem that would have only been made possible by fund raising through blockchain and research through blockchain
 * The creation of a massively successful alternate virtual universe (like SIMs but to a whole new level) where the participation in that world becomes something people could do full time (ie the Matrix)
 * The end-to-end ICO, establishment, and significant revenue-producing success of multiple start-up companies
