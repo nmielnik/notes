@@ -45,6 +45,19 @@ _There isn't a well defined set of responsibilities for mentorship and this lead
   * When it comes to day-to-day tasks and the level of contribution that a person has on a team, these folks have the best visibility (along with other team members)
   * The best opportunity for technical guidance and teaching comes from coworkers on the same team. The best way to learn fully absorb and understand new techincal concepts is to practice and apply those concepts directly in your day-to-day work.
 
+### Workplace Discussion
+_The expectations of a mentor was chosen as a topic during a mentorship meeting at work, these were the items called out_
+
+1. Know the expectations of your mentee and be able to relay them
+2. Be willing to experiment with different strategies/approaches of coaching
+3. Be invested in the success of your mentee
+4. Facilitate collection of actionable feedback
+5. Understand motivation of mentee and act on connecting them with that
+6. Helping find opportunities for the mentee
+7. Be able to know if you're being effective or identifying if you're not and someone else might be able to
+
+* NOTE: It seems like the first point (1) around defining the expectations is the most critical of these.  That one should be accomplished first and well understood before starting to tackle any of 2-7.
+
 
 ## Job Levels
 _Job levels hurt more than help and cause us to not put enough effort into important decisions_
