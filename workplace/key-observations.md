@@ -60,14 +60,24 @@ _The expectations of a mentor was chosen as a topic during a mentorship meeting 
 
 
 ## Job Levels
-_Job levels hurt more than help and cause us to not put enough effort into important decisions_
+_Job levels hurt more than help and cause us to not put enough effort into important decisions and put too much thought into unimportant ones_
 
 * Job levels are not something the directly benefits a business.
-  * Ultimately, a business wants to make money by delivering value to customers.  It needs people to be able to execute on that, and you need those people to be motivated to help the company get there, so ultimately a company just needs employees who are motivated to help the company.
-  * There are many things that motivate people, including compensation, recognition, challenge, being part of something bigger than themselves, autonomy, and mastery. Job levels become a motivator for customers via these avenues, but they are not just motivating on their own (it's not the title, it's the recognition and benefits that come along with the title that's motivating)
+  * At it's core, a business makes money by delivering value to customers.  It needs people to be able to execute on that, and you need those people to be motivated to help the company get there, so ultimately a company just needs employees who are motivated to help the company.
+  * There are many things that motivate people, including compensation, recognition, challenge, being part of something bigger than themselves, autonomy, and mastery. Job levels become a motivator for employees via these avenues, but they are not just motivating on their own (it's not the title, it's the recognition and benefits that come along with the title that's motivating)
 * Job levels aren't how we operate in other groups
-  * In team sports, families, groups of friends, neighborhoods, or other group activities, something equivalent to job levels hasn't emerged as a necessary way to do things.  There is normally some leader or representative for the group, and specific roles are often defined, but not clear level and hierarchy.
+  * In team sports, families, groups of friends, neighborhoods, or other group activities, something equivalent to job levels hasn't emerged as a necessary way to do things.  It can be normal for someone to step into a leadership role, but it might just be for certain circumstances or situations and could be someone else for others.  Roles are often defined as well based on what people are good at or like to do, but a clear level and hierarchy doesn't automatically arise out of just that.
   * Other than the military, I can't think of other places where something equivalent to job levels is a necessary part of the system.
+* Job levels can restrict or limit the unique ways people can contribute to an organization
+  * (something something...)
+* Job levels can become overloaded and begin to be used in ways they weren't intended
+  * (something something...)
+* Job levels can encourage folks to focus soley on themselves rather than others or the success of the company
+  * (something something...)
+
+* Things to read:
+  * https://labs.spotify.com/2016/02/08/technical-career-path/
+  * http://www.reinventingorganizationswiki.com/Job_Titles_and_Job_Descriptions
 
 
 ## Defining Expectations
@@ -91,7 +101,7 @@ _Negative outcomes or undesirable behavior are very likely tied to unclear expec
 * The main takeaway is, it can be worthwhile to have a conversations about expectations on both sides of all your roles and relationships.  At the very least, when any issue arises, the first thought should "does everyone here have a clear understanding of the expectations being placed on them?"
 
 ### Defining Expectations
-* Before there's conflict, it never hurts to take a little time to ask the people you interact with what their expectations are of you.  It's also worth asking them what they think your expectations are of them.  It's extremely likely that you'll both learn something new and valuable through this.  Doing this before there's an issue can give the conversation the best chances of staying in a positive context.  
+* Before there's conflict, it never hurts to take a little time to ask the people you interact with what their expectations are of you.  It's also worth asking them what they think your expectations are of them.  It's extremely likely that you'll both learn something new and valuable through this.  Doing this before there's an issue can give the conversation the best chances of staying in a positive context.
 * People can start trying to figure out what you're really getting at, or assume you're inferring a problem when you start to talk about expectations, so trying to do this before issues arise can help a lot.
 * Whether you're in a leadership role, working with a peer, or helping out a friend, just asking the other folks what their expectations are of you, and what they think your expectations are of them will be a fruitful and telling conversation.
 
