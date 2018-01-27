@@ -34,7 +34,7 @@
 
 ## And That Value Has Grown A Lot
 ### $1,730.79 on 5/10/17!
-!["BitcoinPriceChart"](cryptos-talk-05-10-2017/images/Bitcoin-PriceHistory.png)<!-- .element class="fragment" -->
+!["BitcoinPriceChart"](https://github.com/nmielnik/notes/raw/master/technical/cryptos-talk-05-10-2017/images/Bitcoin-PriceHistory.png)<!-- .element class="fragment" -->
 
 
 
@@ -71,12 +71,12 @@
 
 ## March 30th 2017
 * I woke up the next morning and Litecoin went from $4.5 to $9.00 (it had spent 2 full years hovering between 3 and 4.5 before that)
-!["BitcoinPriceChart"](cryptos-talk-05-10-2017/images/Litecoin-PriceHistory.png)<!-- .element class="fragment" -->
+!["BitcoinPriceChart"](https://github.com/nmielnik/notes/raw/master/technical/cryptos-talk-05-10-2017/images/Litecoin-PriceHistory.png)<!-- .element class="fragment" -->
 
 
 ## April 1st 2017
 * Ripple exploded from ~$0.005 to ~$0.07 (1400%)
-!["BitcoinPriceChart"](cryptos-talk-05-10-2017/images/Ripple-PriceHistory.png)<!-- .element class="fragment" -->
+!["BitcoinPriceChart"](https://github.com/nmielnik/notes/raw/master/technical/cryptos-talk-05-10-2017/images/Ripple-PriceHistory.png)<!-- .element class="fragment" -->
 
 
 

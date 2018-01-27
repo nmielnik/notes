@@ -35,7 +35,7 @@
 
 
 ### What about IE < 9?
-![U Mad Browser?](/dom-events/images/ie.jpg)
+![U Mad Browser?](https://github.com/nmielnik/notes/raw/master/technical/dom-events/images/ie.jpg)
 
 
 ### What about IE < 9?
