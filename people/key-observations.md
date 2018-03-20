@@ -106,3 +106,6 @@ _Negative outcomes or undesirable behavior are very likely tied to unclear expec
 * Whether you're in a leadership role, working with a peer, or helping out a friend, just asking the other folks what their expectations are of you, and what they think your expectations are of them will be a fruitful and telling conversation.
 
 
+## Motivation
+* The things that motivate people might be so obvious to them that it's hard for them to even recognize it.  If you ask someone what they need to feel happy, they probably won't suggest "breathing" as the the first thing.
+* If you say out loud the thing that you think someone cares a lot about and motivates them, and their response is something along the lines of "Yeah but that's not helpful, that's just something everyone cares about" or "well so what, everyone cares about that, what's your point?"...then you probably found a real motivator.  At first, talking about a core motivation can be odd because it's hard for people to imagine it not being something that motivates others, but in reality it's often the case that it's not.
