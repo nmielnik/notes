@@ -26,9 +26,29 @@ _(my quick notes from an awesome collection on https://lawsofux.com/ by [John Ya
 > Objects that are near, or proximate to each other, tend to be grouped together.
 
 
+## Law of Similarity
+
+> The human eye tends to perceive similar elements in a design as a complete picture, shape, or group, even if those elements are separated.
+
+
+## Law of Uniform Connectedness
+
+> Elements that are visually connected are perceived as more related than elements with no connection.
+
+
 ## Miller's Law
 
 > The average person can only keep 7 (plus or minus 2) items in their working memory.
+
+
+## Occam's Razor
+
+> Among competing hypotheses that predict equally well, the one with the fewest assumptions should be selected.
+
+
+## Pareto Principle
+
+> The Pareto principle states that, for many events, roughly 80% of the effects come from 20% of the causes.
 
 
 ## Parkinson's Law
