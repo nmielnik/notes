@@ -38,13 +38,27 @@
 ## Professional Developer
 
 #### Traits
-* Recognizes that everything comes down to source code and that there's always a path forward for diagnosing and understanding any system, no matter how complicated it is.
-  * This is an important end empowering realization, because that means the only true blocker to completing a task is their own willingness to sort through difficulties and ask the right kinds of questions.
-  * At some level, this is a huge realization of your own power, you can actually create things out of thin air, or fix existing applications.  Pretty cool stuff.
-* Has confidence in their own ability to complete any task they are responsible for. 
+* Confidence
+  * Recognizes that everything comes down to source code and that there's always a path forward for diagnosing and understanding any system, no matter how complicated it is.
+  * Understands and believes the only true blocker to completing a task is their own willingness to sort through difficulties and ask the right kind of questions.
+  * At some level, this is a huge realization of their own ability and power, you can actually create things out of thin air, or fix any existing application. Pretty cool stuff.
   * Beyond just the technical coding and debugging this will likely mean doing research, reaching out for help, scheduling conversations with groups of people, further understanding the requirements and the goal of the task at hand.
-* Trusted and relied upon by their teammates
-  * ...
+* Experienced
+  * Looks for chances to get out of their comfort zone and learn new technologies
+  * Isn't afraid to jump into a completely new area on behalf of the team
+  * Has a positive outlook towards work and issues that pop up.  No matter how frustrating things get, there's still a job to be done and they have the power to make that happen
+* Trusted
+  * Teammates trust this person to do what they say their going to do and raise any concerns when they see them.
+  * When the person says at stand-up they're going to get done today, they mean it, and if things are going to take longer than expected, they'll let people know before losing large chunks of time
+  * When it comes time to research work, reach out to folks outside their team, or dive into some exploratory work, the team has faith in the person's judgement and ability to be efficient, autonomous, and effective.
+* Predictable
+  * The person can make accurate assesments of how big work is.
+  * When they say something is easy or trivial, it actually is and is unlikely to blow up into something large.
+  * They do a good job of handing off work if they're going to be out, or work to share knowledge with others so that they won't ever be a blocker to getting things done.
+* Good Citizen
+  * Understands and evangelizes best practices with codebases they work on, team norms, code quality expectations, prioritizing work, and everything else they do.
+  * Looks to learn the right way to do things or wants to help establish what the agreed upon standard is.
+  * Makes an effort to improve every area of the code they work with, whether it's code, documentation, tests, or reporting.
 
 #### Signs of Growth / May Be Approaching Next Stage
 > I know the maximum that I'm personally capable of on my own and I'd like to accomplish even bigger things that requires help from others
@@ -56,9 +70,11 @@
 ## Collaborating Developer
 
 #### Traits
-* Leadership role on team
-* Thinks multiple items in advance
-* Focuses on unblocking and helping others in addition in addition to their own high level of contribution
+* Communication
+* Leadership
+* Planning / Organizing
+* Inspires / Empowers Others
+* Collaborates
 
 #### Signs of Growth / May Be Approaching Next Stage
 > I can estimate how long it will take to accomplish my work and the work of my teammates, how to spot dependencies, raise issues that need to be discussed before they become problems, and the other core parts of executing big projects with a team
@@ -72,6 +88,11 @@
 ## Coordinating Developer
 
 #### Traits
+* Experience
+* Awareness
+* Passion
+* Delegation
+* Cross-Functional
 * Has enough experience to think about all the high level aspects of a project
 * Works cross-team
 * Thinks big pictures
