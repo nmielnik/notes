@@ -71,10 +71,27 @@
 
 #### Traits
 * Communication
-* Leadership
+  * Being an excellent communicator is critical to being able to work efficiently with others and the person understands that and continually works to improve communication
+  * Consistently ensures that teammates and coworkers clearly understand what they're saying, including double-checking or following up to make sure
+  * Asks questions in a clear and purposeful way to find out exactly what they want to know and thus is efficient and respectful of other people's time
+  * Is conscienctious about the time and place to ask questions. Person should never be afraid to speak up if they're unsure out something as it's likely they're not the only one, but ensures the setting is the best place to get questions answered to avoid unnecessary conflict
+  * Understands the value of being on the same page and works continously to make that happen with their work and the work of the rest of the team
+* Selfless
+  * Prioritizes helping to unblock others and addressing business critical issues over other responsibilites
+  * Strives to find the right solution over being the person who was right
+  * Encourages helpful discussion and seeks out feedback about their work and how they can help the team more
 * Planning / Organizing
+  * Looks ahead with the work that they or their teammates are doing and spots potential roadblocks, complexity, or dependencies and proactively raises them with their team
+  * Speaks up and helps when attempting to break down and estimate the size of work, brainstorming around the pros and cons of approaches, or is concerned about the risks the team is taking on
+  * Is not afraid to ask question outside their team, or experiment with new areas that the team doesn't have experience with
+  * Shows interest in roles like being Scrum Master, or just breaking down epics or large problems into smaller, coordinates chunks of work
+  * Finds opportunities to break down work into pieces that can be done in parallel
 * Inspires / Empowers Others
-* Collaborates
+  * Looks for opportunities to learn something from others or help others through collaboration
+  * Continually gives feedback to teammates and coworkers, recognizing the impact they've had in the moment, positive or negative
+  * Keeps a positive, upbeat attitude and is excited and optimistic about who they're working with, what they're workig on, and the unique challenges they'll face together
+  * Is aware when things are difficult or frustrating and makes an effort to keep conversations and activities fun and engaging
+  * Finds ways to get others involves to create a team-ownership mentality
 
 #### Signs of Growth / May Be Approaching Next Stage
 > I can estimate how long it will take to accomplish my work and the work of my teammates, how to spot dependencies, raise issues that need to be discussed before they become problems, and the other core parts of executing big projects with a team
@@ -96,15 +113,15 @@
 * Has enough experience to think about all the high level aspects of a project
 * Works cross-team
 * Thinks big pictures
-* Has their own opinions on the value, importance, and approach to thins like estimation, planning, process, and resonsibility
+* Has their own opinions on the value, importance, and approach to things like estimation, planning, process, and resonsibility
 * Finds opportunities to introduce separate guilds/initiatives to influence positive change outside of their own team
 
 #### Signs of Growth / May Be Approaching Next Stage
 > There are clear ways our organization and business can be doing better and I am confident I can help us get there
 
-> If I could just be in some of these high-level, impactful conversations I could really help us make better decisions and be even more efficient as an organization
+> If I could be in some of the high-level, impactful conversations I could help us make more informed decisions and be even more efficient as an organization
 
-> We have some awesome people that could be doing even more within our organization given the right opportunities and recognition.
+> We have some awesome people that could be doing even more within our organization given the right opportunities and recognition and I want to help make that happen
 
 > The most effective way to have long lived change around things I care about is for me to delegate the responsibility of continuing the effort to others, or better yet, encourage/coach others to make the change happen from the beginning
 
