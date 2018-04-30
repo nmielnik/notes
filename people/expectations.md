@@ -1,5 +1,40 @@
 # Expectations
 
+## What Are Expectations?
+
+## Common Expectations
+
+### 10 Expectations of Leaders
+_inspired by [10 simple things that teams expect from their leader](https://www.inc.com/gordon-tredgold/10-simple-things-that-teams-expect-from-their-leader.html)_
+
+##### Clarity, Transparency, & Honesty
+People always strive to understand what they're responsible for and what ways they can contribute and provide value. People also despise feeling mislead, lied to, or tricked.  This is at the core of how someone representing a team communicates to their team what they've heard or are thinking.
+
+Sharing information to your team in a truthful, honest, and authentic tone is valuable.  Even if the information could seem disruptive, unfair, or just negative in general, being upfront with it and not trying to sugar coat the truth will ultimately be valued by the team.
+
+Information doesn't have to be perfectly formed either, being vulnerable with your thoughts and asking the team to help you figure determined how to translate your thoughts or observations into action items will be valued by your team plus builds respect and trust.
+
+We've all experienced a leader giving a message that sounds overly sugar-coated, or maybe even flat-out false.  Whether you think there's a hidden message that leadership is afraid to say out loud, or you're constantly waiting for the "but" after a positive-sounding lead-up, we can all empathize with that feeling.  That's why the times when leaders are especially straightforward or even blunt can be powerful events and have a large impact on your feelings towards leadership.  Of course, coming out and spewing insults and a bunch of criticism that may not be true is a terrible idea, but being authentic and honest has never lead me astray.
+
+Mistakes and unexpectated changes happen, sugar-coating or trying to make it sound positive and unimportant won't change the truth and can risk your credibility.  Keeping things to yourself and assuming folks on your team will react in a negative way to information will almost always lead to bad decisions by yourself, so don't do it.  Let your team react to information and solve the problems as a team, they're adults too, treat them like it.
+
+Good Example
+> I was just in a meeting where it feels like folks have changed their minds or are saying something completely different than before.  I have faith that they have a consistent plan and that we're doing the right things so I'm wondering if I misunderstood.  This is what I think I heard, you all tell me what you think this means: "..."
+
+Not-so-good Examples
+> The status update meeting was fine, they're really happy with how we've been doing so keep up the great work.
+
+##### Opportunity & Involvement
+
+##### Keep Commitments & Consistency
+
+##### Trust & Respect
+
+##### Timely, Constructive Feedback
+(both praise and differential)
+
+##### Stand Up For the Team
+
 ## Defining Expectations
 _Negative outcomes or undesirable behavior are very likely tied to unclear expectations_
 
