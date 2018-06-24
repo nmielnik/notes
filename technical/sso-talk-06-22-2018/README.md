@@ -1,7 +1,7 @@
 # "Digital SSO-my-god?!"
 ## Digital Authentication Systems
 
-> An Overview of authenitcation with digital microservices
+> An Overview of authentication with digital microservices
 
 <q>featuring the incoherrent idiosyncrasies of Nate Mielnik<q>
 
@@ -22,6 +22,7 @@
   <dd><!-- .element class="fragment" -->verb; prove or show (something, especially a claim or an artistic work) to be true or genuine.</dd>
   <dt>Authorize<dt>
   <dd><!-- .element class="fragment" -->verb; give official permission for or approval to (an undertaking or agent).</dd>
+  <dt><!-- .element class="fragment" -->Questions?</dt>
 </dl>
 
 
@@ -121,6 +122,7 @@
   <dd><!-- .element class="fragment" -->Standardize authentication and authorization protocol digital-sso, vistaprint login, and Auth0 implement and follow</dd>
   <dt>JSON Web Token (JWT)</dt>
   <dd><!-- .element class="fragment" -->Often pronounced "Jot", JWTs are  JSON blobs containing properties about an entity in a standardized way which supports signatures</dd>
+  <dt><!-- .element class="fragment" -->Questions?</dt>
 </dl>
 
 
@@ -197,6 +199,7 @@ cQIDAQAB
 * Cookie-sessions aren't tied to server instances or databases
 * Following standardized OpenID Connect spec
 * digital-sso-client provides simple support for node + springboot applications
+* Can view redirect history to debug many issues without having to go to server logs
 
 
 # User SSO Complexities
@@ -211,6 +214,7 @@ cQIDAQAB
   <dd><!-- .element class="fragment" -->Central service for authenticating vistaprint customers that, when applications redirect users to, will redirect the user back to the application with a signed JWT containing user data</dd>
   <dt>IFrame SSO</dt>
   <dd><!-- .element class="fragment" -->Special flow to handle authenticating users for application hosted within `<iframe>` elements which are subject to browser-based third-party-cookie restrictions</dd>
+  <dt><!-- .element class="fragment" -->Questions?</dt>
 </dl>
 
 
@@ -297,17 +301,21 @@ cQIDAQAB
 
 
 ## Summary
-* The JWT generated for impersonated users looks identical to normal user JWTs (with 2 extra claims)
-* If an app wants to restrict access to just care agents, just look for existance of additional `agent_username` claim.
-* <!-- .element class="fragment" -->Questions?
+1. CCT user A goes to digital-ssi `/impersonate` endpoint and is required to sign-in via Auth0
+2. digital-sso verifies they're signed-in and creates a special cookie saying they can impersonate user X
+3. User visits app Z and is redirected to digital-sso to sign in
+4. digital-sso sees special cookie, generates JWT for user X and redirects back to app Z
+5. App Z creates session for user X (doesn't need to know they're impersonated by CCT user A)
+  * There is info within the JWT that allows the app to know it's user A if needed
 
 
 # Terminology Pt IV
 <dl>
   <dt>Care SSO</dt>
-  <dd><!-- .element class="fragment" --></dd>
+  <dd><!-- .element class="fragment" -->A special flow where CCT users can sign-in to any digital application on behalf of a customer.</dd>
   <dt>impersonate (digital-sso)</dt>
-  <dd><!-- .element class="fragment" --></dd>
+  <dd><!-- .element class="fragment" -->digital-sso automatically generates an impersonation JWT when an application redirects to digital-sso. This JWT looks identical to a regular user JWT, but with extra properties to differentiate if needed</dd>
+  <dt><!-- .element class="fragment" -->Questions?</dt>
 </dl>
 
 
@@ -316,7 +324,7 @@ cQIDAQAB
 ## Goals
 * <!-- .element class="fragment" -->Have a way to secure server-to-server calls from one microservice to another
 * <!-- .element class="fragment" -->Avoid having to share secrets between each pair of applications that call eachother
-* <!-- .element class="fragment" -->Leverage what we've done with digital-sso-clients as much as possible, so this can be abstracted away from the services
+* <!-- .element class="fragment" -->Leverage what we've done with digital-sso-client as much as possible, to minimize or eliminate custom, manual work for each application
 
 
 # digital services authentication
@@ -366,90 +374,102 @@ cQIDAQAB
 <img src="https://s3-us-west-2.amazonaws.com/nate-cdn/presentations/sso/ServiceAuthFlow.png" height="550" />
 
 
-## Key Points
-* Applications keep their own private key, no sharing!
-* Applications store their `client_id` and public key in DSA config (microservice toolkit)
-* Only thing shared across the system is the DSA public key (no secrets)
-* Client has filter/policy for verifying incoming request + helpers for making outgoing requests + rolling keys
-* Services can cache JWT and only request a new one when it expires
-* External partners can use this, so we've started thinking about scoped JWTs, to restrict 3rd parties
-* <!-- .element class="fragment" -->Questions?
+## Summary
+* digital-services-authentication service exists as a central authentication source (like the digital-sso service)
+* Applications authenticate with the central service and get a signed JWT they can reuse for a period of time
+* When making server-to-server calls to another service, this JWT is included in the header of the request
+* Applications can ensure incoming requests have a valid signed-JWT that matches the service that is making the request
+
+
+## ServiceAuth Benefits
+* Allows any service to trust and authenticate incoming calls without having to build a direct relationship with each service and without having to call the central service each time
+* Operates in a very similar method to User SSO, leveraging the OpenID Connect spec
+* Improvements in flexibility and maintenance over using user-issued JWTs and HMAC
+
+
+## ServiceAuth Concerns
+* Other services could cache the incoming JWT and use it to call other services
+  * There are methods to address this if needed
+* Requires access to create public-private key pairs which is difficult to manage for external services (ie Monolith)
+* Only have "all-access" level of control currently
+  * We could issue "scoped" JWTs to apps to help deal with level of _authorization_
 
 
 # Terminology Pt V
 <dl>
   <dt>ServiceAuth</dt>
-  <dd><!-- .element class="fragment" --></dd>
+  <dd><!-- .element class="fragment" -->A system of authentication where services can make authenticated calls directly to other services using a custom signed-JWT issued by a central service.</dd>
   <dt>digital-services-authentication service</dt>
-  <dd><!-- .element class="fragment" --></dd>
-</dl>
-
-
-# Terminology Pt VI
-<dl>
-  <dt>Signature/Signed</dt>
-  <dd><!-- .element class="fragment" --></dd>
-  <dt>Encrypted/Encrypt</dt>
-  <dd><!-- .element class="fragment" --></dd>
-  <dt>Decrypted/Decrypt</dt>
-  <dd><!-- .element class="fragment" --></dd>
+  <dd><!-- .element class="fragment" -->The central service which issues signed-JWTs to authenticated microservices it trusts within the digital architecture.</dd>
+  <dt><!-- .element class="fragment" -->Questions?</dt>
 </dl>
 
 
 # Terminology Pt VII
 <dl>
   <dt>Private Key</dt>
-  <dd><!-- .element class="fragment" --></dd>
+  <dd><!-- .element class="fragment" -->Randomly generated set of bytes from which a public-key can also be created</dd>
+  <dd><!-- .element class="fragment" -->When kept secret, can be used to generate signatures to prove data came from key owner or decrypt data that was encrypted using the public key.</dd>
   <dt>Public Key</dt>
-  <dd><!-- .element class="fragment" --></dd>
+  <dd><!-- .element class="fragment" -->Set of bytes generated in a pair along with a private-key.</dd>
+  <dd><!-- .element class="fragment" -->Publicly shared, this allows for verifying signatures were generated by the owner of the corresponding private key or for encrypted secret data that can only be decrypted by the owner of the private key.</dd>
+  <dt><!-- .element class="fragment" -->Questions?</dt>
+</dl>
+
+
+# Terminology Pt VI
+<dl>
+  <dt>Signature/Signed</dt>
+  <dd><!-- .element class="fragment" -->Hashing a set of data and generating a signature using a private key.  Owners of the public key can then look at the request data and look at the signature to verify it came from the owner of the private key only and the request was not altered.</dd>
+  <dd><!-- .element class="fragment" -->With a signature you can know the request was unaltered, came from the owner of the private key, and the private key owner can't deny having sent it</dd>
+  <dt>Encrypted/Encrypt + Decrypted/Decrypt</dt>
+  <dd><!-- .element class="fragment" -->Creating a set of data that can only be deciphered by a specific, trusted party.  Public keys can be used to encrypt data in a way that only the private key owner can decipher.</dd>
+  <dt><!-- .element class="fragment" -->Questions?</dt>
 </dl>
 
 
 # Terminology Pt VIII
 <dl>
   <dt>digital-sso public key</dt>
-  <dd><!-- .element class="fragment" --></dd>
+  <dd><!-- .element class="fragment" -->Available to all digital microservices, this is needed to ensure the User SSO JWT from the user was issued by the digital-sso service and thus can be trusted.</dd>
   <dt>digital-services-authentication public key</dt>
-  <dd><!-- .element class="fragment" --></dd>
+  <dd><!-- .element class="fragment" -->Available to all digital microservices, this is needed to ensure the ServiceAuth JWT from the user was issued by the digital-services-authentication service and thus can be trusted.</dd>
+  <dt><!-- .element class="fragment" -->Questions?</dt>
 </dl>
 
 
 # Terminology Pt IX
 <dl>
   <dt>application private key</dt>
-  <dd><!-- .element class="fragment" --></dd>
-  <dt>ecnrypted session</dt>
-  <dd><!-- .element class="fragment" --></dd>
+  <dd>Serves multiple purposes for apps in both User SSO and Service Auth.</dd>
+  <dd><!-- .element class="fragment" -->1. Required for authenticating with digital-services-authentication for ServiceAuth.</dd>
+  <dd><!-- .element class="fragment" -->2. Required for redirecting a user to digital-sso to ensure only trusted apps can be issued User SSO JWTs.</dd>
+  <dd><!-- .element class="fragment" -->3. Used to encrypt the cookie for storing user sessions within applications.</dd>
+  <dt><!-- .element class="fragment" -->Questions?</dt>
 </dl>
 
 
 # Terminology Pt X
 <dl>
   <dt>rolling keys</dt>
-  <dd><!-- .element class="fragment" --></dd>
+  <dd><!-- .element class="fragment" -->The process of updating to new public-private key pairs by supporting both a new key + old key but favoring the new key for a time.  Once the new key is fully in use, then delete the old key.</dd>
   <dt>example apps</dt>
-  <dd><!-- .element class="fragment" --></dd>
+  <dd><!-- .element class="fragment" -->A set of applications in QA and PROD that use the varying version of the digital-sso-client.</dd>
+  <dd><!-- .element class="fragment" -->This includes an express app, sails app, and 2 springboot apps (one for digital-sso, one for Auth0).</dd>
+  <dd><!-- .element class="fragment" -->Helpful for testing changes to flows, the digital-sso-client, a starting point for building new apps, way to get info about your signed-in user, etc.
+  <dt><!-- .element class="fragment" -->Questions?</dt>
 </dl>
 
 
-
-# digital-sso-client
-* We've built a few clients to allow new applications to just take an additional dependency and be able to secure endpoints quickly
-* [digital-sso-client](https://github.com/websdev/digital-sso-client)
-  * node/express npm module
-  * sailsjs npm module
-  * Java artifact
-  * Future: .NET library and Ruby Gem?
-* Directions for onboarding and using the client are via READMEs within the repo
-
+# Terminology Pt XI
+<dl>
+  <dt>digital-sso-client</dt>
+  <dd><!-- .element class="fragment" -->Set of shared functionality for all digital microservices including policies, filters, key management, and helpers for generating and validating authenticated requests & users.</dd>
+  <dd><!-- .element class="fragment" -->Include npm packages for both express + sails apps and Java Artifact for SpringBoot.</dd>
+  <dd><!-- .element class="fragment" -->Has built-in support for Auth0 to allow for easier setup and sharing functionality in both node + SpringBoot</dd>
+  <dt><!-- .element class="fragment" -->Questions?</dt>
+</dl>
 
 
-# example apps
-
-
-# Thanks!
-* digital-sso: Caleb, Harbhajan, Nate, Matt Fowle, Tom Whitner, Andrew B
-* digital-sso-client: Nate, Harbhajan, Thomas Gideon, Matt Halbe, Noah, Matt Fowle, Tom Whitner, Brad
-* care sso: Andrew Bondarenko
-* sso w/ locales: Geoff, Tom Whitner
-* service-auth: Harbhajan, Nate
+# Thanks
+## Questions?
