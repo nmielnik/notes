@@ -53,6 +53,9 @@ _("One for me, and one for the road")_
 ### Why is the mushroom always invited to the party?
 _(He's such a fun guy)_
 
+### A photon arrives at a hotel and the bellhop asks if he has any bags. The photon says:
+_("No, I'm traveling light")_
+
 ## Conversational
 
 ### Kid: "Can I have a quesadilla?"
