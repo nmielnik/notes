@@ -61,8 +61,11 @@ _("No, I'm traveling light")_
 ### What do you call a fly after you rip off its wings
 _(A walk)_
 
-### 2 guys run into a bar
+### 2 guys run into a bar...
 _(The 3rd one ducked)_
+
+### Why are insomniacs so boring?
+_(They've just never been all that interesting)_
 
 ## Conversational
 
