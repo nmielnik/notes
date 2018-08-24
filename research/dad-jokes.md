@@ -56,6 +56,14 @@ _(He's such a fun guy)_
 ### A photon arrives at a hotel and the bellhop asks if he has any bags. The photon says:
 _("No, I'm traveling light")_
 
+### Ghonerrea would have been a grest name for diarrhea medication
+
+### What do you call a fly after you rip off its wings
+_(A walk)_
+
+### 2 guys run into a bar
+_(The 3rd one ducked)_
+
 ## Conversational
 
 ### Kid: "Can I have a quesadilla?"
@@ -69,6 +77,9 @@ _(Dad: "Through your nose")_
 
 ### Kid: "Are you alright?"
 _(Dad: "No, I'm half left")_
+
+### A son gives his dad his 50th birthday card. Then, the dad says, with tears in his eyes:
+_("You know, one would have been enough")_
 
 ---
 
