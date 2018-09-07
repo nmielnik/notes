@@ -16,7 +16,8 @@
 
 # Open-Source
 * Wanted to tap into open source community
-* People knew better than us, and wanted help with maintaining it long term
+* Other people knew text editing better than we did
+* Wanted help from others with maintaining it long term (who wouldn't want that?)
 
 
 
@@ -26,9 +27,9 @@
 
 
 # ArteJS
-  * https://github.com/vistaprint/ArteJS
-  * This is a different way of going about open-source (build it and hope people come)
-  * Very little contribution or community
+* https://github.com/vistaprint/ArteJS
+* This is a different way of going about open-source (build it and hope people come)
+* Very little contribution or community
 
 
 
@@ -56,10 +57,10 @@
 
 ## Milestones
 * 3/5/15 - 90% Code Coverage
-* Formation of YABWE group
-* Include on product hunt
-* Most starred editor on github (~8k i think)
-* v5.0.0 w/ documentation + plug-in framework
+* (TODO: Date) Formation of YABWE group
+* (TODO: Date) Include on product hunt
+* (TODO: Date) Most starred editor on github (~8k i think)
+* (TODO: Date) v5.0.0 w/ documentation + plug-in framework
   * link-insert + editing feature
 
 
@@ -104,7 +105,7 @@
 
 # Things Get Worse
 * 0% of time at work is on medium-editor
-* medium-editor is at v5.23.0, Tower is using v5.5.0! (Jira Ticket)
+* medium-editor is at v5.23.0, Tower is using v5.8.2! ([Jira Ticket](https://jira.digital.vistaprint.io/browse/DG-15568))
 * ProseMirror + DraftJS + Carbon emerge, as state-backed editors
 * TODO's on my home dry erase board are so old they won't erase
 
@@ -115,14 +116,6 @@
 * (Spoiler Alert) I abandoned the editor
 
 
-# Where Are They Now?
-* Me & my career
-* Noah
-* Davi
-* j0ker
-* yabwe
-
-
 
 # medium-editor Today
 * Sitebuilder still isn't using the latest version
@@ -131,13 +124,31 @@
 * I've popped in once or twice and tried to get things moving and then lost momentum quickly
 
 
+## Where Are They Now?
+* Me & my career
+* Noah
+* Davi
+* j0ker
+* yabwe
+
+
 
 # Lessons
 * Things to consider when working on open-source
-* Importance of vibrant community and recruiting
+* Importance of vibrant community and sharing ownership/contribution
+* Maintaining a popular project is a full-time job
+* Work and life initiatives change, always need an exit strategy
   * Davi recruited me quickly, I waited too long to do the same
-* The downside of the glamour <-- what are we really trying to say here?  I think you want the last slide and bullet to capture the whole journey as something that was a great accelerator for the business, a rewarding personal journey, but something that left you with lingering feelings of guilt / regret
 
+
+
+# tl; dl; (too long; didn't listen;)
+* We found and were invited to take over most starred text-editor on Github
+* Lots of contributors, publicity, glamour, etc.
+* Eventually the work team moved on but I couldn't
+* I did too much on my own - had to chose between my job or the project
+* Shame, regret, soul-searching, tears, and a Developer Days Talk (so meta)
+  * (Link/Snapshot of how popular it still is - 11k npm downloads/week | 12,665 stars)
 
 
 # Questions?
