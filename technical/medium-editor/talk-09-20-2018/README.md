@@ -19,14 +19,16 @@
 * People knew better than us, and wanted help with maintaining it long term
 
 
-## The Search
-* Alternatives explored: quill, scribe, wysihtml, ArteJS (VP open source)
+
+# The Search
+* Alternatives explored: quill, scribe, wysihtml, ArteJS (VP open source), medium-editor
 
 
-## ArteJS
-* https://github.com/vistaprint/ArteJS
-* This is a different way of going about open-source (build it and hope people come)
-* Very little contribution or community
+
+# ArteJS
+  * https://github.com/vistaprint/ArteJS
+  * This is a different way of going about open-source (build it and hope people come)
+  * Very little contribution or community
 
 
 
@@ -121,6 +123,7 @@
 * yabwe
 
 
+
 # medium-editor Today
 * Sitebuilder still isn't using the latest version
 * medium-editor is up over 1200 stars
@@ -133,7 +136,7 @@
 * Things to consider when working on open-source
 * Importance of vibrant community and recruiting
   * Davi recruited me quickly, I waited too long to do the same
-* The downside of the glamour
+* The downside of the glamour <-- what are we really trying to say here?  I think you want the last slide and bullet to capture the whole journey as something that was a great accelerator for the business, a rewarding personal journey, but something that left you with lingering feelings of guilt / regret
 
 
 
