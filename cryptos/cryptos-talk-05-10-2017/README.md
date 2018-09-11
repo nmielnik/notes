@@ -1,5 +1,5 @@
-## From <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/64x64/bitcoin.png" /> Bitcoin & <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/64x64/ethereum.png" /> Ethereum  
-## to <img src="https://files.coinmarketcap.com/static/img/coins/64x64/dogecoin.png" style="vertical-align: bottom;" /> DogeCoin & <img src="https://files.coinmarketcap.com/static/img/coins/64x64/hobonickels.png" style="vertical-align: bottom;" /> HoboNickels
+## From <img style="vertical-align: bottom;" src="http://proofofthought.io/cdn/crypto/btc64.png" /> Bitcoin & <img style="vertical-align: bottom;" src="http://proofofthought.io/cdn/crypto/eth64.png" /> Ethereum  
+## to <img src="http://proofofthought.io/cdn/crypto/doge64.png" style="vertical-align: bottom;" /> DogeCoin & <img src="http://proofofthought.io/cdn/crypto/hbn64.png" style="vertical-align: bottom;" /> HoboNickels
 
 ### Crypto Currencies are worth [a lot of] real money!
 
@@ -34,7 +34,7 @@
 
 ## And That Value Has Grown A Lot
 ### $1,730.79 on 5/10/17!
-!["BitcoinPriceChart"](https://github.com/nmielnik/notes/raw/master/cryptos/cryptos-talk-05-10-2017/images/Bitcoin-PriceHistory.png)<!-- .element class="fragment" -->
+!["BitcoinPriceChart"](http://proofofthought.io/cdn/talks/crypto-btc-2013-to-2017.png)<!-- .element class="fragment" -->
 
 
 
@@ -71,12 +71,12 @@
 
 ## March 30th 2017
 * I woke up the next morning and Litecoin went from $4.5 to $9.00 (it had spent 2 full years hovering between 3 and 4.5 before that)
-!["BitcoinPriceChart"](https://github.com/nmielnik/notes/raw/master/cryptos/cryptos-talk-05-10-2017/images/Litecoin-PriceHistory.png)<!-- .element class="fragment" -->
+!["BitcoinPriceChart"](http://proofofthought.io/cdn/talks/crypto-ltc-history.png)<!-- .element class="fragment" -->
 
 
 ## April 1st 2017
 * Ripple exploded from ~$0.005 to ~$0.07 (1400%)
-!["BitcoinPriceChart"](https://github.com/nmielnik/notes/raw/master/cryptos/cryptos-talk-05-10-2017/images/Ripple-PriceHistory.png)<!-- .element class="fragment" -->
+!["BitcoinPriceChart"](http://proofofthought.io/cdn/talks/crypto-xrp-2016-to-2017.png)<!-- .element class="fragment" -->
 
 
 
@@ -85,27 +85,27 @@
 
 
 
-# <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/128x128/ethereum.png" /> Ethereum
+# <img style="vertical-align: bottom;" src="http://proofofthought.io/cdn/crypto/eth128.png" /> Ethereum
 * Ethereum is a public virtual machine running script on a network
 * Allows for creation of smart contracts stored in the public blockchain
   * Arbitrary code that can execute some task in the future that can't be reversed
 * <!-- .element class="fragment" -->Ether - Used as to pay transaction fees and computation fees with the blockchain
 
 
-# <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/128x128/ethereum-classic.png" /> Ethereum Classic
+# <img style="vertical-align: bottom;" src="http://proofofthought.io/cdn/crypto/etc128.png" /> Ethereum Classic
 * June 2016 a vulnerability in the code was found and the DAO (Decentralized Autonomous Organization) was hacked and 1/3 of the DAO's Ether was moved somewhere
 * <!-- .element class="fragment" -->No central authority so handling this was hard
 * <!-- .element class="fragment" -->Consensus to make a code change to allow for undoing something like this in the future
 * <!-- .element class="fragment" -->Core group disagreed with this, and rejected the fork.  That group is still going and their Ether is now known and traded as Ethereum Classic
 
 
-# <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/128x128/ripple.png" /> Ripple
+# <img style="vertical-align: bottom;" src="http://proofofthought.io/cdn/crypto/xrp128.png" /> Ripple
 
 
-# <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/128x128/litecoin.png" /> Litecoin
+# <img style="vertical-align: bottom;" src="http://proofofthought.io/cdn/crypto/ltc128.png" /> Litecoin
 
 
-# <img style="vertical-align: bottom;" src="https://files.coinmarketcap.com/static/img/coins/128x128/dogecoin.png" /> DogeCoin
+# <img style="vertical-align: bottom;" src="http://proofofthought.io/cdn/crypto/doge128.png" /> DogeCoin
 
 
 
