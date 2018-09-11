@@ -84,6 +84,12 @@ _(Dad: "No, I'm half left")_
 ### A son gives his dad his 50th birthday card. Then, the dad says, with tears in his eyes:
 _("You know, one would have been enough")_
 
+### A guy goes up to a widow at her husband's funeral.
+* Man: May I say a word?
+* Widow: Of course.
+* Man: Plethora
+* Widow: Thanks, that means a lot
+
 ---
 
 Suggestions are welcomed, open a PR!
