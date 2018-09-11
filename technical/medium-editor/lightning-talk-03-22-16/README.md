@@ -15,7 +15,7 @@
 
 
 # The<span>Numbers:</span>
-!["Pretty Awesome Stats"](https://github.com/nmielnik/notes/raw/master/technical/medium-editor/lightning-talk-03-22-16/images/stats.png)
+!["Pretty Awesome Stats"](http://proofofthought.io/cdn/talks/medium-editor-stats-7900.png)
 * 7,973+ stars<!-- .element: class="fragment" -->
 * 900+ forks<!-- .element: class="fragment" -->
 * 490+ pull requests<!-- .element: class="fragment" -->
@@ -44,7 +44,7 @@
 
 
 # Quality<span>:</span>
-!["Browser Support and Code Coverage"](https://github.com/nmielnik/notes/raw/master/technical/medium-editor/lightning-talk-03-22-16/images/quality.png)
+!["Browser Support and Code Coverage"](http://proofofthought.io/cdn/talks/medium-editor-browsers.png)
 * 527 tests (and growing)
 * Tests run against 13 OS + Browser combinations on each code change (SauceLabs)
 * 94% Code Coverage in our tests
@@ -71,7 +71,7 @@
 
 
 # #1 Editor <span>on Github!</span>
-!["Number one editor on Github"](https://github.com/nmielnik/notes/raw/master/technical/medium-editor/lightning-talk-03-22-16/images/numberone.png)
+!["Number one editor on Github"](http://proofofthought.io/cdn/talks/medium-editor-github-rank.png)
 
 
 
