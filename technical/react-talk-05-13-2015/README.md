@@ -1,12 +1,12 @@
 # <!-- .element class="presentationHeading" --> How We <span class="react">React</span>
 #### May 13 2015
-![Tower](https://github.com/nmielnik/notes/raw/master/technical/react-talk-05-13-2015/images/TowerWhite.png)<!-- .element style="text-align: center; width: 350px;" -->
+![Tower](http://proofofthought.io/cdn/talks/work-tower-white.png)<!-- .element style="text-align: center; width: 350px;" -->
 
 
 
 # React In Practice
 
-![Tower](https://github.com/nmielnik/notes/raw/master/technical/react-talk-05-13-2015/images/TowerWhite.png)<!-- .element style="width: 350px;" -->
+![Tower](http://proofofthought.io/cdn/talks/work-tower-white.png)<!-- .element style="width: 350px;" -->
 
 * Tower is a DIY Website-Building Tool
 * Started heavy development six months ago
@@ -79,7 +79,7 @@ Note:
   * Define child components ("What am I composed of?") and pass props to child components.
 
 
-![](https://github.com/nmielnik/notes/raw/master/technical/react-talk-05-13-2015/images/ReRender.jpg)
+![](http://proofofthought.io/cdn/talks/what-if-rerender.jpg)
 
 
 ## How does this differ from Traditional View Layers (e.g. Backbone)?
@@ -172,7 +172,7 @@ Note:
 
 
 ## What's happening here?
-![React-Tower-Flow](https://github.com/nmielnik/notes/raw/master/technical/react-talk-05-13-2015/images/React-Tower-Flow.png)<!-- .element class="fragment" data-fragment-index="2" -->
+![React-Tower-Flow](http://proofofthought.io/cdn/talks/react-tower-flow.png)<!-- .element class="fragment" data-fragment-index="2" -->
 
 
 
@@ -180,7 +180,7 @@ Note:
 
 * Don't bubble events up: just send them to your application-level state storage
 * Your top-level react component listens to your app-level state storage and re-renders everything when the store changes.
-![Flux](https://github.com/nmielnik/notes/raw/master/technical/react-talk-05-13-2015/images/Flux.png)
+![Flux](http://proofofthought.io/cdn/talks/flux-flow.png)
 
 
 
@@ -210,7 +210,7 @@ Note:
 
 #### Steep learning curve
 
-![PropsState](https://github.com/nmielnik/notes/raw/master/technical/react-talk-05-13-2015/images/PropsState.jpg)<!-- .element style="text-align: center; width: 300px;" -->
+![PropsState](http://proofofthought.io/cdn/talks/why-cant-props-state.jpg)<!-- .element style="text-align: center; width: 300px;" -->
 
 * <!-- .element class="fragment" --> It took us a while to really feel like we were doing it right
 * <!-- .element class="fragment" --> We're probably still not doing it right
@@ -218,7 +218,7 @@ Note:
 
 #### It's brand new technology
 
-![NewJS](https://github.com/nmielnik/notes/raw/master/technical/react-talk-05-13-2015/images/NewJS.png)<!-- .element style="text-align: center; width: 300px;" -->
+![NewJS](http://proofofthought.io/cdn/talks/js-lib-popularity.png)<!-- .element style="text-align: center; width: 300px;" -->
 
 * <!-- .element class="fragment" --> There are bugs, we've found some
 * <!-- .element class="fragment" --> Documentation is evolving
@@ -234,20 +234,20 @@ Note:
 
 <p class="fragment" data-fragment-index="1">
     <span style="height: 75px; display: inline-block;">Nate Mielnik</span>
-    <img src="https://github.com/nmielnik/notes/raw/master/technical/react-talk-05-13-2015/images/Watchmen.png" style="height: 75px; vertical-align: middle;" />
+    <img src="http://proofofthought.io/cdn/img/watchmen.png" style="height: 75px; vertical-align: middle;" />
 </p>
 <p class="fragment" data-fragment-index="1">
-    <img src="https://github.com/nmielnik/notes/raw/master/technical/react-talk-05-13-2015/images/github.png" style="width: 75px; vertical-align: middle;" />
+    <img src="http://proofofthought.io/cdn/img/github.png" style="width: 75px; vertical-align: middle;" />
     <span style="height: 75px; display: inline-block;">nmielnik (nate@webs.com)</span>
 </p>
 
 <p class="fragment" data-fragment-index="2">
     <span style="height: 75px; display: inline-block;">Noah Chase</span>
-    <img src="https://github.com/nmielnik/notes/raw/master/technical/react-talk-05-13-2015/images/Architects.png" style="width: 400px; vertical-align: middle;" />
+    <img src="http://proofofthought.io/cdn/talks/workteam-architects.png" style="width: 400px; vertical-align: middle;" />
 </p>
 <p class="fragment" data-fragment-index="2">
-    <img src="https://github.com/nmielnik/notes/raw/master/technical/react-talk-05-13-2015/images/github.png" style="width: 75px; vertical-align: middle;" />
+    <img src="http://proofofthought.io/cdn/img/github.png" style="width: 75px; vertical-align: middle;" />
     <span style="height: 75px; display: inline-block;">nchase (nchase@webs.com)</span>
 </p>
 
-![Webs](https://github.com/nmielnik/notes/raw/master/technical/react-talk-05-13-2015/images/Webs.svg)
+![Webs](http://proofofthought.io/cdn/talks/work-webs.svg)
