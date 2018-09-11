@@ -64,7 +64,7 @@
 
 
 ## JWT.IO Debugger
-<a target="_blank" href="http://jwt.io/"><img src="https://s3-us-west-2.amazonaws.com/nate-cdn/presentations/sso/jwtioApp.png" height="600" /></a>
+<a target="_blank" href="http://jwt.io/"><img src="http://proofofthought.io/cdn/talks/jwtio-app.png" height="600" /></a>
 
 
 ## digital-sso QE public key
@@ -81,7 +81,7 @@ cQIDAQAB
 
 
 # User-SSO
-<img src="https://s3-us-west-2.amazonaws.com/nate-cdn/presentations/sso/SSOHowDoTheyWork.jpg" />
+<img src="http://proofofthought.io/cdn/talks/sso-how-do-they-work.jpg" />
 
 
 ## 0. User visits app1.vistaprint.com
@@ -149,7 +149,7 @@ cQIDAQAB
 
 
 # User SSO
-<img src="https://s3-us-west-2.amazonaws.com/nate-cdn/presentations/sso/UserSSOFlow.png" height="550" />
+<img src="http://proofofthought.io/cdn/talks/sso-user-flow.png" height="550" />
 
 
 ## Key Points
@@ -187,7 +187,7 @@ cQIDAQAB
 
 # Third-Party Cookies
 ### Fun! Fun! Fun! Now that Safari took our third-party cookies away!
-<!-- .element class="fragment" --><img src="https://s3-us-west-2.amazonaws.com/nate-cdn/presentations/sso/MemeThirdPartyCookies.jpg" height="400" />
+<!-- .element class="fragment" --><img src="http://proofofthought.io/cdn/talks/why-cant-3rd-party-cookie.jpg" height="400" />
 
 
 ## What are Third-Party Cookies (Besides Fun)?
@@ -240,7 +240,7 @@ cQIDAQAB
 
 
 # IFrame SSO
-<img src="https://s3-us-west-2.amazonaws.com/nate-cdn/presentations/sso/IFrameSSOFlow.png" height="550" />
+<img src="http://proofofthought.io/cdn/talks/sso-iframe-flow.png" height="550" />
 
 
 ## Key Points
@@ -294,12 +294,12 @@ cQIDAQAB
 
 
 ## 7. User is back at VP w/ original CCTLD!
-<!-- .element class="fragment" --><img src="https://s3-us-west-2.amazonaws.com/nate-cdn/presentations/sso/Applause.gif" />
+<!-- .element class="fragment" --><img src="http://proofofthought.io/cdn/talks/applause.gif" />
 
 
 
 # SSO w/ referring_host
-<img src="https://s3-us-west-2.amazonaws.com/nate-cdn/presentations/sso/SSOWithReferringHost.png" height="550" />
+<img src="http://proofofthought.io/cdn/talks/sso-referring-host-flow.png" height="550" />
 
 
 ## Key Points
@@ -360,7 +360,7 @@ cQIDAQAB
 
 
 # Care SSO
-<img src="https://s3-us-west-2.amazonaws.com/nate-cdn/presentations/sso/CareSSOFlow.png" height="550" />
+<img src="http://proofofthought.io/cdn/talks/sso-care-sso-flow.png" height="550" />
 
 
 ## Key Points
@@ -418,7 +418,7 @@ cQIDAQAB
 
 
 # Service Auth
-<img src="https://s3-us-west-2.amazonaws.com/nate-cdn/presentations/sso/ServiceAuthFlow.png" height="550" />
+<img src="http://proofofthought.io/cdn/talks/serviceauth-flow.png" height="550" />
 
 
 ## Key Points
