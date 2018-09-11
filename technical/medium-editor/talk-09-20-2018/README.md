@@ -43,8 +43,8 @@
 
 
 # A Surprising Email
-* Show email I received from Davi asking if I want to become a collaborator
-* Became collaborator on 01/27/15
+* ![Email From Davi](http://proofofthought.io/cdn/talks/medium-editor-davi-email.png)<!-- .element: class="fragment" -->
+* Became collaborator on 1/27/15
 
 
 
@@ -57,11 +57,11 @@
 
 ## Milestones
 * 3/5/15 - 90% Code Coverage
-* (TODO: Date) Formation of YABWE group
-* (TODO: Date) Include on product hunt
-* (TODO: Date) Most starred editor on github (~8k i think)
-* (TODO: Date) v5.0.0 w/ documentation + plug-in framework
+* 6/28/15 - v5.0.0 w/ documentation + plug-in framework
   * link-insert + editing feature
+* 10/8/15 - Formation of YABWE group
+* 1/24/16 - #4 Product of the Day on ProductHunt
+* 1/31/16 - Most starred editor on github (~8k i think)
 
 
 ## Famous<span>Folks</span>
@@ -112,6 +112,7 @@
 
 
 # Decision Time
+* 7/25/16 - Receive email offering to fund yabwe
 * Do I pause (or end) my VP career to work on this open-source editor with 10k+ stars and lots of attention?
 * (Spoiler Alert) I abandoned the editor
 
@@ -125,7 +126,7 @@
 
 
 ## Where Are They Now?
-* Me & my career
+* Nate (me)
 * Noah
 * Davi
 * j0ker
@@ -144,11 +145,11 @@
 
 # tl; dl; (too long; didn't listen;)
 * We found and were invited to take over most starred text-editor on Github
-* Lots of contributors, publicity, glamour, etc.
-* Eventually the work team moved on but I couldn't
-* I did too much on my own - had to chose between my job or the project
-* Shame, regret, soul-searching, tears, and a Developer Days Talk (so meta)
-  * (Link/Snapshot of how popular it still is - 11k npm downloads/week | 12,665 stars)
+* Lots of contributors, publicity, glamour, etc.<!-- .element: class="fragment" -->
+* Eventually, the org moved on but I was still supporting it<!-- .element: class="fragment" -->
+* In the end, I abandoned the project and didn't hand it off well<!-- .element: class="fragment" -->
+* Shame, regret, soul-searching, tears, and a Developer Days Talk (so meta)<!-- .element: class="fragment" -->
+  * Still very popular (12,665 stars | 11k npm downloads/week)<!-- .element: class="fragment" -->
 
 
 # Questions?
