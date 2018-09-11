@@ -18,7 +18,7 @@
 
 # Davi Disappears <!-- .element class="fragment" data-fragment-index="2" -->
 
-![Where did he go?](/resources/2015-04-20/images/davi_missing.jpg)<!-- .element class="fragment" style="text-align: center; width: 200px;" data-fragment-index="2" -->
+![Where did he go?](http://proofofthought.io/cdn/talks/medium-editor-davi-missing.jpg)<!-- .element class="fragment" style="text-align: center; width: 200px;" data-fragment-index="2" -->
 
 * Mid-December to Early January: More pull requests ([#344](https://github.com/daviferreira/medium-editor/issues/344), [#345](https://github.com/daviferreira/medium-editor/issues/345), [#348](https://github.com/daviferreira/medium-editor/issues/348), [#350](https://github.com/daviferreira/medium-editor/issues/350), [#351](https://github.com/daviferreira/medium-editor/issues/351) [#352](https://github.com/daviferreira/medium-editor/issues/352), [#357](https://github.com/daviferreira/medium-editor/issues/357), [#358](https://github.com/daviferreira/medium-editor/issues/358))
 * We reach out to him (spelunking, Twitter). <!-- .element class="fragment" -->
@@ -64,7 +64,7 @@
 * "Have you considered just making this code a plugin for Scribe?" ([#543](https://github.com/daviferreira/medium-editor/issues/543#issuecomment-91001469), [#420](https://github.com/daviferreira/medium-editor/issues/420))
 * "Can you make medium-editor work like Medium's editor?" ([#372](https://github.com/daviferreira/medium-editor/issues/372))
 
-!["24 hours later, I have no idea why this fixes anything"](/resources/2015-04-20/images/no_idea.png) <!-- .element: class="fragment" -->
+!["24 hours later, I have no idea why this fixes anything"](http://proofofthought.io/cdn/talks/medium-editor-nate-commit.png) <!-- .element: class="fragment" -->
 
 
 

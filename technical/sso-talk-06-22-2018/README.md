@@ -37,7 +37,7 @@
 
 # User-SSO
 ## Detailed Summary
-<img src="https://s3-us-west-2.amazonaws.com/nate-cdn/presentations/sso/SSOHowDoTheyWork.jpg" />
+<img src="http://proofofthought.io/cdn/talks/sso-how-do-they-work.jpg" />
 
 
 ## 0. User visits app1.vistaprint.com
@@ -105,7 +105,7 @@
 
 
 # User SSO
-<img src="https://s3-us-west-2.amazonaws.com/nate-cdn/presentations/sso/UserSSOFlow.png" height="550" />
+<img src="http://proofofthought.io/cdn/talks/sso-user-flow.png" height="550" />
 
 
 ## Summary
@@ -178,7 +178,7 @@
 
 
 ## JWT.IO Debugger
-<a target="_blank" href="http://jwt.io/"><img src="https://s3-us-west-2.amazonaws.com/nate-cdn/presentations/sso/jwtioApp.png" height="600" /></a>
+<a target="_blank" href="http://jwt.io/"><img src="http://proofofthought.io/cdn/talks/jwtio-app.png" height="600" /></a>
 
 
 ## digital-sso QE public key
@@ -297,7 +297,7 @@ cQIDAQAB
 
 
 # Care SSO
-<img src="https://s3-us-west-2.amazonaws.com/nate-cdn/presentations/sso/CareSSOFlow.png" height="550" />
+<img src="http://proofofthought.io/cdn/talks/sso-care-sso-flow.png" height="550" />
 
 
 ## Summary
@@ -371,7 +371,7 @@ cQIDAQAB
 
 
 # Service Auth
-<img src="https://s3-us-west-2.amazonaws.com/nate-cdn/presentations/sso/ServiceAuthFlow.png" height="550" />
+<img src="http://proofofthought.io/cdn/talks/serviceauth-flow.png" height="550" />
 
 
 ## Summary
