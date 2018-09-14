@@ -13,6 +13,8 @@ var listenPort = process.env.PORT ||
   invokeArgs.match(/(?:port=)([0-9]+)\s?/)[1] ||
   3000;
 
+// transition: none, fade, slide, convex, concave and zoom.
+
 var revealOptions = invokeArgs.match(/(?:revealOptions=)({.[^}]+})\s?/) &&
   invokeArgs.match(/(?:revealOptions=)({.[^}]+})\s?/)[1] ||
   '{}';
