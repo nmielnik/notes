@@ -3,28 +3,27 @@
 
 <em><small>featuring the baffling blabber of <span class="alt-color">Nate Mielnik</span></small></em>
 
+* TODO: NEED A REAL INTRO
 
 
 ## Once <span class="alt-color">Upon</span> A Time
 * The Vistaprint Digital Team was building a website builder from scratch
 * Needed a WYSIWYG (What You See Is What You Get) text editor at the core
-* (maybe notes about project, team)
-
-
-### WYSIWYG <span class="alt-color">Text</span> Editing Is Hard
-* (Talk about the problem space, which drove wanting open source)
+* TODO: [GIF OR BACKGROUND SHOWING WYSIWYG EDITING]
 
 
 
 ## <span class="alt-color">Open</span>-Source
 * Wanted to tap into open source community
 * Other people knew text editing better than we did
+* TODO: Types of Open Source (Sharing what you got, using + not contributing, contributing and/or taking over a project)
 * Wanted help from others with maintaining it long term (who wouldn't want that?)
 
 
 
 ## The <span class="alt-color">Search</span>
 * Alternatives explored: quill, scribe, wysihtml, ArteJS (VP open source), medium-editor
+* TODO: BLURB ABOUT QUILL, SCRIBE, WSIHTML
 
 
 
@@ -32,6 +31,7 @@
 * https://github.com/vistaprint/ArteJS
 * This is a different way of going about open-source (build it and hope people come)
 * Very little contribution or community
+* TODO: GET ARTEJS STATS (Maybe background image?)
 
 
 
@@ -56,7 +56,6 @@
 * Modularized the codebase
 * Created a cross-browser testing framework for each PR (SauceLabs)
 * Code coverage test and feedback on PRs (coveralls)
-* (Things are going great...but Davi, the founder, leaves)
 
 
 <!-- .slide: data-background-image="http://proofofthought.io/cdn/talks/medium-editor-landing2.png" -->
@@ -68,6 +67,13 @@
 <li class="fragment over-image"><span class="alt-color">1/24/16</span> #4 Product of the Day on ProductHunt</li>
 <li class="fragment over-image"><span class="alt-color">1/31/16</span> Most starred editor on github (~8k i think)</li></ul>
 </section>
+
+
+### Lots <span class="alt-color">of</span> Attention
+* <!-- .element: class="fragment" -->Featured on the front page of [ProductHunt](https://www.producthunt.com/tech/medium-editor) (437+ upvotes)
+* <!-- .element: class="fragment" -->Smashing Magazine (nearly 1M followers) [Tweeted about Medium-Editor](https://twitter.com/smashingmag/status/697057132324073472)
+  * Endless Tweets if you search for medium-editor in twitter
+* <!-- .element: class="fragment" -->Creators of Medium.com [asked us to change the name!](https://github.com/yabwe/medium-editor/issues/949)
 
 
 ### Famous <span class="alt-color">Folks</span>
@@ -82,17 +88,19 @@
 * <!-- .element: class="fragment" -->[Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee), creator of World Wide Web, is using medium-editor in [his Dokieli project](http://csarven.ca/dokieli#figure-dokieli-article-fragment)
 
 
-### Lots <span class="alt-color">of</span> Attention
-* <!-- .element: class="fragment" -->Featured on the front page of [ProductHunt](https://www.producthunt.com/tech/medium-editor) (437+ upvotes)
-* <!-- .element: class="fragment" -->Smashing Magazine (nearly 1M followers) [Tweeted about Medium-Editor](https://twitter.com/smashingmag/status/697057132324073472)
-  * Endless Tweets if you search for medium-editor in twitter
-* <!-- .element: class="fragment" -->Creators of Medium.com [asked us to change the name!](https://github.com/yabwe/medium-editor/issues/949)
+
+## Awesomeness
+* TODO: What project did we pass to get to #1?
+* TODO: Screenshot of github editor rankings
+* TODO: Davi mentions state-based editor...Later I realize this too
 
 
 
 ## Foreshadowing
 * I've rewritten a ton of the code and documentation, but now others don't know how to do much
 * I'm spending most of my out-of-work time on medium-editor
+* (Things are going great...but Davi, the founder, leaves) 
+
 
 
 ### Other <span class="fragment">Not-So-</span><span class="alt-color">Glamourous</span> Parts
@@ -122,24 +130,18 @@
 
 ## Decision <span class="alt-color">Time</span>
 * 7/25/16 - Receive email offering to fund yabwe
+* TODO: Email about funding
 * Do I pause (or end) my VP career to work on this open-source editor with 10k+ stars and lots of attention?
 * (Spoiler Alert) I abandoned the editor
+* TODO: What does abandoning mean, could be funny to talk about (ie Dictionary definition)
 
 
 
 ## medium-editor <span class="alt-color">Today</span>
 * Sitebuilder still isn't using the latest version
-* medium-editor is up over 1200 stars
+* medium-editor is up over 12000 stars
 * endless un-triaged issues, very painful for me
 * I've popped in once or twice and tried to get things moving and then lost momentum quickly
-
-
-### Where <span class="alt-color">Are</span> They Now?
-* Nate (me)
-* Noah
-* Davi
-* j0ker
-* yabwe
 
 
 
@@ -166,3 +168,4 @@
 ## Questions?
 
 ![Questions](https://s3.amazonaws.com/proofofthought.io/cdn/talks/medium-editor-nate-commit.png)
+* TODO: Add Yet Another Broken WYSIWYG Editor comment
