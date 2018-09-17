@@ -103,6 +103,11 @@ body {
   opacity: .9 !important;
 }
 
+.reveal img.tower-inline {
+  height: 60px;
+  margin-right: -55px;
+  margin-bottom: -0.3em; }
+
 .reveal p {
   margin: 20px 0;
   line-height: 1.3; }
@@ -259,24 +264,12 @@ body {
  * IMAGES
  *********************************************/
 .reveal section img {
-  margin: 15px 0px;
-  background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #eee;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
-
-.reveal section img.plain {
-  border: 0;
-  box-shadow: none; }
+  border: none; }
 
 .reveal a img {
   -webkit-transition: all .15s linear;
   -moz-transition: all .15s linear;
   transition: all .15s linear; }
-
-.reveal a:hover img {
-  background: rgba(255, 255, 255, 0.2);
-  border-color: #e7ad52;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
  * NAVIGATION CONTROLS

@@ -6,38 +6,49 @@
 * TODO: NEED A REAL INTRO
 
 
+
 ## Once <span class="alt-color">Upon</span> A Time
-* The Vistaprint Digital Team was building a website builder from scratch
-* Needed a WYSIWYG (What You See Is What You Get) text editor at the core
-* TODO: [GIF OR BACKGROUND SHOWING WYSIWYG EDITING]
+![Tower](http://proofofthought.io/cdn/talks/work-tower.png)<!-- .element: class="tower-inline" --> our new website builder needed an open-source WYSIWYG text editor...
+
+![WYSIWYG Editor](http://proofofthought.io/cdn/talks/wysiwyg-demo.gif)<!-- .element: style="width: 600px" -->
 
 
 
 ## <span class="alt-color">Open</span>-Source
-* Wanted to tap into open source community
-* Other people knew text editing better than we did
-* TODO: Types of Open Source (Sharing what you got, using + not contributing, contributing and/or taking over a project)
-* Wanted help from others with maintaining it long term (who wouldn't want that?)
+* Why Open Source?
+  * Other people knew text editing better than we did
+  * Wanted help from others with maintaining it long term (who wouldn't want that?)
+* Types of Open Source projects
+  1. build it yourself, share it, hope someone cares
+  2. use it, don't contribute, complain when it breaks
 
 
 
 ## The <span class="alt-color">Search</span>
-* Alternatives explored: quill, scribe, wysihtml, ArteJS (VP open source), medium-editor
-* TODO: BLURB ABOUT QUILL, SCRIBE, WSIHTML
+* Alternatives explored:
+  * scribe (platform w/ plugins from The Guardian)
+  * quill (coffeescript editor, now maintained by slab)
+  * wsyihtml5 (most popular, handed-off, untouched for 2 years)
+  * CKEditor (custom, huge, "licensed" open-source)
+  * ArteJS (vistaprint?)
 
 
 
-## ArteJS
-* https://github.com/vistaprint/ArteJS
-* This is a different way of going about open-source (build it and hope people come)
-* Very little contribution or community
-* TODO: GET ARTEJS STATS (Maybe background image?)
+<!-- .slide: data-background-image="http://proofofthought.io/cdn/talks/artejs-screenshot.png" data-background-size="cover" -->
+## ArteJS <!-- .element: class="over-image" -->
+<ul class="over-image-list">
+<li class="fragment over-image">Build it and see what happens (common "open-source" mentality)</li>
+<li class="fragment over-image">11 contributors (all Vistaprint)</li>
+<li class="fragment over-image">No commits for 4 years</li>
+<li class="fragment over-image">No maintenance needed</li>
+</ul>
 
 
 
 ## medium-editor
-* medium inspired text editor
-* Found a vibrant, active community with 4000+ stars and 100+ contributors
+* Medium-inspired, looked nice, just worked
+* Approachable code base w/ vibrant community (4000+ stars, 100+ contributors)
+* Won the bake-off over ArteJS (sorry Nick Swider)
 * Began opening pull-requests for fixes/features we needed
   * [First PR](https://github.com/yabwe/medium-editor/pull/342)
 * Really my first dive into open-source contributing
