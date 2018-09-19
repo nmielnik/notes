@@ -3,7 +3,7 @@
 
 <em><small>featuring the baffling blabber of <span class="alt-color">Nate Mielnik</span></small></em>
 
-* TODO: NEED A REAL INTRO
+![Landing Page Animaton](http://proofofthought.io/cdn/talks/medium-editor-landing.gif)<!-- .element: style="height: 350px" -->
 
 
 
@@ -14,23 +14,38 @@
 
 
 
-## <span class="alt-color">Open</span>-Source
-* Why Open Source?
-  * Other people knew text editing better than we did
-  * Wanted help from others with maintaining it long term (who wouldn't want that?)
-* Types of Open Source projects
-  1. build it yourself, share it, hope someone cares
-  2. use it, don't contribute, complain when it breaks
+## Why <span class="alt-color">Open</span> Source?
+* Cuz then your github profile will look legit (af)<!-- .element: class="fragment" -->
+* Cuz then you can say "we open sourced it" (duh)<!-- .element: class="fragment" -->
+* Cuz everyone else will fix all your bugs for free! (goals)<!-- .element: class="fragment" -->
+* Open source is tremendous, it's yuge, and people tell me I have the best software.<!-- .element: class="fragment" -->
+
+
+### OK, Seriously, Why <span class="alt-color">Open</span> Source?
+* Other people knew text editing better than we did
+* Save us development & testing time
+* Wanted help from others with maintaining it long term
+  * _who wouldn't want that?_
+
+
+
+## <span class="alt-color">Open</span> Source IRL
+<ul><li>Types of Open Source usage
+  <ol><li class="fragment">build it yourself, share it, <span class="alt-color">hope someone cares</span></li>
+  <li class="fragment">use it, don't contribute, <span class="alt-color">complain when it breaks</span></li>
+</ol></li>
+<li class="fragment">Turns out, there's another way...</li>
+</ul>
 
 
 
 ## The <span class="alt-color">Search</span>
 * Alternatives explored:
-  * scribe (platform w/ plugins from The Guardian)
-  * quill (coffeescript editor, now maintained by slab)
-  * wsyihtml5 (most popular, handed-off, untouched for 2 years)
-  * CKEditor (custom, huge, "licensed" open-source)
-  * ArteJS (vistaprint?)
+  * scribe _(platform w/ plugins from The Guardian)_
+  * quill _(coffeescript editor, now maintained by slab)_
+  * wsyihtml5 _(most popular, handed-off, untouched for 2 years)_
+  * CKEditor _(custom, huge, "licensed" open-source)_
+  * ArteJS _(vistaprint!)_
 
 
 
@@ -57,7 +72,7 @@
 
 ## A Surprising <span class="alt-color">Email</span>
 
-![Email From Davi](http://proofofthought.io/cdn/talks/medium-editor-davi-email.png)
+![Email From Davi](http://proofofthought.io/cdn/talks/medium-editor-email-with-davi.jpg)
 
 <em><small>Nate & Noah Chase became collaborators on 1/27/15</small></em><!-- .element: class="fragment" -->
 
@@ -76,7 +91,7 @@
 <li class="fragment over-image"><span class="alt-color">6/28/15</span> v5.0.0 w/ documentation + plug-in framework</li>
 <li class="fragment over-image"><span class="alt-color">10/8/15</span> Formation of YABWE group</li>
 <li class="fragment over-image"><span class="alt-color">1/24/16</span> #4 Product of the Day on ProductHunt</li>
-<li class="fragment over-image"><span class="alt-color">1/31/16</span> Most starred editor on github (~8k i think)</li></ul>
+<li class="fragment over-image"><span class="alt-color">1/31/16</span> Most starred editor on github (~7200k i think)</li></ul>
 </section>
 
 
@@ -100,24 +115,26 @@
 
 
 
-## Awesomeness
-* TODO: What project did we pass to get to #1?
-* TODO: Screenshot of github editor rankings
-* TODO: Davi mentions state-based editor...Later I realize this too
+### medium-editor <span class="alt-color">reaches</span> #1
+
+![Email From Davi](http://proofofthought.io/cdn/talks/medium-editor-github-rank.png)<!-- .element: style="height: 585px" -->
 
 
 
 ## Foreshadowing
+* Davi keeps mentioning needing a state-backed editor
 * I've rewritten a ton of the code and documentation, but now others don't know how to do much
 * I'm spending most of my out-of-work time on medium-editor
-* (Things are going great...but Davi, the founder, leaves) 
+<li>Davi says goodbye... <span>&#x1F630;</span></li>
 
 
 
 ### Other <span class="fragment">Not-So-</span><span class="alt-color">Glamourous</span> Parts
-* Code Quality vs Low Barrier To Entry
-* Encouraging documentation and best practices
-* Responding to unhelpful issues / feature requests
+* <!-- .element: class="fragment" -->Code Quality vs Low Barrier To Entry
+* <!-- .element: class="fragment" -->Encouraging documentation and best practices
+* <!-- .element: class="fragment" -->Responding to unhelpful issues / feature requests
+
+![Unhelpful Issue](https://s3.amazonaws.com/proofofthought.io/cdn/talks/medium-editor-challenging-issue.png)<!-- .element: class="fragment" style="height: 280px" -->
 
 
 
@@ -127,7 +144,8 @@
 * Now I'm supporting it on my own
 * Start trying to recruit others to YABWE to help
   * Engineering Lightning Talk (03-22-16)
-  * Pushing on yabwe folks
+  * Pushing on YABWE folks
+  * What does YABWE stand for? _(see final slide)_
 
 
 
@@ -140,11 +158,14 @@
 
 
 ## Decision <span class="alt-color">Time</span>
-* 7/25/16 - Receive email offering to fund yabwe
-* TODO: Email about funding
-* Do I pause (or end) my VP career to work on this open-source editor with 10k+ stars and lots of attention?
-* (Spoiler Alert) I abandoned the editor
-* TODO: What does abandoning mean, could be funny to talk about (ie Dictionary definition)
+
+![Funding Offer Email](https://s3.amazonaws.com/proofofthought.io/cdn/talks/medium-editor-funding-email.png)
+
+<small><em>"Do I pause (or end) my VP career to work on this successful open-source project?"</em></small>
+
+
+## (Spoiler Alert)
+![Abandon Definition](https://s3.amazonaws.com/proofofthought.io/cdn/talks/def-abandon.png)
 
 
 
@@ -157,10 +178,10 @@
 
 
 ## Lessons
-* Things to consider when working on open-source
-* Importance of vibrant community and sharing ownership/contribution
+* There are different ways to approach open source
+* Vibrant community + share ownership/contribution = sustained success
 * Maintaining a popular project is a full-time job
-* Work and life initiatives change, always need an exit strategy
+* Work & Life change, always need an exit strategy
   * Davi recruited me quickly, I waited too long to do the same
 
 
@@ -169,7 +190,7 @@
 * We found and were invited to take over most starred text-editor on Github (medium-editor)
 * Lots of contributors, publicity, glamour, etc.<!-- .element: class="fragment" -->
 * Org moved on but I was still supporting it<!-- .element: class="fragment" -->
-* I abandoned the project and didn't hand it off well<!-- .element: class="fragment" -->
+* I abandoned the project, no proper hand-off<!-- .element: class="fragment" -->
 * <!-- .element: class="fragment" -->Shame, regret, soul-searching, tears, and a **Developer Days Talk** 
 
 * still popular (12.6k stars | 11k npm dl/week)<!-- .element: class="fragment" -->
@@ -178,5 +199,5 @@
 
 ## Questions?
 
-![Questions](https://s3.amazonaws.com/proofofthought.io/cdn/talks/medium-editor-nate-commit.png)
-* TODO: Add Yet Another Broken WYSIWYG Editor comment
+![Questions](https://s3.amazonaws.com/proofofthought.io/cdn/talks/medium-editor-nate-commit.png)<!-- .element: class="final-slide" -->
+![YABWE](https://s3.amazonaws.com/proofofthought.io/cdn/talks/medium-editor-yet-another.png)<!-- .element: class="final-slide" -->
