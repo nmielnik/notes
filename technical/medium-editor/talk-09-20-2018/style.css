@@ -112,6 +112,13 @@ body {
   width: 725px;
 }
 
+.reveal img.troll-slide {
+  height: 300px;
+  position: absolute;
+  top: 190px;
+  left: 280px;
+}
+
 .reveal p {
   margin: 20px 0;
   line-height: 1.3; }

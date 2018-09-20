@@ -15,21 +15,28 @@
 
 
 ## Why <span class="alt-color">Open</span> Source?
-* Cuz then your github profile will look legit (af)<!-- .element: class="fragment" -->
-* Cuz then you can say "we open sourced it" (duh)<!-- .element: class="fragment" -->
-* Cuz everyone else will fix all your bugs for free! (goals)<!-- .element: class="fragment" -->
+* Your github profile will look legit (af)<!-- .element: class="fragment" -->
+* You can say "we open sourced it" (duh)<!-- .element: class="fragment" -->
+* Everyone else will fix all your bugs for free! (goals)<!-- .element: class="fragment" -->
+* Become a world famous developer - young developers will want to be like you (beast mode)<!-- .element: class="fragment" -->
 * Open source is tremendous, it's yuge, and people tell me I have the best software.<!-- .element: class="fragment" -->
 
+![Troll](http://proofofthought.io/cdn/img/troll.png)<!-- .element: class="troll-slide fragment" -->
 
-### OK, Seriously, Why <span class="alt-color">Open</span> Source?
+
+### OK, Seriously, <span class="alt-color">Why</span> Open Source?
 * Other people knew text editing better than we did
 * Save us development & testing time
 * Wanted help from others with maintaining it long term
-  * _who wouldn't want that?_
+
+<div class="fragment">
+<quote>"I mean, who wouldn't want that?"</quote>
+<div><em><small>- Nate Mielnik (right now)</small></em></div>
+</div>
 
 
 
-## <span class="alt-color">Open</span> Source IRL
+## Open Source <span class="alt-color">IRL</span>
 <ul><li>Types of Open Source usage
   <ol><li class="fragment">build it yourself, share it, <span class="alt-color">hope someone cares</span></li>
   <li class="fragment">use it, don't contribute, <span class="alt-color">complain when it breaks</span></li>
@@ -131,7 +138,7 @@
 
 ### Other <span class="fragment">Not-So-</span><span class="alt-color">Glamourous</span> Parts
 * <!-- .element: class="fragment" -->Code Quality vs Low Barrier To Entry
-* <!-- .element: class="fragment" -->Encouraging documentation and best practices
+* <!-- .element: class="fragment" -->Encourage best practices w/o turning people off
 * <!-- .element: class="fragment" -->Responding to unhelpful issues / feature requests
 
 ![Unhelpful Issue](https://s3.amazonaws.com/proofofthought.io/cdn/talks/medium-editor-challenging-issue.png)<!-- .element: class="fragment" style="height: 280px" -->
@@ -164,16 +171,20 @@
 <small><em>"Do I pause (or end) my VP career to work on this successful open-source project?"</em></small>
 
 
-## (Spoiler Alert)
+## (Spoiler <span class="alt-color">Alert</span>)
 ![Abandon Definition](https://s3.amazonaws.com/proofofthought.io/cdn/talks/def-abandon.png)
+
+_Yeah, that happened...but the first step to recovery is admitting you have a problem_<!-- .element: class="fragment" -->
 
 
 
 ## medium-editor <span class="alt-color">Today</span>
 * Sitebuilder still isn't using the latest version
-* medium-editor is up over 12000 stars
+* medium-editor is up over 12,000+ stars
 * endless un-triaged issues, very painful for me
-* I've popped in once or twice and tried to get things moving and then lost momentum quickly
+* I've shown up once or twice and tried to get things moving, promised I would change...
+  * <!-- .element: class="fragment" -->and then the next day pretended it never happened...<span>&#x1F61E;</span>
+  * <!-- .element: class="fragment" -->like a bad break-up...<span>&#x1F494;</span>
 
 
 
@@ -193,7 +204,7 @@
 * I abandoned the project, no proper hand-off<!-- .element: class="fragment" -->
 * <!-- .element: class="fragment" -->Shame, regret, soul-searching, tears, and a **Developer Days Talk** 
 
-* still popular (12.6k stars | 11k npm dl/week)<!-- .element: class="fragment" -->
+_it's still popular! (12.6k stars | 11k npm dl/week)_<!-- .element: class="fragment" -->
 
 
 
