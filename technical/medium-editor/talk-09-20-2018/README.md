@@ -16,10 +16,10 @@
 
 ## Why <span class="alt-color">Open</span> Source?
 * Your github profile will look legit (af)<!-- .element: class="fragment" -->
-* You can say "we open sourced it" (duh)<!-- .element: class="fragment" -->
+* You can say "we open sourced it" (mic drop)<!-- .element: class="fragment" -->
 * Everyone else will fix all your bugs for free! (goals)<!-- .element: class="fragment" -->
 * Become a world famous developer - young developers will want to be like you (beast mode)<!-- .element: class="fragment" -->
-* Open source is tremendous, it's yuge, and people tell me I have the best software.<!-- .element: class="fragment" -->
+* Let me tell you, open source is tremendous, it's yuge, and everybody says I have the best code.<!-- .element: class="fragment" -->
 
 ![Troll](http://proofofthought.io/cdn/img/troll.png)<!-- .element: class="troll-slide fragment" -->
 
@@ -98,7 +98,7 @@
 <li class="fragment over-image"><span class="alt-color">6/28/15</span> v5.0.0 w/ documentation + plug-in framework</li>
 <li class="fragment over-image"><span class="alt-color">10/8/15</span> Formation of YABWE group</li>
 <li class="fragment over-image"><span class="alt-color">1/24/16</span> #4 Product of the Day on ProductHunt</li>
-<li class="fragment over-image"><span class="alt-color">1/31/16</span> Most starred editor on github (~7200k i think)</li></ul>
+<li class="fragment over-image"><span class="alt-color">1/31/16</span> Most starred editor on github (~7200 i think)</li></ul>
 </section>
 
 
@@ -202,7 +202,7 @@ _Yeah, that happened...but the first step to recovery is admitting you have a pr
 * Lots of contributors, publicity, glamour, etc.<!-- .element: class="fragment" -->
 * Org moved on but I was still supporting it<!-- .element: class="fragment" -->
 * I abandoned the project, no proper hand-off<!-- .element: class="fragment" -->
-* <!-- .element: class="fragment" -->Shame, regret, soul-searching, tears, and a **Developer Days Talk** 
+* <!-- .element: class="fragment" -->Shame, regret, soul-searching, tears, and a **Dev Days Talk** 
 
 _it's still popular! (12.6k stars | 11k npm dl/week)_<!-- .element: class="fragment" -->
 
