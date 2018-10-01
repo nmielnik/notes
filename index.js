@@ -18,6 +18,7 @@ var listenPort = process.env.PORT ||
 var revealOptions = invokeArgs.match(/(?:revealOptions=)({.[^}]+})\s?/) &&
   invokeArgs.match(/(?:revealOptions=)({.[^}]+})\s?/)[1] ||
   '{}';
+//revealOptions = Object.assign(revealOptions, { margin: 0.2 });
 
 var presentationFile = invokeArgs.match(/(?:presentationFile=)(.[^\s]+)\s?/) &&
   invokeArgs.match(/(?:presentationFile=)(.[^\s]+)\s?/)[1] ||
@@ -28,6 +29,8 @@ var presentationTitle = invokeArgs.match(/(?:presentationTitle=)(.[^\s]+)\s?/) &
   'Notes';
 
 var presentationDir = path.dirname(path.resolve(process.cwd() + '/' + presentationFile));
+
+// themes: beige, black, blood, league, moon, night, serif, simple, sky, solarize, white
 
 var theme = invokeArgs.match(/(?:theme=)(.[^\s]+)\s?/) &&
   invokeArgs.match(/(?:theme=)(.[^\s]+)\s?/)[1] ||
