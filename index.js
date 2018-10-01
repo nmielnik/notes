@@ -29,6 +29,8 @@ var presentationTitle = invokeArgs.match(/(?:presentationTitle=)(.[^\s]+)\s?/) &
 
 var presentationDir = path.dirname(path.resolve(process.cwd() + '/' + presentationFile));
 
+// themes: beige, black, blood, league, moon, night, serif, simple, sky, solarize, white
+
 var theme = invokeArgs.match(/(?:theme=)(.[^\s]+)\s?/) &&
   invokeArgs.match(/(?:theme=)(.[^\s]+)\s?/)[1] ||
   path.relative(process.cwd(), presentationDir + '/style.css');
