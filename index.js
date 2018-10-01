@@ -18,6 +18,7 @@ var listenPort = process.env.PORT ||
 var revealOptions = invokeArgs.match(/(?:revealOptions=)({.[^}]+})\s?/) &&
   invokeArgs.match(/(?:revealOptions=)({.[^}]+})\s?/)[1] ||
   '{}';
+//revealOptions = Object.assign(revealOptions, { margin: 0.2 });
 
 var presentationFile = invokeArgs.match(/(?:presentationFile=)(.[^\s]+)\s?/) &&
   invokeArgs.match(/(?:presentationFile=)(.[^\s]+)\s?/)[1] ||
