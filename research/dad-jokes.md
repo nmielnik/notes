@@ -56,6 +56,9 @@ _(The 3rd one ducked)_
 ### Why are insomniacs so boring?
 _(They've just never been all that inta-resting)_
 
+### How do you know if you're a pirate?
+_(You just Arrrr)_
+
 ### What is a pirate's favorite letter?
 _(Ah, me first love is the C)_
 
