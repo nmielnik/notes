@@ -32,17 +32,8 @@ _(It's pointless)_
 ### I didn't like having a beard at first
 _(But then it grew on me)_
 
-### How does Moses make coffee?
-_(He brews it)_
-
-### A pirate walks into a bar with a steering wheel in his pants and the bartender asks, "Why do you have a steering wheel in your pants?"
-_("Arrr, it's driving me nuts")_
-
 ### How many tickles does it take to make a squid laugh?
 _(Ten tickles)_
-
-### I accidentally ate some strings and when I pooped them out they were tied together
-_(I shit you knot)_
 
 ### What did the planet say after the earthquake?
 _(Man, that was my fault, and I'm shook up about it)_
@@ -56,8 +47,6 @@ _(He's such a fun guy)_
 ### A photon arrives at a hotel and the bellhop asks if he has any bags. The photon says:
 _("No, I'm traveling light")_
 
-### Ghonerrea would have been a grest name for diarrhea medication
-
 ### What do you call a fly after you rip off its wings
 _(A walk)_
 
@@ -65,7 +54,10 @@ _(A walk)_
 _(The 3rd one ducked)_
 
 ### Why are insomniacs so boring?
-_(They've just never been all that interesting)_
+_(They've just never been all that inta-resting)_
+
+### What is a pirate's favorite letter?
+_(Ah, me first love is the C)_
 
 ## Conversational
 
