@@ -1,4 +1,4 @@
-# Expectations
+# Expectations (Incomplete!)
 
 ## What Are Expectations?
 
@@ -25,15 +25,19 @@ Not-so-good Examples
 > The status update meeting was fine, they're really happy with how we've been doing so keep up the great work.
 
 ##### Opportunity & Involvement
+...tbd
 
 ##### Keep Commitments & Consistency
+...tbd
 
 ##### Trust & Respect
+...tbd
 
 ##### Timely, Constructive Feedback
 (both praise and differential)
 
 ##### Stand Up For the Team
+...tbd
 
 ## Defining Expectations
 _Negative outcomes or undesirable behavior are very likely tied to unclear expectations_
@@ -63,3 +67,5 @@ _Negative outcomes or undesirable behavior are very likely tied to unclear expec
 ## Motivation
 * The things that motivate people might be so obvious to them that it's hard for them to even recognize it.  If you ask someone what they need to feel happy, they probably won't suggest "breathing" as the the first thing.
 * If you say out loud the thing that you think someone cares a lot about and motivates them, and their response is something along the lines of "Yeah but that's not helpful, that's just something everyone cares about" or "well so what, everyone cares about that, what's your point?"...then you probably found a real motivator.  At first, talking about a core motivation can be odd because it's hard for people to imagine it not being something that motivates others, but in reality it's often the case that it's not.
+
+...tbd
