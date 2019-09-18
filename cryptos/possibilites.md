@@ -135,3 +135,5 @@ I've also given a rating of how critical/significant of a role blockchain plays.
 * Move from targeted advertising to crypotcurrency mining (+++)
 * Creating unique and verifiably authentic assets (+++)
 * Tracking and validating authenticity of real-world assets (+++)
+* Shared ownership of high cost items (framing equipment, private jets, etc.) (+++)
+* True P2P marketplace for goods and services (+++)
