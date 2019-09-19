@@ -44,17 +44,17 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 2.5em;
-  color: #e7ad52;
+  font-size: 2.3em;
+  color: #f2a900;
 }
 
 .reveal h2 {
-  font-size: 1.6em;
-  color: #e7ad52;
+  font-size: 2em;
+  color: #f2a900;
 }
 
 .reveal h3 {
-  font-size: 1.3em; }
+  font-size: 1.6em; }
 
 .reveal h4 {
   font-size: 1em; }
@@ -78,7 +78,9 @@ body {
   font-weight: bold; }
 
 .reveal em {
-  font-style: italic; }
+  font-style: italic;
+  color: #aaaaaa;
+}
 
 .reveal ol, .reveal dl, .reveal ul {
   display: inline-block;
@@ -181,6 +183,42 @@ body {
 .reveal small * {
   vertical-align: top; }
 
+.reveal .bigger-text {
+  font-size: 1.5em;
+}
+
+.reveal .left {
+  text-align: left;
+}
+
+.reveal .mirrored {
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.reveal .icon-bullet {
+  display: flex;
+  align-items: center; }
+
+.reveal .icon-bullet img {
+  margin: 10px;
+  padding: 10px; }
+
+.reveal .alt-color {
+  color: #f2a900;
+}
+
+.reveal .flex-justify {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*********************************************
  * LINKS
  *********************************************/
@@ -224,6 +262,32 @@ body {
   background: rgba(255, 255, 255, 0.2);
   border-color: #42affa;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+
+.reveal .over-image {
+  background-color: #000000;
+  opacity: .8;
+  padding: 3px;
+}
+
+.reveal ul.over-image-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reveal li.over-image {
+  padding-left: 1em;
+  text-indent: -.7em;
+}
+
+.reveal li.over-image::before {
+  color: #f2a900;
+  content: "• ";
+}
+
+.reveal .fragment.visible.over-image {
+  opacity: .8 !important;
+}
 
 /*********************************************
  * NAVIGATION CONTROLS

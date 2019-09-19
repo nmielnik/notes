@@ -1,341 +1,509 @@
-# D is for Dogecoin
-An intro to blockchain and consensus
+# &#x00D0; is for &#x00D0;ogecoin
+
+#### An intro to blockchain and consensus
+
+<small>(by Nate Mielnik)</small>
+
+<img height="256" width='256' src="http://proofofthought.io/cdn/crypto/doge300.png" />
+<img src="http://proofofthought.io/cdn/crypto/btc256.png" />
 
 
-# Blockchain has been hyped
-* Bitcoin
-* Cryptocurrencies
-* Fraud, Scams, Blackmarket Purchases
+
+<section data-background="http://proofofthought.io/cdn/crypto/bitcoin-moon-lambo.jpg">
+<h1>Such Hype!</h1>
+
+<div class="fragment" data-fragment-index="1"><img height="250" src="http://proofofthought.io/cdn/crypto/coin-bitcoin.png" /><img height="250" src="http://proofofthought.io/cdn/crypto/bitcoin-pope.jpg" />
+</div>
+<div class="fragment" data-fragment-index="2"><img height="200" src="http://proofofthought.io/cdn/crypto/crypto-scams.jpg" /><span style="width: 20px; display: inline-block;">&nbsp;</span><img height="200" src="http://proofofthought.io/cdn/crypto/crypto-thief.jpg" />
+</div>
+</section>
 
 
-# Blockchain & Bitcoin are mysterious
-* Simple and powerful ideas with complex mechanisms
-* Hard to understand = hand-waving and outlandish claims
+
+# Such Hype!
+
+<iframe id="doge1" width="700" height="390" src="https://www.youtube.com/embed/000al7ru3ms?modestbranding=1&controls=1&fs=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-# Beneath they hype is something amazing
-* PC...Internet...Blockchain?
-* Next evolution of technology and civilization
-* Finish the vision of the internet
-* True decentralization & P2P + elimination of trust
-* Organic, powerful, unstoppable
+
+<section data-background="http://proofofthought.io/cdn/crypto/bitcoin-moon-lambo.jpg">
+<h1>Why So Much Hype?</h1>
+
+<ul class="bigger-text fragment over-image over-image-list" data-fragment-index="1">
+<li class="over-image">Huge Innovation</li>
+<li class="over-image">Difficult to Understand</li>
+<li class="over-image">Lots of Money Involved</li>
+</ul>
+</section>
 
 
-# Goals of This Talk
-1. Understand why trust & consensus are immensely critical & immensely fragile today
-2. Understand how Bitcoin ledger solves the trust & consensus problem
-3. Understand how each block in the Bitcoin blockchain demonstrates Proof of Work
-4. Understand how Bitcoin miners use Nakamato Consensus to make the Bitcoin Network a secure, decentralized, and trustless source of truth
-5. Understand the difference between a cryptocurrency (ie Bitcoin) and a blockchain
-6. Understand why blockchain can solve so many other problems
+
+# &#x1F914; Mysterious &#x1F914;
+<ul class="bigger-text">
+<li>Powerful Yet Complex</li>
+<li>Lots of Hand-Waving</li>
+<li>Outlandish, Unchallenged Claims</li>
+</ul>
 
 
-# What Are Trust & Consensus?
-* **trust**: *(noun)* *firm belief in the reliability, truth, ability, or strength of someone or something.*
-* **consensus**: *(noun)* *a general agreement.*
-* We accept & acknolwedge a consensus due to a trust in the people or process that produced it.
+
+# Blockchain Is Awesome!
+<ul class="bigger-text">
+<li>Underneath the hype is something amazing</li>
+<li class="fragment" data-fragment-index="1">Next evolution of technology and civilization</li>
+<li class="fragment" data-fragment-index="2">PC -> Internet -> Blockchain?</li>
+</ul>
 
 
-# What Do Trust & Consensus Get Us?
-* Just about everything we do depends on trust
-* Payments, Contracts
-* Insurance, Utility Bills
-* Laws & Law Enforcement
-* News, TV, Information
-* Identity
+
+# It won't be easy but...
+<div class="fragment" data-fragment-index="1">
+<h4>Let's understand Bitcoin & Blockchain!</h4>
+<img width="400" src="http://proofofthought.io/cdn/crypto/doge-bitcoin.jpg" />
+</div>
 
 
-# Imagine if we couldn't trust...
-* Will the company pay me for work?
-* Will my pay be worth something?
-* Will my money be available?
-* Will I have electricity and water?
-* Will my food not be poisoned?
+
+# To Be Answered...
+1. What are trust & consensus, and why are they fragile?
+2. <!-- .element class="fragment" data-fragment-index="1" -->How does Bitcoin address the trust & consensus problem?
+3. <!-- .element class="fragment" data-fragment-index="2" -->What is Proof of Work?
+4. <!-- .element class="fragment" data-fragment-index="3" -->How does Nakamato Consensus make the Bitcoin Network a trustless source of truth?
+5. <!-- .element class="fragment" data-fragment-index="4" -->What's the difference between a cryptocurrency and a blockchain?
+6. <!-- .element class="fragment" data-fragment-index="5" -->How can blockchain can solve important problems (other than Bitcoin)?
 
 
-# What Establishes Consensus?
-* Strongest, most powerful wins
-* First person wins
-* Popular vote wins
-* Best reputation wins
-* In science, experimentation & verifiability create consensus (foreshadow)
+<h1>Trust & Consensus</h1>
+
+<div class="left'"><strong>trust</strong>: (verb) <em>believe in the reliability, truth, ability, or strength of.</em></div>
+<div><img height="100" src="https://www.incimages.com/uploaded_files/image/970x450/getty_943018312_402276.jpg" /></div>
+<div class="left"><strong>consensus</strong>: (noun) <em>a general agreement.</em>
+</div>
+<hr />
+<blockquote class="fragment" data-fragment-index="1">We accept a <strong>consensus</strong> by <strong>trusting</strong> in the people or process that established it</blockquote>
+
+
+<h1>What Do Trust & Consensus Get Us?</h1>
+
+<ul class="bigger-text fragment" data-fragment-index="1">
+<li>Payments, Contracts, Identity</li>
+<li>Laws, Government</li>
+<li>Information, TV, News (#fakenews)</li>
+<li>Just about everything...</li>
+</ul>
+
+
+# Who/What Establishes Consensus?
+* Most Powerful
+* Most Popular
+* Best Reputation
+* <!-- .element class="fragment" data-fragment-index="1" -->...in science, consensus comes from experimentation and verifiability...
+
+<div style="margin: 0 auto;" class="fragment icon-bullet" data-fragment-index="1"><img height="100" src="http://proofofthought.io/cdn/img/doge-trans.png" /><em>much foreshadow</em></div>
+
+
+## &#x1F631; Without Trust &#x1F631;
+<ul class="bigger-text fragment">
+<li>Will the company pay me for work?</li>
+<li>Will my pay be worth something?</li>
+<li>Will my money be available?</li>
+<li>Will I have electricity and water?</li>
+<li>Will my food not be poisoned?</li>
 
 
 # Ledgers
-* **noun** *a book or other collection of financial accounts of a particular type*
+<img height="200" src="http://proofofthought.io/cdn/img/ledger.png" />
+* **ledger** (noun) *a book or other collection of financial accounts of a particular type*
 * Give us a **consensus** we agree to **trust**
 
 
-# Example Ledger - House Deeds
-* History of transactions
+## Example: Property
 * Trust the state & gov't to determine consensus
 
+<img height="400" src="http://proofofthought.io/cdn/talks/house-ledger.png" />
 
-# Example Ledger - Bank
-* Balance of Money or Credit
+
+## Example: Bank
 * Trust the bank to maintain consensus of our deposits & transfers
+
+<img height="250" width="400" src="http://proofofthought.io/cdn/talks/bank-ledger.png" />
+
+
+## Ledgers Can Be Tampered
+* What if someone changes a housing record?
+
+<img height="400" src="http://proofofthought.io/cdn/talks/house-ledger.png" />
+<img height="400" src="http://proofofthought.io/cdn/talks/house-ledger-tampered.png" />
 
 
 # Trust Can Be Exploited
-* What if someone changes a housing record?
 * What if a bank says they sent money but vendor says they didn't receive it?
 * What if a bank exploits subprime mortages giving them to people who can't pay them back?
 
 
-# Financial Crisis of 2007-2008
-* Banks gave out loans to people who couldn't pay them
-* Housing market inflated
-* Banks went bankrupt, government stepped to bail out
-* Two organizations we "trust" making a mess
+
+<section data-background="http://proofofthought.io/cdn/talks/lehman-brothers.jpg">
+
+<h2>Financial Crisis of 2007-2008</h2>
+<ul class="bigger-text fragment over-image over-image-list" data-fragment-index="1">
+<li class="over-image">Banks Loan to Those Who Can't Pay</li>
+<li class="over-image">Housing Market Inflates</li>
+<li class="over-image">Banks Go Bankrupt</li>
+<li class="over-image">Gov't Bails Them Out</li>
+</ul>
+</section>
 
 
-# Goal Checkpoint?
-1. Understand why trust & consensus are immensely critical & immensely fragile today
-2. Understand how Bitcoin ledger solves the trust & consensus problem
+
+# To Be Answered...
+<ol>
+    <li><em>What are trust & consensus, and why are they fragile?</em></li>
+    <li class="fragment" data-fragment-index="1">How does Bitcoin address the trust & consensus problem?</li>
+</ol>
+
+
+## What About Scientific Consensus?
+ie: Carbon Dating, Layers of sediment, Rings in a tree
+
+<img height="350" src="http://proofofthought.io/cdn/talks/sediment-layers.jpg" />
+<img height="350" src="http://proofofthought.io/cdn/talks/tree-rings.png" />
+
+
+## Non-Human Consensus
+* Verifiable, unalterable consensus?
+* Trust things like electricity, mathematics, or machines running code?
+
+<img height="200" src="http://proofofthought.io/cdn/talks/icon-electricity.png" />
+<img height="200" src="http://proofofthought.io/cdn/talks/icon-math.png" />
+<img height="200" src="http://proofofthought.io/cdn/talks/icon-computer-code.png" />
+
+
+## Domo Arigato Mr. Nakamato
+* *October 2008:* "Bitcoin: A Peer-To-Peer Electronic Cash System" shared by Satoshi Nakamato
+* <!-- .element class="fragment" data-fragment-index="1" -->*January 3, 2009:* Genesis Block Mined
+  * <!-- .element class="fragment" data-fragment-index="2" -->*The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.*
+* <!-- .element class="fragment" data-fragment-index="3" -->*Mid-2010:* Nakamato disappears
+* <!-- .element class="fragment" data-fragment-index="4" -->*Today:* Identity still a Mystery
+  * <!-- .element class="fragment" data-fragment-index="5" -->Wallet untouched ($19B in December 2017)
+
+
+# Bitcoin Network Hosts Bitcoin Ledger
+<img height="200" src="http://proofofthought.io/cdn/img/ledger.png" />
+* The Bitcoin Network manages a public ledger
+* Bank = Financial Ledger
+* County = Property Title ledger
+* Ledgers Have Accounts & Transactions
+
+
+# Bitcoin Wallet (Account)
+<img height="200" src="http://proofofthought.io/cdn/talks/bitcoin-wallet.png" />
+* Private Key (Secret)
+* <!-- .element class="fragment" data-fragment-index="1" -->Public Key (Wallet Identifier)
+* <!-- .element class="fragment" data-fragment-index="2" -->Create Signatures w/ Private Key
+
+
+# Bitcoin Transaction
+<img height="200" src="http://proofofthought.io/cdn/talks/icon-transaction.png" />
+* Transfer of BTC between wallets
+* Public key of BTC owner
+* Signature of transaction to prove ownership
+
+
+# Example
+* <!-- .element class="fragment" data-fragment-index="1" -->Nakamato sends 2 BTC to Weebay
+* <!-- .element class="fragment" data-fragment-index="2" -->Weebay send 0.5 BTC to Saul
+* <!-- .element class="fragment" data-fragment-index="3" -->Nakamato sends 1 BTC to Snuffles
+* <!-- .element class="fragment" data-fragment-index="4" -->Ledger:
+  * <!-- .element class="fragment" data-fragment-index="4" -->Weebay (1.5 BTC)
+  * <!-- .element class="fragment" data-fragment-index="5" -->Saul (0.5 BTC)
+  * <!-- .element class="fragment" data-fragment-index="6" -->Snuffles (1 BTC)
+
+
+# Blocks 
+* A group of transactions committed to permanent history
+
+<img height="250" src="http://proofofthought.io/cdn/talks/bitcoin-blocks.png" />
+
+
+# Each Block is Validated By Network
+* Bitcoin Network validates transactions (signature & balances)
+* <!-- .element class="fragment" data-fragment-index="1" -->Transactions + Previous Block added to math problem
+  * <!-- .element class="fragment" data-fragment-index="2" -->`y = mx + b` 
+* <!-- .element class="fragment" data-fragment-index="3" -->Machines in Network Solve Problem For Specific Y (Very Hard)
+* <!-- .element class="fragment" data-fragment-index="4" -->(Ensure Hand Waving)
+
+
+# What is the Chain?
+<img height="200" src="http://proofofthought.io/cdn/talks/lego-block-chain.jpg" />
+* Block References Previous Block
+* Immutable: Cannot Be Modified Without Breaking It
+* Kind of like a Linked List, or commits in a github repo
+
+
+# What is Bitcoin Consensus?
+* Balances of Wallets
+* Valid Transactions Transactions
+* Any Change Invalidates It
+* Transactions are Publicly Confirmed and Enforced
+
+
+# What Are We Trusting?
+
+<div class="icon-bullet fragment" data-fragment-index="1">
+<img height="100" src="http://proofofthought.io/cdn/talks/icon-electricity.png" /><h3>Electricity</h3></div>
+<div class="icon-bullet fragment" data-fragment-index="2">
+<img height="100" src="http://proofofthought.io/cdn/talks/icon-math.png" /><h3>Mathematics</h3></div>
+<div class="icon-bullet fragment" data-fragment-index="3"><img height="100" src="http://proofofthought.io/cdn/talks/icon-computer-code.png" /><h3>Code</h3></div>
+
+* <!-- .element class="fragment" data-fragment-index="4" -->Closer to Carbon Dating than a Bank or Gov't
+
+
+
+# To Be Answered...
+<ol>
+    <li><em>What are trust & consensus, and why are they fragile?</em></li>
+    <li><em>How does Bitcoin address the trust & consensus problem?</em></li>
+    <li class="fragment" data-fragment-index="1">What is Proof of Work?</li>
+</ol>
+
+
+# Hashing
+<div class="flex-justify">
+<div class="icon-bullet">
+<img height="125" src="http://proofofthought.io/cdn/talks/icon-paragraph.png" /><img height="125" src="http://proofofthought.io/cdn/talks/icon-arrow-right.png" /><pre class="alt-color" style="display: inline">2d3bf0</pre></div></div>
+* Take an input of arbitrary size and convert it to a fixed size
+* <!-- .element class="fragment" data-fragment-index="1" -->Example: mod (aka Remainder)
+  * <!-- .element class="fragment" data-fragment-index="2" -->*55 mod 10* = 5
+  * <!-- .element class="fragment" data-fragment-index="3" -->*1234 mod 10* = 4
+  * <!-- .element class="fragment" data-fragment-index="4" -->*1343525235 mod* 10 = 5
+
+
+# SHA256 (Cryptographic Hash)
+* Generate Many Hashes (64 x base-16 chars)
+* Very Difficult to Reverse
+  * 30M Cores @ 5 Mh/s = ~52 years for 12 char string*
+* Easy to Verify
+* Small Change Input = Complete Different Hash
+
+
+# Example
+<a href="https://passwordsgenerator.net/sha256-hash-generator/" target="_blank">SHA256 Hash Generator</a>
+
+
+# A Guessing Game / Math Problem
+* Take 1 Piece of Content
+* <!-- .element class="fragment" data-fragment-index="1" -->Concatenate a `0` to the end
+* <!-- .element class="fragment" data-fragment-index="2" -->Calculate the SHA256 hash -> Get an output hash
+* <!-- .element class="fragment" data-fragment-index="3" -->Does it Start with **2 leading 0's?**
+* <!-- .element class="fragment" data-fragment-index="4" -->If not, try again with `1` at the end...
+* <!-- .element class="fragment" data-fragment-index="5" -->Repeat until you find a number that works
+
+
+# Demo!
+<a href="https://passwordsgenerator.net/sha256-hash-generator/" target="_blank">SHA256 Hash Generator</a>
+```
+<transactions>v1<previousblockhash><difficulty><timestamp>
+```
+
+
+# Bitcoin's Difficulty
+
+### Start with 18 0's!!!!!!
+
+<img height="400" src="http://proofofthought.io/cdn/talks/doge-wow.jpg" />
+
+
+# Block Header Parts
+<img height="250" src="http://proofofthought.io/cdn/talks/bitcoin-blocks.png" />
+* 1) Hash of All Transactions (Merkle Root)
+* 2) Hash of Previous Block
+* Other Fields: 3) Version, 4) Difficulty, 5) Timestamp
+* 6) Nonce (Randomly Guessed Number)
+
+
+# Proof of Work
+<img height="200" src="http://proofofthought.io/cdn/talks/punch-in.jpg" />
+* Eventually, you would get a solution
+* There Is No Shortcut
+* A Solution Proves You Did the Work
+* Proof of Work! (Powerful)
+
+
+## Every Valid Block = Proof of Work
+<img height="250" src="http://proofofthought.io/cdn/talks/bitcoin-blocks.png" />
+* Contains Valid Transactions (verifiable)
+* Immutable, Ordered, Untampered-with
+
+
+
+# To Be Answered...
+<ol>
+    <li><em>What are trust & consensus, and why are they fragile?</em></li>
+    <li><em>How does Bitcoin address the trust & consensus problem?</em></li>
+    <li><em>What is Proof of Work?</em></li>
+    <li class="fragment" data-fragment-index="1">How does Nakamato Consensus make the Bitcoin Network a trustless source of truth?</li></ol>
+</ol>
+
+
+# Bitcoin Miners
+<img height="125" src="http://proofofthought.io/cdn/talks/miner-doge.png" /><img height="125" src="http://proofofthought.io/cdn/talks/icon-mining.png"/><img height="125" src="http://proofofthought.io/cdn/talks/miner-doge.png" /><img height="125" src="http://proofofthought.io/cdn/talks/icon-mining.png"/><img height="125" src="http://proofofthought.io/cdn/talks/miner-doge.png" />
+* Validating Transactions
+* Creating Blocks of Tansactions
+* Guessing the Hash
+* This is Expensive!
+* Hours or Days to Guess Answer (Too Slow!)
+
+
+# Which Miner Wins?
+<img height="125" src="http://proofofthought.io/cdn/talks/miner-doge.png" /><img height="125" src="http://proofofthought.io/cdn/talks/icon-compete.png" /><img class="mirrored" height="125" src="http://proofofthought.io/cdn/talks/miner-doge.png" />
+* <!-- .element class="fragment" data-fragment-index="1" -->Bitcoin Network Respects Longest Chain (Nakamato Consensus)
+* <!-- .element class="fragment" data-fragment-index="2" -->Miner Extends Chain -> Rest of Network Accepts
+* <!-- .element class="fragment" data-fragment-index="3" -->Always Want To Be Adding to Longest Chain to Win!
+* <!-- .element class="fragment" data-fragment-index="4" -->Creates Race Between Miners
+* <!-- .element class="fragment" data-fragment-index="5" -->Real Competitions Have Prizes!
+
+
+# Bitcoin Miner Incentive
+<img height="125" src="http://proofofthought.io/cdn/talks/miner-doge.png" /><img height="125" src="http://proofofthought.io/cdn/talks/icon-coins.png" /><img class="mirrored" height="125" src="http://proofofthought.io/cdn/talks/miner-doge.png" />
+* Mined Block -> Add BTC Reward to Miner's Wallet
+  * Currently 12.5 BTC (~$12.5k)
+* <!-- .element class="fragment" data-fragment-index="1" -->All BTC Comes From Miners
+* <!-- .element class="fragment" data-fragment-index="2" -->BTC can only be earned by Proof of Work, giving it some inherent value!
+* <!-- .element class="fragment" data-fragment-index="3" -->Why doesn't every miner just keep giving itself rewards?
+
+
+# Transaction Fees
+* Transactions Have Fee (~$0.50 today) 
+* Miners Also Get Transaction Fees
+* Transaction Fees Incentive System Too
+
+
+# Bring It All Together
+<img height="125" src="http://proofofthought.io/cdn/talks/miner-doge.png" /><img height="125" src="http://proofofthought.io/cdn/talks/icon-arrow-right.png" /><img height="125" src="http://proofofthought.io/cdn/talks/icon-coins.png" />
+* Can Only Get Reward With Valid Transactions
+* More Miners = Faster Transactions
+* Faster Chain Extends, More Secure It Is
+* Trustless Consensus!
+
+
+# A Trustless Consensus
+* No One Entity Is Trusted
+* Immutable Chain -> Can't Be Changed (Only Replaced)
+* Entire Ledger is Constantly Validated
+* You Can Validate It Yourself!
+
+
+# A Beautiful Harmony
+<img height="125" src="http://proofofthought.io/cdn/talks/miner-doge.png" /><img height="125" src="http://proofofthought.io/cdn/talks/icon-mining.png"/><img height="125" src="http://proofofthought.io/cdn/talks/miner-doge.png" /><img height="125" src="http://proofofthought.io/cdn/talks/icon-mining.png"/><img height="125" src="http://proofofthought.io/cdn/talks/miner-doge.png" />
+* More miners = Faster Blocks & More Security
+* More miners = Harder to Win
+* Less miners = Easier to Win, attracting more Miners
+* Higher Value of BTC = More incentive for miners
+
+
+# Other Notes
+* No Physical Bitcoins
+* Decentralized, Near Impossible To Destroy/Control
+* Can Store Other Data In Blocks!
+
+
+# Bitcoin in Action!
+
+<a href="https://www.blockchain.com/explorer" target="_blank">Bitcoin Explorer!</a>
+
+
+
+# To Be Answered...
+<ol>
+    <li><em>What are trust & consensus, and why are they fragile?</em></li>
+    <li><em>How does Bitcoin address the trust & consensus problem?</em></li>
+    <li><em>What is Proof of Work?</em></li>
+    <li><em>How does Nakamato Consensus make the Bitcoin Network a trustless source of truth?</em></li>
+    <li class="fragment" data-fragment-index="1">What's the difference between a cryptocurrency and a blockchain?</li></ol>
+</ol>
 
 
 # Note on Blockchain & Bitcoin
 * These are not the same!
 * They were born together, blockchain extracted later
-* Blockchain -> Bitcoin == Internet -> Email
-* Blockchain -> Bircoin == git repo -> deployed application
-* I'll talk about Bitcoin first
-
-
-# What If Consensus Was Like Science?
-* Carbon Dating, Layers of sediment, Rings in a tree
-* Instead of trusting people...can we just trust things like electricity, mathematics, or code?
-* A consensus that is replayable, verifyable, and unalterable
-* (Channel my Einstein) Don't bring up quantum physics please...
-
-
-# Domo Arigato Mr. Nakamato
-* October 2008: Satoshi Nakamato publishes "Bitcoin: A Peer-To-Peer Electronic Cash System" on the cryptography mailing list at metzdowd.com
-* January 3, 2009: Bitcoin network comes online with Nakamato mining genesis block with embedded message:
-  > The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.
-* Mid-2010: Nakamato hands over bitcoin.org & all his source code, and disappears
-* Today: Identity still a mystery, the Bitcoin in his wallet untouched ($19B in December 2017)
-
-
-# Bitcoin Network Hosts Bitcoin Ledger
-* The Bitcoin Network manages a public ledger
-* **noun** *a book or other collection of financial accounts of a particular type*
-* Bank of America manages financial ledger
-* Country Records manages Property Title ledger
-
-
-# What is a Transaction
-* Transfer of bitcoin from one address to another
-* Public key of BTC owner
-* Signature of transaction to prove ownership of public key
-
-
-# What is a Block?  
-* A group of transactions comitted to permanent history
-* Nakamato sends 2 BTC to Weebay
-* Weebay send 0.5 BTC to Saul
-* Nakamato sends 1 BTC to Snuffles
-* Ledger: Weebay (1.5 BTC), Saul (0.5 BTC), Snuffles (1 BTC)
-
-
-# Each Block is Validated By Network
-* Bitcoin Network validates transactions (signature & balances)
-* These transactions are combined as a variable in a difficult math problem
-* Combination of all machines solve math problem
-* Input: "Thumbprint" of current transactions (Merkle Hash)
-* Input: Randon Number (nonce)
-* Input: "Thumbprint" of previous block (Block Hash)
-
-(Wave your hands...like you just don't care)
-
-
-# What is the Chain?
-* Each block references previous block, chaining them together in a permanent, unbreakable order.
-* History cannot be altered without breaking the entire thing or replacing entire thing
-* Hence: Immutable
-* Kind of like a Linked List, or commits in a github repo
-
-
-# Consensus
-* The resulting ledger is the consensus produced by the system
-* Unlike Property Title Ledger, any change in the history invalidates the entire thing - cannot be altered
-* Unlike Bank Ledger, transactions are publicly confirmed, cannot by changed, and the system cannot be controlled by any one entity
-
-
-# Trust
-* Electricity: As long as electricity exists, computers can run and maintain Bitcoin
-* Mathematics: Core principles in math ensure a ton of combined & aligned computations are needed to confirm a block (Proof of Work)
-* Code: Bitcoin is open source, you can read through it, run a miner yourself, and watch it all in action
-* Consensus & Trust closer to Carbon Dating than a Government
-
-
-# Goal Checkpoint?
-1. Understand why trust & consensus are immensely critical & immensely fragile today
-2. Understand how Bitcoin ledger address the trust & consensus problem
-3. Understand how each block in the Bitcoin blockchain demonstrates Proof of Work
-
-
-# Hashing
-* Take an input of arbitrary size and convert it to a fixed size
-* Example using mod 10
-
-
-# Cryptographic Hash (SHA256)
-* Cryptographic hash -> very difficult to determine input based on output
-  * Very easy [O(1)] to verify input produces hash
-  * SHA256 - 30 million cores @ 5 million hashes per second would take ~52 years to guess a 12 character password
-* Same input = same output
-* Small change in input results in completely different output
-* https://passwordsgenerator.net/sha256-hash-generator/
-
-
-# The Guessing Game / Math Problem
-* Take 4 values that are static + a timestamp and concatenate them together
-* Add the "guessing number" '0' to the end
-* Calculate the SHA256 hash -> Get an output hash
-* If hash does not have 18 leading 0's, try with '1' as the guess, try again
-* Keep incrementing the guess until you get an output with 18 leading 0's
-
-
-# Block Header
-* hashMerkleRoot (Transaction Hash) Take all the transactions in a block, and generate a single hash (Merkle Root)
-* hashPrevBlock (Block Hash) The hash of the previous block
-* 3 Other Fields (Version, Time, Bits/Difficulty)
-* Nonce (Randomly Guessed Number)
-
-
-# Proof of Work
-* Eventually, you would get a solution
-* Thanks to SHA256, there is no shortcut, it's manual trial and error
-* Thus, a solution proves you put in the work of guessing
-* Proof of Work!
-
-
-# Every Valid Block is Proof of Work
-* Contains valid transactions (verifiable)
-* Enforced order, immutability, and dependence on previous block
-
-
-# Goal Checkpoint?
-1. Understand why trust & consensus are immensely critical & immensely fragile today
-2. Understand how Bitcoin ledger address the trust & consensus problem
-3. Understand how each block in the Bitcoin blockchain demonstrates Proof of Work
-4. Understand how Bitcoin miners use Nakamato Consensus to make the Bitcoin Network a secure, decentralized, and trustless source of truth
-
-
-# Bitcoin Miners
-* These are the machines that are doing the proof of work
-* Validating transactions, creating blocks, guessing at the hash
-* The Doge's mining in the cave with GPU's
-* Any one miner could take hours or days to guess the answer, that's too slow!
-
-
-# Bitcoin Miner Incentive
-* When a block is mined, an additional transaction is added crediting the miner's wallet with a reward
-* Block Reward: 12.5 BTC (originally 50 BTC)
-* This is where all Bitcoin comes from, creating an interesting distribution system
-* BTC can only be earned by Proof of Work, giving it some inherent value!
-* Why doesn't every miner just keep giving itself rewards?
-
-
-# Nakamato Consensus
-* All miners are connected and pulling from the same pool of transactions
-* Bitcoin code will automatically respect the longest chain as the single source of truth
-* Thus, mining a block only means the reward if your chain is the longest
-* Creates a race between miners to create the block first and get the reward
-* As soon as a new block is created, all miners build from that block since it's a much better chance of them winning the next block
-
-
-# Bringing it all together
-* Bitcoin is a ledger of balances, there aren't physical Bitcoins (just like how Bank of America tracks your balance without a stack of cash & coins)
-* Miners validate transactions and solve hard math problems to make money
-* Invalid transactions are ignored by Miners since they wouldn't allow them to win the reward
-* A mined block in the chain is permanent and can never be changed
-* Every miner has a full copy of the ledger so it can never be destroyed or lost
-
-
-# A Trustless Consensus
-* Not trusting an entity that can abuse the trust
-* Participants are incentivized to validate transactions, the more miners, the stronger the network
-* Only way to modify history is to completely replace the entire chain!  So 10+ years of mining ~560k blocks makes this incredibly secure
-* The ledger is constantly validated independently.  You can verify the entire chain yourself, just like a science experiement!
-
-
-# A Beautiful Harmony
-* More miners = Faster Blocks & More Security
-* More miners = Harder to Win
-* Less miners = Easier to Win, attracting more Miners
-* Higher Value of BTC = More incentive for miners
-* Finite BTC = Limited Supply = Control Inflation = Higher Value of BTC
-
-
-# Bitcoin in Action!
-* https://www.blockchain.com/explorer
-
-
-# Goals of This Talk
-1. Understand why trust & consensus are immensely critical & immensely fragile today
-2. Understand how Bitcoin ledger address the trust & consensus problem
-3. Understand how each block in the Bitcoin blockchain demonstrates Proof of Work
-4. Understand how Bitcoin miners use Nakamato Consensus to make the Bitcoin Network a secure, decentralized, and trustless source of truth
-5. Understand the difference between a cryptocurrency (ie Bitcoin) and a blockchain
+* <!-- .element class="fragment" data-fragment-index="1" -->Blockchain -> Bitcoin == Internet -> Email
+* <!-- .element class="fragment" data-fragment-index="2" -->Blockchain -> Bitcoin == git repo -> deployed application
 
 
 # Bitcoin Ledger & Network Implement a Blockchain
-* Bitcoin is a cryptocurrency whose balances are tracked in the Bitcoin Ledger
-* Bitcoin Ledger is made of transactions stored within the Bitcoin Blockchain
-* Bitcoin Blockchain is maintained via the Bitcoin Network
-* Bitcoin Network is made up of Miners who are running the Bitcoin code which defines Proof of Work and Nakamato Consensus
+* Bitcoin: Currency w/ Balances on Bitcoin Ledger
+* <!-- .element class="fragment" data-fragment-index="1" -->Ledger: Transactions within Bitcoin Blockchain
+* <!-- .element class="fragment" data-fragment-index="2" -->Blockchain: Maintainted via Bitcoin Network
+* <!-- .element class="fragment" data-fragment-index="3" -->Network: Miners Running Code, Validating Transactions, Doing Proof of Work
 
 
 # Blockchain
-* A blockchain is a ledger or database which maintains its truth via transactions within blocks
-* Blocks are build on each other in a chain by including data from the previous block to ensure integrity
-* A Blockchain can have any data at all
-* A Blockchain depends on miners to keep it running and thus is only as secure as the number of miners
+<img height="250" src="http://proofofthought.io/cdn/talks/bitcoin-blocks.png" />
+* Ledger of Transactions
+* Blocks Build on Eachother for Integrity
+* Can Contain Any Data
+* Depends on Miners Creating Consensus of Blocks
 
 
 # Cryptocurrency
-* Cryptocurrency is a store of value tracked and maintained within a blockchain
-* A blockchain needs an incentive for Miners to maintain it, so nearly all blockchains maintain a currency as a way to reward the miners
-* The value of a cryptocurrency is extremely fluid and depends on many things including how it's tied to the blockchain that supports it, the security & popularity of that network, etc.
+<img height="125" src="http://proofofthought.io/cdn/talks/icon-coins.png" />
+* Value Stored & Maintainted in a Blockchain
+* Most Blockchains Have Currency as Incentive to Miners
+* Value depends on a lot of factors
 
 
 # Bitcoin Forks
-* Just like any software, there are updates & improvements
-* Due to the nature of Bitcoin, updates can have really big impacts
-* If a major release / breaking change is introduced, the miners that upgrade are now operating on a completely separate blockchain than the original
-* If some miners never update, then these are 2 separate blockchains
-* Bitcoin Cash, Bitcoin Satoshi Vision, and Bitcoin Gold are all examples of hard forks with their own miners who have duplicate blockchain histories up until the fork
+* Software Updates, We All Need Them
+* Breaking Change = New Blockchain + Currency
+* BTC Examples: Bitcoin Cash, Bitcoin Satoshi Vision, Bitcoin Gold
 
 
 # Dogecoin
+<img height="128" width='128' src="http://proofofthought.io/cdn/crypto/doge300.png" />
 * Separate blockchain & currency
-* Also uses Proof of Work & Nakamato Consensus, but uses a variant of a hashing algorthym called "scrypt" instead of SHA256
-  * Different blockreward, way more coins (121B vs 17M), no cap (BTC is 21,000,000), and way more blocks (~2.9M vs 560k)
+* Proof of Work + Nakamato Consensus
+* Different Hash than SHA256 (scrypt)
 
 
 # Ethereum
+<img height="128" width='128' src="http://proofofthought.io/cdn/crypto/eth128.png" /><img height="128" width='128' src="http://proofofthought.io/cdn/crypto/etc128.png" />
 * Smart Contracts
-* Ether is block reward for miners + Price paid to execute smart contracts
+* Ether is currency
+* Pay to execute smart contracts (ie Lambdas)
 * Many powerful applications
 
 
-# Goals of This Talk
-1. Understand why trust & consensus are immensely critical & immensely fragile today
-2. Understand how Bitcoin ledger address the trust & consensus problem
-3. Understand how each block in the Bitcoin blockchain demonstrates Proof of Work
-4. Understand how Bitcoin miners use Nakamato Consensus to make the Bitcoin Network a secure, decentralized, and trustless source of truth
-5. Understand the difference between a cryptocurrency (ie Bitcoin) and a blockchain
-6. Understand why blockchain can solve so many other problems
+
+# To Be Answered...
+<ol>
+    <li><em>What are trust & consensus, and why are they fragile?</em></li>
+    <li><em>How does Bitcoin address the trust & consensus problem?</em></li>
+    <li><em>What is Proof of Work?</em></li>
+    <li><em>How does Nakamato Consensus make the Bitcoin Network a trustless source of truth?</em></li>
+    <li><em>What's the difference between a cryptocurrency and a blockchain?</em></li>
+    <li class="fragment" data-fragment-index="1">How can blockchain can solve important problems (other than Bitcoin)?</li></ol>
+</ol>
 
 
-# Fun Time - Possibilities!
+# Oh The Possibilities!
+* Multi-Party Computation
+* Particl Market
+<a target="_blank" href="https://github.com/nmielnik/notes/blob/master/cryptos/possibilites.md#high-level-categories">Blockchain Possibilities</a>
 
 
 
+# To Be Answered...
+1. What are trust & consensus, and why are they fragile?
+2. How does Bitcoin address the trust & consensus problem?
+3. What is Proof of Work?
+4. How does Nakamato Consensus make the Bitcoin Network a trustless source of truth?
+5. What's the difference between a cryptocurrency and a blockchain?
+6. How can blockchain can solve important problems (other than Bitcoin)?
 
 
 
+# Questions?
 
+<img src="http://proofofthought.io/cdn/crypto/btc256.png" /><img height="256" width='256' src="http://proofofthought.io/cdn/crypto/doge300.png" />
 
+Nate Mielnik
