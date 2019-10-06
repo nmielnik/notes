@@ -1,5 +1,24 @@
 # Quotes
 
+## Socrates
+
+> "Beware the barrenness of a busy life."
+
+
+> "An unexamined life is not worth living."
+
+
+> "When the debate is over, slander becomes the tool of the loser."
+
+
+> "True knowledge exists in knowing that you know nothing."
+
+
+> "Education is the kindling of a flame, not the filling of a vessel."
+
+
+> "I cannot teach anybody anything, I can only make them think."
+
 
 ## Martin Luther King Jr.
 
