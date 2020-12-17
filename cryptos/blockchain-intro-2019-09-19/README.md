@@ -66,8 +66,8 @@
 
 # To Be Answered...
 1. What are trust & consensus, and why are they fragile?
-2. <!-- .element class="fragment" data-fragment-index="1" -->How does Bitcoin address the trust & consensus problem?
-3. <!-- .element class="fragment" data-fragment-index="2" -->What is Proof of Work?
+2. <!-- .element class="fragment" data-fragment-index="1" -->What are trust & consensus in Bitcoin?
+3. <!-- .element class="fragment" data-fragment-index="2" -->What is Proof of Work and how does it address trust?
 4. <!-- .element class="fragment" data-fragment-index="3" -->How does Nakamato Consensus make the Bitcoin Network a trustless source of truth?
 5. <!-- .element class="fragment" data-fragment-index="4" -->What's the difference between a cryptocurrency and a blockchain?
 6. <!-- .element class="fragment" data-fragment-index="5" -->How can blockchain can solve important problems (other than Bitcoin)?
@@ -158,12 +158,14 @@
 # To Be Answered...
 <ol>
     <li><em>What are trust & consensus, and why are they fragile?</em></li>
-    <li class="fragment" data-fragment-index="1">How does Bitcoin address the trust & consensus problem?</li>
+    <li class="fragment" data-fragment-index="1">What are trust & consensus in Bitcoin?</li>
 </ol>
 
 
-## What About Scientific Consensus?
-ie: Carbon Dating, Layers of sediment, Rings in a tree
+## Other forms of consensus...
+
+### What About Scientific Consensus?
+<em>ie: Carbon Dating, Layers of sediment, Rings in a tree</em>
 
 <img height="350" src="http://proofofthought.io/cdn/talks/sediment-layers.jpg" />
 <img height="350" src="http://proofofthought.io/cdn/talks/tree-rings.png" />
@@ -178,6 +180,17 @@ ie: Carbon Dating, Layers of sediment, Rings in a tree
 <img height="200" src="http://proofofthought.io/cdn/talks/icon-computer-code.png" />
 
 
+# Bitcoin Terminology
+* *Bitcoin* is a digital currency with no inherent backing value
+* <!-- .element class="fragment" data-fragment-index="1" -->Owning *Bitcoin* means your account (*Bitcoin Wallet*) is credited with > 0 BTC
+  * <!-- .element class="fragment" data-fragment-index="2" -->Like an online bank account, store credit, xbox live points, etc.
+* <!-- .element class="fragment" data-fragment-index="3" -->*Bitcoin Ledger* tracks balances of all wallets (through record of transactions)
+* <!-- .element class="fragment" data-fragment-index="4" -->*Bitcoin Network* maintains and updates the ledger
+
+# Decentralized Systems
+* *Decentralized* No single point of failure, system automatically adapts to disruptions
+
+
 ## Domo Arigato Mr. Nakamato
 * *October 2008:* "Bitcoin: A Peer-To-Peer Electronic Cash System" shared by Satoshi Nakamato
 * <!-- .element class="fragment" data-fragment-index="1" -->*January 3, 2009:* Genesis Block Mined
@@ -187,18 +200,10 @@ ie: Carbon Dating, Layers of sediment, Rings in a tree
   * <!-- .element class="fragment" data-fragment-index="5" -->Wallet untouched ($19B in December 2017)
 
 
-# Bitcoin Network Hosts Bitcoin Ledger
-<img height="200" src="http://proofofthought.io/cdn/img/ledger.png" />
-* The Bitcoin Network manages a public ledger
-* Bank = Financial Ledger
-* County = Property Title ledger
-* Ledgers Have Accounts & Transactions
-
-
 # Bitcoin Wallet (Account)
 <img height="200" src="http://proofofthought.io/cdn/talks/bitcoin-wallet.png" />
-* Private Key (Secret)
-* <!-- .element class="fragment" data-fragment-index="1" -->Public Key (Wallet Identifier)
+* Private Key (Secret/Password)
+* <!-- .element class="fragment" data-fragment-index="1" -->Public Key (Wallet Identifier/Account ID)
 * <!-- .element class="fragment" data-fragment-index="2" -->Create Signatures w/ Private Key
 
 
@@ -217,6 +222,21 @@ ie: Carbon Dating, Layers of sediment, Rings in a tree
   * <!-- .element class="fragment" data-fragment-index="4" -->Weebay (1.5 BTC)
   * <!-- .element class="fragment" data-fragment-index="5" -->Saul (0.5 BTC)
   * <!-- .element class="fragment" data-fragment-index="6" -->Snuffles (1 BTC)
+
+
+# Bitcoin Ledger - The First Blockchain
+<img height="200" src="http://proofofthought.io/cdn/img/ledger.png" />
+* Record of how much BTC each wallet has
+* Result of executing all the transactions
+* The ledger isn't actually stored, the transactions are
+
+
+# Bitcoin Network
+* Maintains and updates the Bitcoin Ledger
+* <!-- .element class="fragment" data-fragment-index="1" -->Series of machines around the world, connecting via the internet
+* <!-- .element class="fragment" data-fragment-index="2" -->A Bank maintains their Financial Ledger
+* <!-- .element class="fragment" data-fragment-index="3" -->A County maintains their Property Title Ledger
+* <!-- .element class="fragment" data-fragment-index="4" -->Bitcoin Network maintains the Bitcoin Network
 
 
 # Blocks 
@@ -240,9 +260,9 @@ ie: Carbon Dating, Layers of sediment, Rings in a tree
 * Kind of like a Linked List, or commits in a github repo
 
 
-# What is Bitcoin Consensus?
-* Balances of Wallets
-* Valid Transactions Transactions
+# What is Consensus in Bitcoin?
+* The Bitcoin Ledger is the consensus
+* Valid Transactions -> Balances of Wallets
 * Any Change Invalidates It
 * Transactions are Publicly Confirmed and Enforced
 
@@ -250,10 +270,10 @@ ie: Carbon Dating, Layers of sediment, Rings in a tree
 # What Are We Trusting?
 
 <div class="icon-bullet fragment" data-fragment-index="1">
-<img height="100" src="http://proofofthought.io/cdn/talks/icon-electricity.png" /><h3>Electricity</h3></div>
-<div class="icon-bullet fragment" data-fragment-index="2">
+<img height="100" src="http://proofofthought.io/cdn/talks/icon-electricity.png" /><h3>Electricity Powered Machines</h3></div>
+<div class="icon-bullet fragment" data-fragment-index="2"><img height="100" src="http://proofofthought.io/cdn/talks/icon-computer-code.png" /><h3>Code</h3></div>
+<div class="icon-bullet fragment" data-fragment-index="3">
 <img height="100" src="http://proofofthought.io/cdn/talks/icon-math.png" /><h3>Mathematics</h3></div>
-<div class="icon-bullet fragment" data-fragment-index="3"><img height="100" src="http://proofofthought.io/cdn/talks/icon-computer-code.png" /><h3>Code</h3></div>
 
 * <!-- .element class="fragment" data-fragment-index="4" -->Closer to Carbon Dating than a Bank or Gov't
 
@@ -262,8 +282,8 @@ ie: Carbon Dating, Layers of sediment, Rings in a tree
 # To Be Answered...
 <ol>
     <li><em>What are trust & consensus, and why are they fragile?</em></li>
-    <li><em>How does Bitcoin address the trust & consensus problem?</em></li>
-    <li class="fragment" data-fragment-index="1">What is Proof of Work?</li>
+    <li><em>What are trust & consensus in Bitcoin?</em></li>
+    <li class="fragment" data-fragment-index="1">What is Proof of Work and how does it address trust?</li>
 </ol>
 
 
@@ -308,7 +328,7 @@ ie: Carbon Dating, Layers of sediment, Rings in a tree
 
 # Bitcoin's Difficulty
 
-### Start with 18 0's!!!!!!
+### Solution Must Start with 18 0's!
 
 <img height="400" src="http://proofofthought.io/cdn/talks/doge-wow.jpg" />
 
@@ -335,12 +355,19 @@ ie: Carbon Dating, Layers of sediment, Rings in a tree
 * Immutable, Ordered, Untampered-with
 
 
+## Not Trust, Proof
+* If a solution is provided, it's proof work was done to find a solution
+* This is better than traditional trust
+* You're trusting mathematics, code, and electricity instead of people
+* Just like scentific proof!
+
+
 
 # To Be Answered...
 <ol>
     <li><em>What are trust & consensus, and why are they fragile?</em></li>
-    <li><em>How does Bitcoin address the trust & consensus problem?</em></li>
-    <li><em>What is Proof of Work?</em></li>
+    <li><em>What are trust & consensus in Bitcoin?</em></li>
+    <li><em>What is Proof of Work and how does it address trust?</em></li>
     <li class="fragment" data-fragment-index="1">How does Nakamato Consensus make the Bitcoin Network a trustless source of truth?</li></ol>
 </ol>
 
@@ -396,9 +423,11 @@ ie: Carbon Dating, Layers of sediment, Rings in a tree
 # A Beautiful Harmony
 <img height="125" src="http://proofofthought.io/cdn/talks/miner-doge.png" /><img height="125" src="http://proofofthought.io/cdn/talks/icon-mining.png"/><img height="125" src="http://proofofthought.io/cdn/talks/miner-doge.png" /><img height="125" src="http://proofofthought.io/cdn/talks/icon-mining.png"/><img height="125" src="http://proofofthought.io/cdn/talks/miner-doge.png" />
 * More miners = Faster Blocks & More Security
-* More miners = Harder to Win
-* Less miners = Easier to Win, attracting more Miners
-* Higher Value of BTC = More incentive for miners
+* <!-- .element class="fragment" data-fragment-index="1" -->More miners = Harder to Win
+* <!-- .element class="fragment" data-fragment-index="2" -->Harder to win = Less miners
+* <!-- .element class="fragment" data-fragment-index="3" -->Less miners = Easier to Win, attracting more Miners
+* <!-- .element class="fragment" data-fragment-index="4" -->Higher Value of BTC = More miners
+* <!-- .element class="fragment" data-fragment-index="5" -->Lower Value of BTC = Less miners
 
 
 # Other Notes
@@ -416,8 +445,8 @@ ie: Carbon Dating, Layers of sediment, Rings in a tree
 # To Be Answered...
 <ol>
     <li><em>What are trust & consensus, and why are they fragile?</em></li>
-    <li><em>How does Bitcoin address the trust & consensus problem?</em></li>
-    <li><em>What is Proof of Work?</em></li>
+    <li><em>What are trust & consensus in Bitcoin?</em></li>
+    <li><em>What is Proof of Work and how does it address trust?</em></li>
     <li><em>How does Nakamato Consensus make the Bitcoin Network a trustless source of truth?</em></li>
     <li class="fragment" data-fragment-index="1">What's the difference between a cryptocurrency and a blockchain?</li></ol>
 </ol>
@@ -477,25 +506,37 @@ ie: Carbon Dating, Layers of sediment, Rings in a tree
 # To Be Answered...
 <ol>
     <li><em>What are trust & consensus, and why are they fragile?</em></li>
-    <li><em>How does Bitcoin address the trust & consensus problem?</em></li>
-    <li><em>What is Proof of Work?</em></li>
+    <li><em>What are trust & consensus in Bitcoin?</em></li>
+    <li><em>What is Proof of Work and how does it address trust?</em></li>
     <li><em>How does Nakamato Consensus make the Bitcoin Network a trustless source of truth?</em></li>
     <li><em>What's the difference between a cryptocurrency and a blockchain?</em></li>
     <li class="fragment" data-fragment-index="1">How can blockchain can solve important problems (other than Bitcoin)?</li></ol>
 </ol>
 
 
+# Realized Possibilities
+* Initial Coin Offerings (ICO's)
+* Decentralized Finance (De-Fi) (Banks, Loans, Savings, Credit/Debit Cards)
+* Tokenized Assets (Virtual USD, Gold)
+* Supply Chain / Authenticity Tracking
+* Decentralized computing and data storage
+* Charity / Direct Payments
+
+
 # Oh The Possibilities!
 * Multi-Party Computation
 * Particl Market
-<a target="_blank" href="https://github.com/nmielnik/notes/blob/master/cryptos/possibilites.md#high-level-categories">Blockchain Possibilities</a>
+* Workforce
+* Governance
+* Gambling
+* <a target="_blank" href="https://github.com/nmielnik/notes/blob/master/cryptos/possibilites.md#high-level-categories">Blockchain Possibilities</a>
 
 
 
 # To Be Answered...
 1. What are trust & consensus, and why are they fragile?
-2. How does Bitcoin address the trust & consensus problem?
-3. What is Proof of Work?
+2. What are trust & consensus in Bitcoin?
+3. What is Proof of Work and how does it address trust?
 4. How does Nakamato Consensus make the Bitcoin Network a trustless source of truth?
 5. What's the difference between a cryptocurrency and a blockchain?
 6. How can blockchain can solve important problems (other than Bitcoin)?
