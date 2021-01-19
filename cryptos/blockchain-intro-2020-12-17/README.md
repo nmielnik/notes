@@ -1,28 +1,9 @@
-# &#x00D0; is for &#x00D0;ogecoin
-
-#### An intro to blockchain and consensus
+# An intro to Bitcoin & Blockchain
 
 <small>(by Nate Mielnik)</small>
 
 <img height="256" width='256' src="http://proofofthought.io/cdn/crypto/doge300.png" />
 <img src="http://proofofthought.io/cdn/crypto/btc256.png" />
-
-
-
-<section data-background="http://proofofthought.io/cdn/crypto/bitcoin-moon-lambo.jpg">
-<h1>Such Hype!</h1>
-
-<div class="fragment" data-fragment-index="1"><img height="250" src="http://proofofthought.io/cdn/crypto/coin-bitcoin.png" /><img height="250" src="http://proofofthought.io/cdn/crypto/bitcoin-pope.jpg" />
-</div>
-<div class="fragment" data-fragment-index="2"><img height="200" src="http://proofofthought.io/cdn/crypto/crypto-scams.jpg" /><span style="width: 20px; display: inline-block;">&nbsp;</span><img height="200" src="http://proofofthought.io/cdn/crypto/crypto-thief.jpg" />
-</div>
-</section>
-
-
-
-# Such Hype!
-
-<iframe id="doge1" width="700" height="390" src="https://www.youtube.com/embed/000al7ru3ms?modestbranding=1&controls=1&fs=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
@@ -53,14 +34,6 @@
 <li class="fragment" data-fragment-index="1">Next evolution of technology and civilization</li>
 <li class="fragment" data-fragment-index="2">PC -> Internet -> Blockchain?</li>
 </ul>
-
-
-
-# It won't be easy but...
-<div class="fragment" data-fragment-index="1">
-<h4>Let's understand Bitcoin & Blockchain!</h4>
-<img width="400" src="http://proofofthought.io/cdn/crypto/doge-bitcoin.jpg" />
-</div>
 
 
 
