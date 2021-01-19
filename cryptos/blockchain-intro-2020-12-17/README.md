@@ -1,4 +1,4 @@
-# An intro to Bitcoin & Blockahin
+# An intro to Bitcoin & Blockchain
 
 <small>(by Nate Mielnik)</small>
 
