@@ -16,6 +16,7 @@
 3. Yancy Thigpen
 4. Webster Slaughter
 5. Kirby Dar Dar
+6. Bub Means
 
 # TEs
 1. Carlester Crumpler
@@ -60,6 +61,7 @@
 2. Le-Lo L. Lang
 3. Demarcus Faggins
 4. Chimdi Chekwa
+5. Storm Duck
 
 # S
 1. Harry Colon
