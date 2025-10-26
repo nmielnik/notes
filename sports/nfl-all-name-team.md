@@ -1,22 +1,23 @@
 # QBs
-1. Peter Tom Willis
-2. Stoney Case
-3. Dick Flowers
+1. Stoney Case
+2. Dick Flowers
+3. Peter Tom Willis
 
 # RBs
 1. Ickey Woods
-2. Tshimanga Biakabutuka
-3. Chris Fuamatu-Ma'afala
-4. Amp Lee
+2. Amp Lee
+3. Tshimanga Biakabutuka
+4. Chris Fuamatu-Ma'afala
 5. Ben Gay
 
 # WRs
 1. Louis Lipps
-2. Hart Lee Dykes
-3. Yancy Thigpen
-4. Webster Slaughter
-5. Kirby Dar Dar
+2. Racey McMath
+3. Kirby Dar Dar
+4. Yancy Thigpen
+5. Webster Slaughter
 6. Bub Means
+7. Hart Lee Dykes
 
 # TEs
 1. Carlester Crumpler
@@ -37,37 +38,36 @@
 2. Kirk Lowdermilk
 
 # DL
-1. Alonzo Mitz
-2. Jumpy Geathers
-3. Coy Bacon
-4. C.J. Ah You
+1. Jumpy Geathers
+2. Coy Bacon
+3. C.J. Ah You
+4. Alonzo Mitz
 5. Fred Smerlas
-6. Al Noga
-7. Bob Baumhower
-8. Ziggy Hood
-9. Leger Douzable
+6. Bob Baumhower
+7. Ziggy Hood
+8. Leger Douzable
 
 # LBs
 1. Frostee Rucker
 2. Barkevius Mingo
 3. Tank Carder
-4. Tim Fugger
-5. Keena Turner
+4. Keena Turner
+5. Tim Fugger
 6. Dick Butkus
 7. Garth Jax
 
 # CBs
-1. Nesby Glasgow
-2. Le-Lo L. Lang
-3. Demarcus Faggins
-4. Chimdi Chekwa
-5. Storm Duck
+1. Demarcus Faggins
+2. Storm Duck
+3. Nesby Glasgow
+4. Le-Lo L. Lang
+5. Chimdi Chekwa
 
 # S
 1. Harry Colon
-2. Barney Bussey
-3. John Booty
-4. Curry Burns
+2. Curry Burns
+3. Barney Bussey
+4. John Booty
 5. Ha-Ha Clinton-Dix
 
 # K
